@@ -75,6 +75,13 @@ The output dataset of the RM process should correspond to the `sentieri_coordina
 
 The dataset folder `./data/datasets/Mountain/huts/rifugi.csv` can be obtained by executing the `./models/script/get_rifugi.py`, which scrapes all the data from the SAT APIs and website. This can be mapped with the `./models/r2ml/rifugi.csv-model.tll` model into the file `./data/linked_data/rifugi_karma_RDF.tll`
 
+## Transportation
+* First of all, trasform the data of Bolzano from VDV 452 standard to GTFS standard. You can find the original data in ```./data/datasets/Transportation/original_dataset/BZ/Original```. In order to do that follow the instruction of this public library [here](https://github.com/OneBusAway/onebusaway-vdv-modules). If you want to check the output you can find them in ```./data/datasets/Transportation/original_dataset/BZ/BZ_GTFS``` repository
+* Import the process ```./models/rapidminer/Transportation/transportationProcess.rpm``` into RapidMiner
+* Change the input files path with your relative path. You will find all the files in ```./data/datasets/Transportation/original_dataset```. Note that you need to put for each different name file ( ```agency.txt, calendar_dates.txt, calendar.txt, routes.txt, stop_times.txt, stops.txt, trips.txt```) the three files from different repositories (urbano_TTE, extraurbano_TTE and Bolzano) with the right order and with the right links to the union commands.
+* Change in each ```Write CSV``` command the paths where you want to save the outputs with your relative paths.
+* If you want to check the final output directly, you can find them in ```./data/datasets/Transportation/final_dataset```
+
 ## Merge all linked data
 
 To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script `./models/script/merge_RDFs.py` that will merge all linked data in a big RDF that can be found at `./data/linked_data/GeoSpace_RDF.ttl.zip`. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
