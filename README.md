@@ -36,4 +36,4 @@ All the scripts are intended to be run with the root of the repo as Working Dire
 
 ## Merge all linked data
 
-To merge all linked data you must run the script ```./models/script/merge_RDFs.py``` that will merge all linked data in a big RDF that can be found at ```./data/linked_data/GeoSpace_RDF.ttl.zip```. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
+To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script ```./models/script/merge_RDFs.py``` that will merge all linked data in a big RDF that can be found at ```./data/linked_data/GeoSpace_RDF.ttl.zip```. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
