@@ -1,0 +1,4 @@
+"agency_id","agency_name","agency_url","agency_timezone","agency_lang","agency_phone"
+101,"SASA","https://github.com/OneBusAway/onebusaway-vdv-modules","Europe/Berlin","de",
+12,"Trentino trasporti esercizio S.p.A.","http://www.ttesercizio.it","Europe/Rome","it","+39 0461 821000"
+12,"Trentino trasporti esercizio S.p.A.","http://www.ttesercizio.it","Europe/Rome","it","+39 0461 821000"

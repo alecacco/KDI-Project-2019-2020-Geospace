@@ -1,0 +1,983 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix untitled-ontology-10: <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:node1drddnm6bx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "Comuni2019Clean.csv" ;
+	km-dev:modelPublicationTime "1575629871307"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Codice Regione\"}],[{\"columnName\":\"Denominazione regione\"}],[{\"columnName\":\"Denominazione in italiano\"}],[{\"columnName\":\"Codice Comune formato numerico\"}],[{\"columnName\":\"Sigla automobilistica\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"lat\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Codice Regione\"}],[{\"columnName\":\"Denominazione regione\"}],[{\"columnName\":\"uri\"}],[{\"columnName\":\"Denominazione in italiano\"}],[{\"columnName\":\"Codice Comune formato numerico\"}],[{\"columnName\":\"Sigla automobilistica\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"lat\"}],[{\"columnName\":\"point_uri\"}]]" ;
+	km-dev:hasModelLabel "Comuni2019Clean.csv" ;
+	km-dev:hasBaseURI "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lon\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/'+getValue('Codice Comune formato numerico')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Codice Comune formato numerico\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lat\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"point_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/point_'+getValue(\\\"lat\\\")+'_'+getValue('lon')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Codice Regione\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_County\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Codice Regione\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Codice Regione\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lat\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Latitude\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Denominazione in italiano\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Municipality\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Denominazione in italiano\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Denominazione in italiano\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Denominazione regione\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CountyName\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Denominazione regione\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Denominazione regione\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Sigla automobilistica\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Province\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Sigla automobilistica\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Sigla automobilistica\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Codice Comune formato numerico\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#MunicipalityName\",
+                    \"DomainLabel\": \"Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Codice Comune formato numerico\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Codice Comune formato numerico\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lon\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Longitude\",
+                    \"DomainLabel\": \"untitled-ontology-10:Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Municipality1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"point_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Point1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\",
+                    \"edgeId\": \"http://www.w3.org/2000/01/rdf-schema#subClassOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d a rr:TriplesMap .
+
+_:node1drddnm6bx1 km-dev:hasTriplesMap km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx2 rr:tableName "Comuni2019Clean.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasLogicalTable _:node1drddnm6bx2 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:logicalTable _:node1drddnm6bx2 ;
+	rr:subjectMap _:node1drddnm6bx3 .
+
+_:node1drddnm6bx1 km-dev:hasSubjectMap _:node1drddnm6bx3 .
+
+_:node1drddnm6bx3 km-dev:isPartOfMapping _:node1drddnm6bx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality1" ;
+	rr:class untitled-ontology-10:Municipality ;
+	rr:template "{uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_086f07b3-d1bf-49b5-adb2-94c3ddd5977f rr:predicate rdfs:subClassOf .
+
+km-dev:RefObjectMap_eac97c27-6992-46e7-8415-7b13f478ede7 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7803e220-76e2-434f-a3e3-b091b2ce19fe ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap km-dev:RefObjectMap_eac97c27-6992-46e7-8415-7b13f478ede7 .
+
+km-dev:PredicateObjectMap_086f07b3-d1bf-49b5-adb2-94c3ddd5977f rr:objectMap km-dev:RefObjectMap_eac97c27-6992-46e7-8415-7b13f478ede7 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_086f07b3-d1bf-49b5-adb2-94c3ddd5977f .
+
+km-dev:PredicateObjectMap_086f07b3-d1bf-49b5-adb2-94c3ddd5977f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_086f07b3-d1bf-49b5-adb2-94c3ddd5977f .
+
+km-dev:PredicateObjectMap_da424f69-87fd-4a86-9b1f-f355e9432f49 rr:predicate untitled-ontology-10:ISTAT_County .
+
+_:node1drddnm6bx4 rr:column "Codice Regione" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx4 .
+
+km-dev:PredicateObjectMap_da424f69-87fd-4a86-9b1f-f355e9432f49 rr:objectMap _:node1drddnm6bx4 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_da424f69-87fd-4a86-9b1f-f355e9432f49 .
+
+km-dev:PredicateObjectMap_da424f69-87fd-4a86-9b1f-f355e9432f49 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_da424f69-87fd-4a86-9b1f-f355e9432f49 .
+
+km-dev:PredicateObjectMap_1c80fb8b-ad63-4e27-8980-0d282eb31cc2 rr:predicate untitled-ontology-10:CountyName .
+
+_:node1drddnm6bx5 rr:column "Denominazione regione" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx5 .
+
+km-dev:PredicateObjectMap_1c80fb8b-ad63-4e27-8980-0d282eb31cc2 rr:objectMap _:node1drddnm6bx5 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_1c80fb8b-ad63-4e27-8980-0d282eb31cc2 .
+
+km-dev:PredicateObjectMap_1c80fb8b-ad63-4e27-8980-0d282eb31cc2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1c80fb8b-ad63-4e27-8980-0d282eb31cc2 .
+
+km-dev:PredicateObjectMap_a785d48f-05a5-4a80-9c34-cdcca1bbcbbb rr:predicate untitled-ontology-10:ISTAT_Municipality .
+
+_:node1drddnm6bx6 rr:column "Denominazione in italiano" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx6 .
+
+km-dev:PredicateObjectMap_a785d48f-05a5-4a80-9c34-cdcca1bbcbbb rr:objectMap _:node1drddnm6bx6 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_a785d48f-05a5-4a80-9c34-cdcca1bbcbbb .
+
+km-dev:PredicateObjectMap_a785d48f-05a5-4a80-9c34-cdcca1bbcbbb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a785d48f-05a5-4a80-9c34-cdcca1bbcbbb .
+
+km-dev:PredicateObjectMap_d5cdb607-2712-4650-bb8c-e9ac9979c692 rr:predicate untitled-ontology-10:MunicipalityName .
+
+_:node1drddnm6bx7 rr:column "Codice Comune formato numerico" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx7 .
+
+km-dev:PredicateObjectMap_d5cdb607-2712-4650-bb8c-e9ac9979c692 rr:objectMap _:node1drddnm6bx7 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_d5cdb607-2712-4650-bb8c-e9ac9979c692 .
+
+km-dev:PredicateObjectMap_d5cdb607-2712-4650-bb8c-e9ac9979c692 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d5cdb607-2712-4650-bb8c-e9ac9979c692 .
+
+km-dev:PredicateObjectMap_18a7928e-ac55-4264-9184-ff5a1f33f5c7 rr:predicate untitled-ontology-10:ISTAT_Province .
+
+_:node1drddnm6bx8 rr:column "Sigla automobilistica" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx8 .
+
+km-dev:PredicateObjectMap_18a7928e-ac55-4264-9184-ff5a1f33f5c7 rr:objectMap _:node1drddnm6bx8 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_18a7928e-ac55-4264-9184-ff5a1f33f5c7 .
+
+km-dev:PredicateObjectMap_18a7928e-ac55-4264-9184-ff5a1f33f5c7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_18a7928e-ac55-4264-9184-ff5a1f33f5c7 .
+
+km-dev:PredicateObjectMap_924bb9da-3d8c-4863-adac-e213615b0061 rr:predicate untitled-ontology-10:Longitude .
+
+_:node1drddnm6bx9 rr:column "lon" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx9 .
+
+km-dev:PredicateObjectMap_924bb9da-3d8c-4863-adac-e213615b0061 rr:objectMap _:node1drddnm6bx9 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_924bb9da-3d8c-4863-adac-e213615b0061 .
+
+km-dev:PredicateObjectMap_924bb9da-3d8c-4863-adac-e213615b0061 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_924bb9da-3d8c-4863-adac-e213615b0061 .
+
+km-dev:PredicateObjectMap_87429d6a-072c-4242-b6e8-ee3eb40ba0cf rr:predicate untitled-ontology-10:Latitude .
+
+_:node1drddnm6bx10 rr:column "lat" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasObjectMap _:node1drddnm6bx10 .
+
+km-dev:PredicateObjectMap_87429d6a-072c-4242-b6e8-ee3eb40ba0cf rr:objectMap _:node1drddnm6bx10 .
+
+km-dev:TriplesMap_fee1056c-268a-401e-9377-a6bfd8f0597d rr:predicateObjectMap km-dev:PredicateObjectMap_87429d6a-072c-4242-b6e8-ee3eb40ba0cf .
+
+km-dev:PredicateObjectMap_87429d6a-072c-4242-b6e8-ee3eb40ba0cf a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_87429d6a-072c-4242-b6e8-ee3eb40ba0cf .
+
+km-dev:TriplesMap_7803e220-76e2-434f-a3e3-b091b2ce19fe a rr:TriplesMap .
+
+_:node1drddnm6bx1 km-dev:hasTriplesMap km-dev:TriplesMap_7803e220-76e2-434f-a3e3-b091b2ce19fe .
+
+km-dev:TriplesMap_7803e220-76e2-434f-a3e3-b091b2ce19fe km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx11 rr:tableName "Comuni2019Clean.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drddnm6bx1 .
+
+_:node1drddnm6bx1 km-dev:hasLogicalTable _:node1drddnm6bx11 .
+
+km-dev:TriplesMap_7803e220-76e2-434f-a3e3-b091b2ce19fe rr:logicalTable _:node1drddnm6bx11 ;
+	rr:subjectMap _:node1drddnm6bx12 .
+
+_:node1drddnm6bx1 km-dev:hasSubjectMap _:node1drddnm6bx12 .
+
+_:node1drddnm6bx12 km-dev:isPartOfMapping _:node1drddnm6bx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1" ;
+	rr:class untitled-ontology-10:Point ;
+	rr:template "{point_uri}" .

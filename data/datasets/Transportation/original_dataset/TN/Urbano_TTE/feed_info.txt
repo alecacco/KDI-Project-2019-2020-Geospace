@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+Trentino trasporti S.p.A.,http://www.trentinotrasporti.it/,it,20190912,20200610,20191115152042.241

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.5.000">
+  <context>
+    <input>
+      <location>stops</location>
+      <location>stops_tte</location>
+      <location>stops_tte_ex</location>
+      <location>agency</location>
+      <location>agency_tte</location>
+      <location>agency_tte_ex</location>
+      <location>calendar</location>
+      <location>calendar_tte</location>
+      <location>calendar_tte_ex</location>
+      <location>calendar_dates</location>
+      <location>calendar_dates_tte_ex</location>
+      <location>calendar_dates_tte</location>
+      <location>routes</location>
+      <location>routes_tte_ex</location>
+      <location>routes_tte</location>
+      <location>stop_times</location>
+      <location>stop_times_tte_ex</location>
+      <location>stop_times_tte</location>
+      <location>trips</location>
+      <location>trips_tte_ex</location>
+      <location>trips_tte</location>
+    </input>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.5.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Stops-Stops_tte" width="90" x="313" y="34"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="StopsUnion-Stops_tte_ex" width="90" x="581" y="85"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV" width="90" x="916" y="34">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/stops.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Agency-Agency_tte" width="90" x="380" y="136"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="AgencyUnion-Agency_tte_ex" width="90" x="581" y="238"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (2)" width="90" x="849" y="187">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/agency.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Calendar-Calendar_tte" width="90" x="313" y="289"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="CalendarUnion-Calendar_tte_ex" width="90" x="514" y="391"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (3)" width="90" x="782" y="289">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/calendar.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Calendar_dates-Calendar_dates_tte_ex" width="90" x="313" y="493"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Calendar_datesUnion-Calendar_dates_tte" width="90" x="514" y="595"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (4)" width="90" x="782" y="442">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/calendar_dates.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Routes-Routes_tte_ex" width="90" x="179" y="646"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="RoutesUnion-Routes_tte" width="90" x="380" y="799"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (5)" width="90" x="648" y="697">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/routes.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Stop_times-stop_times_tte_ex" width="90" x="179" y="901"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Stop_timesUnion-Stop_times_tte" width="90" x="380" y="1003"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (6)" width="90" x="648" y="901">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/stop_times.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="Trips-Trips_tte_ex" width="90" x="246" y="1105"/>
+      <operator activated="true" class="union" compatibility="9.5.000" expanded="true" height="82" name="TripsUnion-Trips_tte" width="90" x="447" y="1207"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.000" expanded="true" height="82" name="Write CSV (7)" width="90" x="715" y="1105">
+        <parameter key="csv_file" value="/home/michela/University/Knowledge and Data Integration/trips.txt"/>
+        <parameter key="column_separator" value=","/>
+        <parameter key="write_attribute_names" value="true"/>
+        <parameter key="quote_nominal_values" value="true"/>
+        <parameter key="format_date_attributes" value="true"/>
+        <parameter key="append_to_file" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <connect from_port="input 1" to_op="Stops-Stops_tte" to_port="example set 1"/>
+      <connect from_port="input 2" to_op="Stops-Stops_tte" to_port="example set 2"/>
+      <connect from_port="input 3" to_op="StopsUnion-Stops_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 4" to_op="Agency-Agency_tte" to_port="example set 1"/>
+      <connect from_port="input 5" to_op="Agency-Agency_tte" to_port="example set 2"/>
+      <connect from_port="input 6" to_op="AgencyUnion-Agency_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 7" to_op="Calendar-Calendar_tte" to_port="example set 1"/>
+      <connect from_port="input 8" to_op="Calendar-Calendar_tte" to_port="example set 2"/>
+      <connect from_port="input 9" to_op="CalendarUnion-Calendar_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 10" to_op="Calendar_dates-Calendar_dates_tte_ex" to_port="example set 1"/>
+      <connect from_port="input 11" to_op="Calendar_dates-Calendar_dates_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 12" to_op="Calendar_datesUnion-Calendar_dates_tte" to_port="example set 2"/>
+      <connect from_port="input 13" to_op="Routes-Routes_tte_ex" to_port="example set 1"/>
+      <connect from_port="input 14" to_op="Routes-Routes_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 15" to_op="RoutesUnion-Routes_tte" to_port="example set 2"/>
+      <connect from_port="input 16" to_op="Stop_times-stop_times_tte_ex" to_port="example set 1"/>
+      <connect from_port="input 17" to_op="Stop_times-stop_times_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 18" to_op="Stop_timesUnion-Stop_times_tte" to_port="example set 2"/>
+      <connect from_port="input 19" to_op="Trips-Trips_tte_ex" to_port="example set 1"/>
+      <connect from_port="input 20" to_op="Trips-Trips_tte_ex" to_port="example set 2"/>
+      <connect from_port="input 21" to_op="TripsUnion-Trips_tte" to_port="example set 2"/>
+      <connect from_op="Stops-Stops_tte" from_port="union" to_op="StopsUnion-Stops_tte_ex" to_port="example set 1"/>
+      <connect from_op="StopsUnion-Stops_tte_ex" from_port="union" to_op="Write CSV" to_port="input"/>
+      <connect from_op="Write CSV" from_port="through" to_port="result 1"/>
+      <connect from_op="Agency-Agency_tte" from_port="union" to_op="AgencyUnion-Agency_tte_ex" to_port="example set 1"/>
+      <connect from_op="AgencyUnion-Agency_tte_ex" from_port="union" to_op="Write CSV (2)" to_port="input"/>
+      <connect from_op="Write CSV (2)" from_port="through" to_port="result 2"/>
+      <connect from_op="Calendar-Calendar_tte" from_port="union" to_op="CalendarUnion-Calendar_tte_ex" to_port="example set 1"/>
+      <connect from_op="CalendarUnion-Calendar_tte_ex" from_port="union" to_op="Write CSV (3)" to_port="input"/>
+      <connect from_op="Write CSV (3)" from_port="through" to_port="result 3"/>
+      <connect from_op="Calendar_dates-Calendar_dates_tte_ex" from_port="union" to_op="Calendar_datesUnion-Calendar_dates_tte" to_port="example set 1"/>
+      <connect from_op="Calendar_datesUnion-Calendar_dates_tte" from_port="union" to_op="Write CSV (4)" to_port="input"/>
+      <connect from_op="Write CSV (4)" from_port="through" to_port="result 4"/>
+      <connect from_op="Routes-Routes_tte_ex" from_port="union" to_op="RoutesUnion-Routes_tte" to_port="example set 1"/>
+      <connect from_op="RoutesUnion-Routes_tte" from_port="union" to_op="Write CSV (5)" to_port="input"/>
+      <connect from_op="Write CSV (5)" from_port="through" to_port="result 5"/>
+      <connect from_op="Stop_times-stop_times_tte_ex" from_port="union" to_op="Stop_timesUnion-Stop_times_tte" to_port="example set 1"/>
+      <connect from_op="Stop_timesUnion-Stop_times_tte" from_port="union" to_op="Write CSV (6)" to_port="input"/>
+      <connect from_op="Write CSV (6)" from_port="through" to_port="result 6"/>
+      <connect from_op="Trips-Trips_tte_ex" from_port="union" to_op="TripsUnion-Trips_tte" to_port="example set 1"/>
+      <connect from_op="TripsUnion-Trips_tte" from_port="union" to_op="Write CSV (7)" to_port="input"/>
+      <connect from_op="Write CSV (7)" from_port="through" to_port="result 7"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="source_input 2" spacing="0"/>
+      <portSpacing port="source_input 3" spacing="0"/>
+      <portSpacing port="source_input 4" spacing="0"/>
+      <portSpacing port="source_input 5" spacing="0"/>
+      <portSpacing port="source_input 6" spacing="0"/>
+      <portSpacing port="source_input 7" spacing="0"/>
+      <portSpacing port="source_input 8" spacing="0"/>
+      <portSpacing port="source_input 9" spacing="0"/>
+      <portSpacing port="source_input 10" spacing="0"/>
+      <portSpacing port="source_input 11" spacing="0"/>
+      <portSpacing port="source_input 12" spacing="0"/>
+      <portSpacing port="source_input 13" spacing="0"/>
+      <portSpacing port="source_input 14" spacing="0"/>
+      <portSpacing port="source_input 15" spacing="0"/>
+      <portSpacing port="source_input 16" spacing="0"/>
+      <portSpacing port="source_input 17" spacing="0"/>
+      <portSpacing port="source_input 18" spacing="0"/>
+      <portSpacing port="source_input 19" spacing="0"/>
+      <portSpacing port="source_input 20" spacing="0"/>
+      <portSpacing port="source_input 21" spacing="0"/>
+      <portSpacing port="source_input 22" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+      <portSpacing port="sink_result 4" spacing="0"/>
+      <portSpacing port="sink_result 5" spacing="0"/>
+      <portSpacing port="sink_result 6" spacing="0"/>
+      <portSpacing port="sink_result 7" spacing="0"/>
+      <portSpacing port="sink_result 8" spacing="0"/>
+    </process>
+  </operator>
+</process>

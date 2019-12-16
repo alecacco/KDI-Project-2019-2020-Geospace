@@ -1,0 +1,976 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix untitled-ontology-10: <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1drgirp2ux1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "calendar.txt" ;
+	km-dev:modelPublicationTime "1575735911518"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"end_date\"}],[{\"columnName\":\"service_id\"}],[{\"columnName\":\"wednesday\"}],[{\"columnName\":\"thursday\"}],[{\"columnName\":\"monday\"}],[{\"columnName\":\"tuesday\"}],[{\"columnName\":\"sunday\"}],[{\"columnName\":\"start_date\"}],[{\"columnName\":\"friday\"}],[{\"columnName\":\"saturday\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"end_date\"}],[{\"columnName\":\"service_id\"}],[{\"columnName\":\"wednesday\"}],[{\"columnName\":\"thursday\"}],[{\"columnName\":\"calendar_uri\"}],[{\"columnName\":\"monday\"}],[{\"columnName\":\"tuesday\"}],[{\"columnName\":\"sunday\"}],[{\"columnName\":\"start_date\"}],[{\"columnName\":\"friday\"}],[{\"columnName\":\"saturday\"}]]" ;
+	km-dev:hasModelLabel "calendar.txt" ;
+	km-dev:hasBaseURI "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"service_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"calendar_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/calendar_' + getValue(\\\"service_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"service_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"calendar_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"service_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ServiceID\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"service_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"service_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"monday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Monday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"monday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"monday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"tuesday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Tuesday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tuesday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tuesday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"wednesday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wednesday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wednesday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wednesday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"thursday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Thursday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"thursday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"thursday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"friday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Friday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"friday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"friday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"saturday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Saturday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"saturday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"saturday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"sunday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Sunday\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"sunday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"sunday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"start_date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartDate\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"start_date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"start_date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"end_date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndDate\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"end_date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"end_date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"calendar_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Calendar1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"calendar_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"calendar_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 a rr:TriplesMap .
+
+_:node1drgirp2ux1 km-dev:hasTriplesMap km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux2 rr:tableName "calendar.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasLogicalTable _:node1drgirp2ux2 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:logicalTable _:node1drgirp2ux2 ;
+	rr:subjectMap _:node1drgirp2ux3 .
+
+_:node1drgirp2ux1 km-dev:hasSubjectMap _:node1drgirp2ux3 .
+
+_:node1drgirp2ux3 km-dev:isPartOfMapping _:node1drgirp2ux1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar1" ;
+	rr:class untitled-ontology-10:Calendar ;
+	rr:template "{calendar_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_248f06c0-03ca-4660-9959-314ad9e76ce9 rr:predicate untitled-ontology-10:EndDate .
+
+_:node1drgirp2ux4 rr:column "end_date" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux4 .
+
+km-dev:PredicateObjectMap_248f06c0-03ca-4660-9959-314ad9e76ce9 rr:objectMap _:node1drgirp2ux4 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_248f06c0-03ca-4660-9959-314ad9e76ce9 .
+
+km-dev:PredicateObjectMap_248f06c0-03ca-4660-9959-314ad9e76ce9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_248f06c0-03ca-4660-9959-314ad9e76ce9 .
+
+km-dev:PredicateObjectMap_a67eca0f-6c1d-4fcc-851c-efa7dc6f0bfb rr:predicate untitled-ontology-10:ServiceID .
+
+_:node1drgirp2ux5 rr:column "service_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux5 .
+
+km-dev:PredicateObjectMap_a67eca0f-6c1d-4fcc-851c-efa7dc6f0bfb rr:objectMap _:node1drgirp2ux5 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_a67eca0f-6c1d-4fcc-851c-efa7dc6f0bfb .
+
+km-dev:PredicateObjectMap_a67eca0f-6c1d-4fcc-851c-efa7dc6f0bfb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a67eca0f-6c1d-4fcc-851c-efa7dc6f0bfb .
+
+km-dev:PredicateObjectMap_6c819b26-8e46-4753-98e0-79b76ecafb46 rr:predicate untitled-ontology-10:Wednesday .
+
+_:node1drgirp2ux6 rr:column "wednesday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux6 .
+
+km-dev:PredicateObjectMap_6c819b26-8e46-4753-98e0-79b76ecafb46 rr:objectMap _:node1drgirp2ux6 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_6c819b26-8e46-4753-98e0-79b76ecafb46 .
+
+km-dev:PredicateObjectMap_6c819b26-8e46-4753-98e0-79b76ecafb46 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6c819b26-8e46-4753-98e0-79b76ecafb46 .
+
+km-dev:PredicateObjectMap_e012d48d-93a1-461b-ad9d-430566180abd rr:predicate untitled-ontology-10:Thursday .
+
+_:node1drgirp2ux7 rr:column "thursday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux7 .
+
+km-dev:PredicateObjectMap_e012d48d-93a1-461b-ad9d-430566180abd rr:objectMap _:node1drgirp2ux7 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_e012d48d-93a1-461b-ad9d-430566180abd .
+
+km-dev:PredicateObjectMap_e012d48d-93a1-461b-ad9d-430566180abd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e012d48d-93a1-461b-ad9d-430566180abd .
+
+km-dev:PredicateObjectMap_67d1f364-9e12-4a83-aad7-85304c57931e rr:predicate untitled-ontology-10:Monday .
+
+_:node1drgirp2ux8 rr:column "monday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux8 .
+
+km-dev:PredicateObjectMap_67d1f364-9e12-4a83-aad7-85304c57931e rr:objectMap _:node1drgirp2ux8 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_67d1f364-9e12-4a83-aad7-85304c57931e .
+
+km-dev:PredicateObjectMap_67d1f364-9e12-4a83-aad7-85304c57931e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_67d1f364-9e12-4a83-aad7-85304c57931e .
+
+km-dev:PredicateObjectMap_86af2a1e-8e91-412d-bea2-7f092ebc88b4 rr:predicate untitled-ontology-10:Tuesday .
+
+_:node1drgirp2ux9 rr:column "tuesday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux9 .
+
+km-dev:PredicateObjectMap_86af2a1e-8e91-412d-bea2-7f092ebc88b4 rr:objectMap _:node1drgirp2ux9 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_86af2a1e-8e91-412d-bea2-7f092ebc88b4 .
+
+km-dev:PredicateObjectMap_86af2a1e-8e91-412d-bea2-7f092ebc88b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_86af2a1e-8e91-412d-bea2-7f092ebc88b4 .
+
+km-dev:PredicateObjectMap_e217d3d2-782a-4ef7-b6a3-9f1feda84185 rr:predicate untitled-ontology-10:Sunday .
+
+_:node1drgirp2ux10 rr:column "sunday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux10 .
+
+km-dev:PredicateObjectMap_e217d3d2-782a-4ef7-b6a3-9f1feda84185 rr:objectMap _:node1drgirp2ux10 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_e217d3d2-782a-4ef7-b6a3-9f1feda84185 .
+
+km-dev:PredicateObjectMap_e217d3d2-782a-4ef7-b6a3-9f1feda84185 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e217d3d2-782a-4ef7-b6a3-9f1feda84185 .
+
+km-dev:PredicateObjectMap_daa335c3-fc5d-464d-bde4-92abd71fa658 rr:predicate untitled-ontology-10:StartDate .
+
+_:node1drgirp2ux11 rr:column "start_date" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux11 .
+
+km-dev:PredicateObjectMap_daa335c3-fc5d-464d-bde4-92abd71fa658 rr:objectMap _:node1drgirp2ux11 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_daa335c3-fc5d-464d-bde4-92abd71fa658 .
+
+km-dev:PredicateObjectMap_daa335c3-fc5d-464d-bde4-92abd71fa658 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_daa335c3-fc5d-464d-bde4-92abd71fa658 .
+
+km-dev:PredicateObjectMap_6f62ca0e-029d-461b-8cd3-1ca98dd0d6b5 rr:predicate untitled-ontology-10:Friday .
+
+_:node1drgirp2ux12 rr:column "friday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux12 .
+
+km-dev:PredicateObjectMap_6f62ca0e-029d-461b-8cd3-1ca98dd0d6b5 rr:objectMap _:node1drgirp2ux12 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_6f62ca0e-029d-461b-8cd3-1ca98dd0d6b5 .
+
+km-dev:PredicateObjectMap_6f62ca0e-029d-461b-8cd3-1ca98dd0d6b5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6f62ca0e-029d-461b-8cd3-1ca98dd0d6b5 .
+
+km-dev:PredicateObjectMap_93f0b859-e4dd-4aa2-9683-7e93d7055ea1 rr:predicate untitled-ontology-10:Saturday .
+
+_:node1drgirp2ux13 rr:column "saturday" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasObjectMap _:node1drgirp2ux13 .
+
+km-dev:PredicateObjectMap_93f0b859-e4dd-4aa2-9683-7e93d7055ea1 rr:objectMap _:node1drgirp2ux13 .
+
+km-dev:TriplesMap_73c6a2f7-577c-4026-a8b4-07ab7e5a1e53 rr:predicateObjectMap km-dev:PredicateObjectMap_93f0b859-e4dd-4aa2-9683-7e93d7055ea1 .
+
+km-dev:PredicateObjectMap_93f0b859-e4dd-4aa2-9683-7e93d7055ea1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgirp2ux1 .
+
+_:node1drgirp2ux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_93f0b859-e4dd-4aa2-9683-7e93d7055ea1 .

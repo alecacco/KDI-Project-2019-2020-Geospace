@@ -1,0 +1,887 @@
+stop_id,stop_name,stop_lat,stop_lon
+1,Stazione Merano - Bhf Meran,46.673009,11.149809
+100,Via Weingartner - Weingartnerstr.,46.679186,11.126796
+1000,Autostazione - Busbahnhof,46.496063,11.356276
+101,- Lackner,46.677469,11.146297
+10849,Stazione Terlano - Bhf Terlan,46.528391,11.249187
+1090,Ponte Palermo - Palermo Brücke,46.484054,11.332063
+1091,IVECO,46.479791,11.330207
+1092,Cimitero Nord - Friedhof Nord,46.475487,11.337398
+1093,Cimitero Nord - Friedhof Nord,46.475733,11.337584
+1094,Via Loris Musy - Loris Musy Str.,46.467854,11.334415
+1095,Via Loris Musy - Loris Musy Str.,46.467553,11.334394
+1096,Via Max Valier - Max Valier Str.,46.462837,11.333239
+1097,Via Max Valier - Max Valier Str.,46.462479,11.333468
+1098,Centro - Zentrum,46.460187,11.332872
+1099,Centro - Zentrum,46.460715,11.333176
+1100,Via Pascoli - Pascoli Str.,46.452524,11.335520
+1101,Via Pascoli - Pascoli Str.,46.452837,11.335506
+1102,Pineta - Steinmannwald,46.438137,11.344921
+1103,Pineta - Steinmannwald,46.437407,11.345468
+1104,- Camping,46.429562,11.344199
+1105,- Camping,46.429195,11.343079
+1106,Centro - Zentrum,46.427454,11.337605
+1107,Centro - Zentrum,46.426801,11.336933
+1108,Posta - Post,46.423447,11.333156
+1109,Posta - Post,46.423304,11.333105
+1110,Caserma - Kaserne,46.418021,11.332240
+1111,Caserma - Kaserne,46.418061,11.332351
+1112,via A. Meucci - A. Meucci Str.,46.413546,11.328401
+1113,via A. Meucci - A. Meucci Str.,46.413504,11.328293
+1114,via Nobel - Nobel Str.,46.415777,11.328505
+1116,- Raif,46.402987,11.321926
+1117,- Raif,46.403234,11.322637
+1211,Municipio - Rathaus,46.519706,11.233089
+1212,Municipio - Rathaus,46.520110,11.232742
+1213,Lido di Andriano - Andrian Schwimmbad,46.521757,11.229237
+1214,Lido di Andriano - Andrian Schwimmbad,46.522097,11.227572
+1215,Fontanefredde - Kaltenbrunn,46.535907,11.207953
+1216,Fontanefredde - Kaltenbrunn,46.535734,11.208155
+1217,- Huben,46.538989,11.206072
+1218,- Huben,46.538773,11.206253
+1219,Piazza Municipio - Rathausplatz,46.542859,11.202928
+1220,Piazza Municipio - Rathausplatz,46.542728,11.202966
+1221,Piazza Fontana - Brunnenplatz,46.540644,11.204279
+1222,Piazza Fontana - Brunnenplatz,46.540489,11.204357
+1223,Stazione Vilpiano Nalles - Bhf Vilipian,46.554040,11.220670
+1236,Cimitero di Cardano - Friedhof Kardaun,46.492730,11.394315
+1237,Cimitero di Cardano - Friedhof Kardaun,46.492751,11.394631
+1238,- Moar,46.489021,11.407272
+1239,- Moar,46.489076,11.407042
+1340,Via Torricelli - Torricelli Str.,46.480315,11.326981
+1341,Via Torricelli - Torricelli Str.,46.480353,11.327463
+1342,- Öbersthöfe,46.725961,11.174148
+1343,Bivio Gaveis - Abzw. Gfeis,46.720748,11.173007
+1344,Bivio Gaveis - Abzw. Gfeis,46.720607,11.173013
+1347,Castello di Cornedo - Schloss Karneid,46.489655,11.401487
+1348,- Camping,46.567972,11.221586
+1349,- Camping,46.567772,11.221763
+1351,Zona produttiva Giessen - Gewerbezone Gi,46.552898,11.213223
+1352,Zona produttiva Giessen - Gewerbezone Gi,46.552651,11.213498
+1364,Farmacia - Apotheke,46.494463,11.391706
+1489,Acquaviva - Ackpfeif,46.587662,11.160018
+1833,Municipio - Rathaus,46.584848,11.201701
+1834,- Andrian Center,46.520684,11.238308
+1891,Cervo - Hirschen,46.679004,11.123198
+1892,Cervo - Hirschen,46.679061,11.124752
+1910,Casa di Riposo- Altersheim,46.490452,11.324077
+1964,Via Siemens Ressel - Siemens Str. Ressel,46.481400,11.327177
+1972,Stazione Tel - Bhf Toell,46.673021,11.081845
+2,Via delle Corse - Rennweg,46.672072,11.159517
+2006,Via Steurer - Steurerweg,46.508259,11.281211
+2007,Via Steurer - Steurerweg,46.508236,11.280875
+2008,- Valzurg,46.483346,11.407762
+2039,Monte S. Benedetto Seggiovia - Segenbühe,46.676459,11.164494
+2040,Chiesa S. Ruperto - St. Ruprechtskirche,46.688531,11.160498
+2049,Astoria,46.667370,11.169339
+2050,Via Laurin Alta - Obere Laurin Str.,46.680973,11.147177
+2075,Via Thalguter - Thalguter Str.,46.680504,11.125255
+2076,Via Foscolo - Foscolo Str.,46.667254,11.154772
+2165,Zona sportiva - Sportzone,46.455726,11.335223
+2166,Zona sportiva - Sportzone,46.455805,11.335280
+2229,- Plankenstein,46.668754,11.164638
+2268,via Cairoli - Cairoli Str.,46.424997,11.340871
+2319,Via Nobel Capolinea - Nobel Str. Endhalt,46.418352,11.328601
+2320,Cantiere Provinciale - Landesbauhof,46.630679,11.173417
+2321,- Oberdorf,46.544709,11.201282
+2322,- Oberdorf,46.543329,11.202046
+2325,via Marconi - Marconi Str.,46.423438,11.330617
+2397,Stazione - Bahnhof,46.404978,11.316383
+2400,via Macello rotatoria - Schlachtofstr. K,46.494508,11.366437
+2443,Via Stazione - Bahnofstr.,46.578128,11.198098
+2444,Via Stazione - Bahnofstr.,46.578885,11.199032
+2445,Gargazzone Stazione - Gargazon Bhf,46.575049,11.198981
+2446,Gargazzone Municipio - Gargazon Rathaus,46.585909,11.201225
+248,Via delle Corse - Rennweg,46.671206,11.159384
+249,Ospedale - Krankenhaus,46.675869,11.152429
+3,Ospedale - Krankenhaus,46.675957,11.152228
+306,Terme  - Thermen,46.667739,11.158734
+307,Via S. Giorgio - St. Georgen Str.,46.670360,11.169383
+308,Via S. Giorgio - St. Georgen Str.,46.670448,11.169416
+310,- Eichenhof,46.686921,11.167995
+311,- Eichenhof,46.686943,11.167786
+312,- Finele,46.695431,11.168649
+313,- Finele,46.695732,11.168910
+314,- Kuenserhof,46.695497,11.174172
+315,- Kuenserhof,46.695510,11.173985
+316,Rifiano - Riffian,46.702461,11.180681
+317,Rifiano - Riffian,46.702387,11.180595
+319,Bivio Vernurio - Abzw. Vernuer,46.710831,11.187465
+396,Tennis,46.662806,11.159568
+397,Tennis,46.663672,11.159243
+398,Stazione Maia Bassa - Bhf Untermais,46.656875,11.148998
+399,Stazione Maia Bassa - Bhf Untermais,46.656687,11.148813
+4,- Lackner,46.677811,11.145369
+400,Ponte Marlengo - Marlinger Brücke,46.657563,11.144806
+401,Ponte Marlengo - Marlinger Brücke,46.657894,11.144965
+402,Zona produttiva Marlengo - Gewerbezone M,46.653599,11.146502
+403,Zona produttiva Marlengo - Gewerbezone M,46.652502,11.146864
+404,Municipio - Rathaus,46.632384,11.145034
+405,Municipio - Rathaus,46.631975,11.144973
+406,Autostazione - Busbahnhof,46.618688,11.141931
+40953,Stazione Ponte Adige - Bhf Sigmundskron,46.485883,11.298057
+466,Autostazione - Busbahnhof,46.618129,11.141687
+467,Municipio - Rathaus,46.616219,11.145545
+468,Chiesa S. Croce - Kreuzkirche,46.615383,11.150208
+469,Scuola Elementare - Knabenschule,46.614506,11.153149
+470,Piazza Tribus - Tribus Platz,46.612781,11.156244
+471,S. Anna - St. Anna,46.607745,11.159525
+472,Pomus - Pomus,46.606159,11.161617
+473,Bivio Via Dogana - Abzw. Zollstr.,46.608706,11.167882
+474,Lido Lana - Lana Schwimmbad,46.608746,11.175015
+475,Stazione Lana/Postal - Bhf Lana/Burgstal,46.608643,11.182642
+476,Ufficio Turistico - Tourismusbüro,46.608245,11.192719
+477,Funivia Verano - Seilbahn Vöran,46.600890,11.198970
+478,Paese - Dorf,46.586526,11.201515
+479,Vicolo del Bosco - Waldweg,46.581094,11.211426
+481,Vicolo del Bosco - Waldweg,46.581049,11.211636
+482,Paese - Dorf,46.586360,11.201781
+483,Funivia Verano - Seilbahn Vöran,46.599655,11.199226
+485,Ufficio Turistico - Tourismusbüro,46.608382,11.192784
+486,Lido Lana - Lana Schwimmbad,46.608790,11.174964
+487,Via Leonardo da Vinci - Leonardo da Vinc,46.610394,11.166686
+488,Tennis,46.612154,11.162253
+489,Piazza Tribus - Tribus Platz,46.613340,11.155858
+492,Via Schnatterpeck - Schnatterpeckstr.,46.605781,11.160920
+493,Bivio Via della Chiesa - Abzw. Kirchweg,46.601813,11.162321
+494,Parrocchia - Pfarrkirche,46.599940,11.163458
+495,Bivio Via Dogana - Abzw. Zollstr.,46.609074,11.168280
+496,Pomus - Pomus,46.606495,11.162261
+497,Bivio Via della Chiesa - Abzw. Kirchweg,46.602037,11.162252
+498,Via della Chiesa - Kirchweg,46.608241,11.155076
+499,Asilo S. Pietro - Kindergarten St. Peter,46.610232,11.152957
+5,Via Weingartner - Weingartnerstr.,46.679248,11.127178
+500,Scuola Elementare - Knabenschule,46.614341,11.153650
+5000,Campi Resia - Reschensportplätze,46.489891,11.318381
+5001,Via Gutenberg - Gutenberg Str.,46.491320,11.320663
+5002,Via Gutenberg - Gutenberg Str.,46.491533,11.320673
+5003,Passaggio Tobagi - Walter Weg,46.492382,11.322869
+5004,Passaggio Tobagi - Walter Weg,46.492497,11.322642
+5005,Scuola Schweitzer - Schweitzer Schule,46.492991,11.327148
+5006,Scuola Schweitzer - Schweitzer Schule,46.493086,11.326749
+5007,Scuola J. H. Pestalozzi - J. H. Pestaloz,46.492529,11.329252
+5008,Scuola J. H. Pestalozzi - J. H. Pestaloz,46.492568,11.329020
+5009,Piazza Casagrande - Casagrande Platz,46.492387,11.331953
+501,Chiesa S. Croce - Kreuzkirche,46.615875,11.149094
+5010,Via della Visitazione - Mariaheimweg,46.493141,11.332736
+5011,Via della Visitazione - Mariaheimweg,46.494055,11.332709
+5012,Via Roen Scuola Superiore - Roenstr. Obe,46.496257,11.333605
+5013,Via Roen Scuola Superiore - Roenstr. Obe,46.496160,11.333268
+5014,Via Roen Asilo - Roenstr. Kindergarten,46.497430,11.336082
+5015,Via Roen Asilo - Roenstr. Kindergarten,46.497560,11.336251
+5017,Tribunale - Gericht,46.497929,11.340001
+5018,Tribunale - Gericht,46.497137,11.340005
+5019,Via Cesare Battisti - Cesare Battisti St,46.500445,11.340842
+502,Municipio - Rathaus,46.616369,11.145455
+5020,Via Cesare Battisti - Cesare Battisti St,46.500523,11.340108
+5021,Piazza Vittoria - Siegesplatz,46.500199,11.344919
+5022,Piazza Vittoria - Siegesplatz,46.500296,11.344078
+5023,Via Rosmini - Rosmini Str.,46.499799,11.347854
+5025,Piazza Università - Universitätsplatz,46.498992,11.350824
+5026,Piazza Domenicani - Dominikanerplatz,46.497778,11.351924
+5027,Piazza Domenicani - Dominikanerplatz,46.497848,11.351669
+5028,Piazza Walther - Waltherplatz,46.497855,11.354448
+5029,Piazza Walther - Waltherplatz,46.497938,11.354198
+503,Scuola Media - Mittelschule,46.617969,11.146044
+5032,Via Cassa di Risparmio - Sparkassenstr.,46.499204,11.349168
+5033,Piazza Vittoria - Siegesplatz,46.500848,11.344978
+5034,Piazza Vittoria - Siegesplatz,46.500776,11.344853
+5035,Via Longon - Longon Str.,46.501376,11.342335
+5036,Via Longon - Longon Str.,46.501198,11.342550
+5037,Piazza Mazzini - Mazzini Platz,46.500958,11.339779
+5038,Piazza Mazzini - Mazzini Platz,46.501156,11.339996
+5039,Via di Novacella - Neustifterweg,46.493598,11.340729
+504,Scuola Media - Mittelschule,46.617823,11.146604
+5040,Via di Novacella - Neustifterweg,46.494470,11.340455
+5041,Via Firenze - Florenzerstr.,46.491744,11.341541
+5042,Via Firenze - Florenzerstr.,46.492331,11.341399
+5043,Via Roma Sottopasso - Romstr. Unterführu,46.486866,11.343499
+5044,Via Roma Sottopasso - Romstr. Unterführu,46.486922,11.343625
+5045,Piazzetta Bersaglio - Schießstandplatz,46.483570,11.343305
+5046,Piazzetta Bersaglio - Schießstandplatz,46.484463,11.344069
+5047,Piazza Oltrisarco - Oberauer Platz,46.481741,11.341318
+5048,Piazza Oltrisarco - Oberauer Platz,46.481684,11.341359
+5049,Bivio Via Volta - Abzw. Voltastr.,46.478850,11.339493
+505,Chiesa S. Croce - Kreuzkirche,46.615856,11.149837
+5050,Bivio Via Volta - Abzw. Voltastr.,46.478500,11.339309
+5051,Cimitero Sud - Friedhof Süd,46.472752,11.337274
+5052,Cimitero Sud - Friedhof Süd,46.472332,11.337391
+5053,Maso della Pieve - Pfarrhof,46.469936,11.335694
+5054,Maso della Pieve - Pfarrhof,46.469597,11.335486
+5055,Scuole - Schulen,46.458701,11.333769
+5056,Scuole - Schulen,46.458853,11.333624
+5057,Bar Posta,46.448814,11.336568
+5058,Bar Posta,46.449256,11.336502
+5059,Via Vurza - Wurzerstr.,46.445522,11.337530
+506,Parcheggio Gampen - Gampenparkplatz,46.614482,11.143000
+5060,Via Vurza - Wurzerstr.,46.446463,11.337285
+5061,Zona produttiva Vurza - Handwerkerzone W,46.443279,11.340570
+5062,Bivio Z.I. - Abzw. Industriezone,46.411621,11.329432
+5063,Cimitero di Bronzolo - Friedhof Branzoll,46.409970,11.328622
+5064,Via Aquila Nera - Schwarz Adler Str.,46.405963,11.320617
+5065,Paese - Dorf,46.403175,11.318742
+5066,Rione Göller - Göller Siedlung,46.400818,11.317788
+5067,Stazione Laives - Bhf Leifers,46.434834,11.324510
+5068,Lido - Schwimmbad,46.431345,11.329082
+5069,Lido - Schwimmbad,46.431597,11.328925
+507,Via Palade - Gampenstr.,46.606831,11.151131
+5070,via Goethe - Goethe Str.,46.427177,11.334102
+5071,Parco Marconi - Spielpark Marconi,46.424466,11.331537
+5073,Via Nazario Sauro - Nazario Sauro Str.,46.421567,11.333379
+5074,Via Nazario Sauro - Nazario Sauro Str.,46.421644,11.333792
+5075,Scuole - Schulen,46.422147,11.337247
+5076,Scuole - Schulen,46.422369,11.338176
+5079,via Pietralba - Weissensteiner Str.,46.426624,11.338236
+508,S. Giorgio - St. Georg,46.599506,11.156469
+5081,Via Galizia - Galizienstr.,46.428686,11.340073
+5082,Cimitero - Friedhof,46.430257,11.340668
+5083,Via Andreas Hofer - Andreas Hofer Str.,46.429557,11.338147
+5084,Mag. Via Hofer - Lagerhaus Hoferstr.,46.428701,11.334956
+5085,Filanda,46.424177,11.342431
+509,- Platteid,46.604172,11.148197
+5090,Via Brennero - Brennerstr.,46.494999,11.391785
+5091,Via Brennero - Brennerstr.,46.495113,11.391646
+5092,Costa di Sotto - Unterleitach,46.496101,11.383987
+5093,Costa di Sotto - Unterleitach,46.496009,11.384216
+5094,Bivio Renon - Abzw. Ritten,46.497222,11.379426
+5095,Bivio Renon - Abzw. Ritten,46.497148,11.379624
+5096,Rencio Museo della scuola - Rentsch Schu,46.498647,11.375777
+5097,Rencio Museo della scuola - Rentsch Schu,46.498304,11.376441
+5098,Salita Rencio - Steig Rentsch,46.499088,11.370095
+5099,Salita Rencio - Steig Rentsch,46.499041,11.370180
+510,- Gasser,46.598327,11.143523
+5100,Via Brennero - Brennerstr.,46.501175,11.364531
+5101,Via Brennero - Brennerstr.,46.501013,11.365552
+5102,Funivia del Renon - Rittner Seilbahn,46.499758,11.363620
+5103,Funivia del Renon - Rittner Seilbahn,46.499475,11.363154
+5104,Stazione Bolzano - Bhf Bozen,46.497130,11.358874
+5106,Stazione Bolzano - Bhf Bozen,46.497066,11.357088
+5107,Stazione Bolzano - Bhf Bozen,46.496982,11.357308
+5108,Piazza Vittoria - Siegesplatz,46.501310,11.345137
+5109,Piazza Vittoria - Siegesplatz,46.501222,11.345194
+511,- Mayenburg,46.592212,11.147755
+5110,Via Guncina - Guntschnastr.,46.504628,11.346553
+5111,Via Guncina - Guntschnastr.,46.504652,11.346506
+5112,Via Max Valier - Max Valier Str.,46.507046,11.347220
+5113,Via Max Valier - Max Valier Str.,46.507333,11.347139
+5114,Bivio Via Fago - Abzw. Fagenstr.,46.508712,11.347094
+5115,Via Fago Scuole - Fagenstr. Schulen,46.508566,11.345182
+5116,Villa Serena,46.507617,11.341173
+5117,Via Defregger - Defregger Str.,46.506758,11.338905
+5118,Viale Principe Eugenio - Prinz Eugen All,46.504590,11.340744
+5119,Via Diaz - Diaz Str.,46.502942,11.342905
+512,Casa della Cultura - Vereinshaus,46.589386,11.147073
+5120,Piazza Dogana - Zollstange,46.500210,11.360798
+5122,Via De Lai - De Lai Str.,46.499357,11.359505
+5124,Via Perathoner - Perathoner Str.,46.497037,11.355883
+5125,Via Perathoner - Perathoner Str.,46.496976,11.356047
+5126,Pie' di Virgolo - Untervirgl,46.492976,11.352427
+5127,Pie' di Virgolo - Untervirgl,46.492481,11.351463
+5128,Via Trento - Trienterstr.,46.490039,11.347144
+5129,Via Trento - Trienterstr.,46.489947,11.347097
+513,Chiesa - Kirche,46.590525,11.145444
+5130,Piazza Nikoletti - Nikoletti Platz,46.485870,11.345147
+5131,Piazza Nikoletti - Nikoletti Platz,46.485928,11.345094
+5132,Via del Parco - Parkstr.,46.487563,11.346084
+5133,Via del Parco - Parkstr.,46.487267,11.345794
+5134,Via S. Geltrude - St. Gertraud Weg,46.487356,11.347722
+5135,Via S. Geltrude - St. Gertraud Weg,46.487526,11.347546
+5136,Via S. Vigilio - St. Vigilstr.,46.486252,11.348535
+5137,Scuola Gianni Rodari - Gianni Rodari Sch,46.483901,11.347241
+5138,Via C. Weinegg bassa - Untere Weinegg St,46.482254,11.347303
+5139,Bivio Castel Flavon - Abzw. Haselburg,46.482182,11.349353
+514,Casa della Cultura - Vereinshaus,46.589383,11.147117
+5140,Via C. Weinegg alta - Obere Weinegg Str.,46.481368,11.346239
+5141,Via C. Weinegg rotatoria - Weinegg Str.,46.480502,11.343717
+5142,Scuola Enrico Fermi - Enrico Fermi Schul,46.486449,11.349650
+5143,Piazza Adriano - Hadrianplatz,46.495196,11.338439
+5144,Piazza Adriano - Hadrianplatz,46.495063,11.338687
+5145,Via Amalfi - Amalfi Str.,46.495118,11.331493
+5146,Via Amalfi - Amalfi Str.,46.495066,11.331580
+5147,Via Sorrento - Sorrento Str.,46.494998,11.329259
+5148,Via Sorrento - Sorrento Str.,46.494854,11.327722
+5149,Via Positano - Positano Str.,46.494720,11.324239
+515,- Mayenburg,46.591967,11.147827
+5150,Via Positano - Positano Str.,46.494687,11.324855
+5153,Bivio Via Resia - Abzw. Reschenstr.,46.494209,11.315402
+5154,Bivio Via Resia - Abzw. Reschenstr.,46.494146,11.315458
+5155,Ospedale - Krankenhaus,46.499575,11.309223
+5156,Ospedale - Krankenhaus,46.499644,11.309133
+5158,Padiglione W - Gebäude W,46.499031,11.314400
+5159,Bivio Poligono - Abzw. Schießstand,46.501445,11.312574
+516,- Burgwies,46.595685,11.147469
+5160,Bivio Poligono - Abzw. Schießstand,46.501553,11.312974
+5161,Via S. Maurizio - Moritzingerweg,46.502213,11.318286
+5162,Via S. Maurizio - Moritzingerweg,46.502227,11.318151
+5163,Via Vittorio Veneto Caserme - Vittorio V,46.503189,11.325323
+5164,Via Vittorio Veneto Caserme - Vittorio V,46.503270,11.324802
+5165,Via Eisenkeller - Eisenkellerweg,46.502683,11.330113
+5166,Via Eisenkeller - Eisenkellerweg,46.502796,11.329812
+5167,Piazza Gries - Grieser Platz,46.502997,11.334320
+5168,Piazza Gries - Grieser Platz,46.502846,11.334611
+5169,Via della Zecca - Münzbankweg,46.501910,11.337677
+517,- Gasser,46.598670,11.144023
+5170,Via della Zecca - Münzbankweg,46.501996,11.338444
+5171,Palasport - Stadthalle,46.490581,11.316327
+5172,Palasport - Stadthalle,46.491112,11.316114
+5173,Via Glorenza - Glurnser Weg,46.488436,11.317694
+5174,Via Glorenza - Glurnser-Weg,46.488509,11.317704
+5175,Via Malles - Malserstr.,46.486750,11.318756
+5176,Via Malles - Malserstr.,46.487046,11.318673
+5177,Via Resia S. Pio X - Reschenstr. S. Pio,46.484298,11.320314
+5178,Via Resia S. Pio X - Reschenstr. S. Pio,46.483881,11.320591
+5179,Ponte Resia - Reschenbrücke,46.482371,11.322271
+518,- Platteid,46.604106,11.148046
+5180,Ponte Resia - Reschenbrücke,46.482536,11.322176
+5181,Ex Magnesio,46.479389,11.329085
+5182,Ex Magnesio,46.478778,11.328843
+5183,Via Edison - Edison Str.,46.477064,11.327661
+5184,Via Edison - Edison Str.,46.476278,11.327311
+5185,Fiera - Messe,46.473584,11.325544
+5186,Fiera - Messe,46.473558,11.325648
+5187,Parcheggio FERCAM - FERCAM Parkplatz,46.469772,11.323170
+5188,Parcheggio FERCAM - FERCAM Parkplatz,46.469689,11.323323
+5189,Via Einstein - Einstein Str.,46.468522,11.326532
+519,S. Giorgio - St. Georg,46.599423,11.156498
+5190,Via Einstein - Einstein Str.,46.468618,11.327531
+5191,Aeroporto - Flughafen,46.467276,11.330728
+5192,Aeroporto - Flughafen,46.467302,11.331146
+5193,Via Johann Kravogl - Johann Kravogl Str.,46.469338,11.329698
+5194,Via Johann Kravogl - Johann Kravogl Str.,46.469369,11.329561
+5195,Palaonda - Eiswelle,46.472856,11.331298
+5196,Palaonda - Eiswelle,46.473062,11.331270
+5197,Via Pietro Gobetti - Pietro Gobetti Str.,46.475277,11.332431
+5198,Via Pietro Gobetti - Pietro Gobetti Str.,46.475609,11.332533
+5199,Acciaierie - Stahlwerke,46.478916,11.334211
+520,Via Palade - Gampenstr.,46.606844,11.151197
+5201,Via Barletta - Barletta Str.,46.485186,11.320681
+5202,Via Barletta - Barletta Str.,46.485211,11.320661
+5203,Via Bari - Bari Str.,46.485630,11.322031
+5204,Parco delle Semirurali - Semirurali Park,46.486527,11.324472
+5205,S. Maria in Augia - Maria in der Au,46.487856,11.326872
+5207,Via Montecassino - Montecassino Str.,46.489234,11.325443
+5208,Via Udine - Udine Str.,46.490237,11.326684
+5209,Via Milano - Mailandstr.,46.489904,11.329634
+521,Parcheggio Gampen - Gampenparkplatz,46.614517,11.143043
+5210,Via Aosta - Aosta Str.,46.489602,11.332478
+5211,Piazza Matteotti - Matteotti Platz,46.490306,11.336882
+5212,Via Torino - Turinstr.,46.491258,11.339567
+5213,Via Firenze - Florenzerstr.,46.492140,11.340908
+5214,Regina Pacis,46.491689,11.336577
+5215,Via Palermo - Palermo Str.,46.491923,11.332485
+5216,Scuola S. F. Neri - S. F. Neri Schule,46.488978,11.331484
+5217,Via Cagliari - Cagliari Str.,46.488357,11.329562
+5218,Via Alessandria - Alessandria Str.,46.488780,11.322882
+522,Via Cermes - Tschermserweg,46.623130,11.145706
+5220,Via Sassari alla Torre - Sassari Str. al,46.488325,11.319473
+5221,Via Parma - Parma Str.,46.490132,11.320345
+5223,Bivio S. Genesio - Abzw. Jenesien,46.509983,11.347758
+5224,Bivio S. Genesio - Abzw. Jenesien,46.509967,11.347672
+5225,Ponte S. Antonio - St. Anton Brücke,46.512504,11.350114
+5226,Ponte S. Antonio - St. Anton Brücke,46.512394,11.349890
+5229,Lama Bolzano,46.480593,11.325411
+523,Via Cermes - Tschermserweg,46.623130,11.145706
+5230,Lama Bolzano,46.480693,11.325245
+5235,Ex Alumix,46.479204,11.333773
+5236,Ex Alumix,46.479559,11.332233
+5237,IVECO,46.480521,11.329918
+5238,Via Siemens - Siemens Str.,46.483099,11.334601
+5239,Via Siemens - Siemens Str.,46.482804,11.332636
+524,Via Grassau - Grassauerstr.,46.635082,11.146395
+5240,Via Lancia SEAB - Lancia Str. SEAB,46.484240,11.336669
+5241,Ponte Roma - Rombrücke,46.490532,11.342139
+5242,Via Lancia SEAB - Lancia Str. SEAB,46.484972,11.336943
+525,Via Grassau - Grassauerstr.,46.635377,11.147452
+5250,Via Castel Flavon - Kuepachweg,46.483543,11.349290
+5253,Parcheggio Bolzano Centro - Parkhaus Boz,46.494544,11.355980
+5254,Via Macello Loacker - Schlachthofstr. Lo,46.494937,11.357840
+5255,Cineplexx,46.493792,11.360604
+5256,Via Mayr Nusser - Mayr Nusser Str.,46.493246,11.363060
+5257,Funivia del Colle - Kohlerer Seilbahn,46.491101,11.368404
+5259,Ponte Campiglio - Kampillerbrücke,46.492389,11.368936
+526,Carabinieri,46.637633,11.150526
+5260,Mag. Generali - Allgemeines Lagerhaus,46.495391,11.368074
+5261,via Macello ex Gorio - Schlachthofstr. e,46.496142,11.368237
+5262,Via Canonico Michael Gamper - Kanonikus,46.497924,11.365327
+5263,Via Canonico Michael Gamper - Kanonikus,46.497942,11.365804
+5264,S. Maria in Augia - Maria in der Au,46.487774,11.326666
+5265,Parco delle Semirurali - Semirurali Park,46.486484,11.324284
+5266,Via Gaismair - Gaismair Str.,46.495379,11.335306
+5267,Via Gaismair - Gaismair Str.,46.495248,11.334792
+5268,Cimitero di Bronzolo - Friedhof Branzoll,46.413026,11.330502
+5269,Via Ortles - Ortlerstr.,46.482916,11.318944
+527,Carabinieri,46.637754,11.150532
+5270,Via Ortles - Ortlerstr.,46.483066,11.319717
+5272,Casanova - Kaiserau,46.481628,11.316054
+5273,Casanova - Kaiserau,46.480970,11.315139
+5274,Via Don Narciso Sordo - Don Narciso Sord,46.490552,11.314929
+5275,- Firmian,46.489186,11.316016
+528,Via Monte Leone - Lebenbergerstr.,46.646316,11.145490
+529,Via Monte Leone - Lebenbergerstr.,46.646307,11.145428
+530,- Meranarena,46.659468,11.154746
+5301,Via Cavour - Cavour Str.,46.501587,11.359675
+5302,Via Weggenstein - Weggenstein Str.,46.503622,11.356504
+5303,Via S. Osvaldo - Oswaldweg,46.505599,11.354694
+5304,Via Beato Arrigo - Selig Heinrich Str.,46.507472,11.354295
+5305,Via S. Antonio - St. Anton Str.,46.513076,11.354087
+5306,Castel Roncolo - Runkelstein,46.515904,11.358522
+5307,Piazza Verdi - Verdi Platz,46.495408,11.353289
+5309,Piazza Verdi - Verdi Platz,46.494994,11.354672
+531,- Meranarena,46.659759,11.155068
+5310,Ponte Druso - Drususbrücke,46.494800,11.347019
+5311,Ponte Druso - Drususbrücke,46.494967,11.349529
+5312,Caserma Carabinieri - Carabinieri Kasern,46.494721,11.344239
+5313,Caserma Carabinieri - Carabinieri Kasern,46.494642,11.344131
+5314,Via Vicenza - Vicenza Str.,46.494904,11.341398
+5315,Via Vicenza - Vicenza Str.,46.494738,11.342108
+5317,Funivia S. Genesio - Seilbahn Jenesien,46.514201,11.352571
+5319,via Avogadro - Avogadro Str.,46.485296,11.340589
+532,Casa di Riposo - Altersheim,46.661149,11.158283
+5320,Galileo,46.486942,11.340853
+5321,Polizia Municipale - Stadtpolizei,46.486129,11.336628
+5322,TIS,46.482536,11.330263
+5323,Vigili del Fuoco - Feuerwehr,46.494430,11.319516
+5324,Vigili del Fuoco - Feuerwehr,46.494403,11.319772
+5325,Via Duca d'Aosta - Duca D'Aosta Str.,46.500215,11.336658
+5326,Via Piani di Mezzo - Bozner Boden Mitter,46.495421,11.369951
+5327,Ponte Campiglio - Kampillerbrücke,46.493290,11.368545
+5328,via Macello ex Gorio - Schlachthofstr. e,46.496734,11.367625
+5330,Passeggiata dei Castani - Köstenweg,46.481413,11.347640
+5331,Via Del Ronco - Neubruchweg,46.492209,11.325982
+5332,Via Del Ronco - Neubruchweg,46.491784,11.325936
+5333,Via Montecassino - Montecassino Str.,46.489504,11.325432
+5334,Scuola Max Valier - Max Valier Schule,46.494327,11.328226
+5335,Scuola Max Valier - Max Valier Schule,46.494080,11.328267
+5336,Via Alessandria - Alessandria Str.,46.488698,11.322642
+5337,Via Sassari alla Torre - Sassari Str. al,46.488370,11.319891
+5338,TIS,46.481991,11.330722
+5339,Via Michael Pacher - Michael Pacher Str.,46.506011,11.337084
+534,Terme  - Thermen,46.668586,11.159123
+5340,Bivio Via Volta - Abzw. Voltastr.,46.478885,11.339352
+5341,Bivio Via Volta - Abzw. Voltastr.,46.478976,11.339387
+5343,Lungodegenti Firmian - Langzeitkranke Fi,46.490401,11.305146
+5344,Lungodegenti Firmian - Langzeitkranke Fi,46.490649,11.305529
+5345,Via Duca d'Aosta - Duca D'Aosta Str.,46.500384,11.336663
+535,Piazza Teatro - Theaterplatz,46.670689,11.159199
+5351,Via Ospedale - Spitalgasse,46.497628,11.349731
+5352,Stazione Bolzano - Bhf Bozen,46.496551,11.357890
+5353,Stazione Ponte Adige - Bhf Sigmundskron,46.486026,11.296726
+5354,Stazione Ponte Adige - Bhf Sigmundskron,46.485810,11.298125
+5358,Stazione Merano - Bhf Meran,46.674218,11.148767
+5359,Via degli Artigiani - Handwerkerstr.,46.494373,11.370301
+536,Piazza Teatro - Theaterplatz,46.670870,11.158869
+5360,- Kampill Center,46.493545,11.376162
+5361,S. Vito - St. Veit,46.484510,11.403699
+5362,- Stroblwiese,46.484027,11.405909
+5363,- Stroblwiese,46.484085,11.405922
+5364,Cardano zona Art. - Kardaun Handwerkerz.,46.491942,11.398501
+5365,Cardano zona Art. - Kardaun Handwerkerz.,46.491942,11.398501
+5366,- Mila Milkon,46.493611,11.381874
+5367,S. Vito - St. Veit,46.484539,11.403402
+537,Via Alpini - Alpini Str.,46.675104,11.156047
+538,Via Alpini - Alpini Str.,46.674997,11.156299
+539,Via Goethe - Goethe Str.,46.676481,11.149856
+540,Via Goethe - Goethe Str.,46.676258,11.150678
+541,Fonte S. Martino - Martinsbrunn,46.684497,11.146036
+542,Quarazze - Gratsch,46.682335,11.147405
+543,Quarazze - Gratsch,46.682355,11.147361
+544,Via Karl Wolf  - Karl Wolf Str.,46.680324,11.151165
+545,Via Karl Wolf  - Karl Wolf Str.,46.680522,11.150942
+546,Via Mozart - Mozart Str.,46.678892,11.153731
+547,Via Mozart - Mozart Str.,46.679044,11.153358
+548,Via Donizetti - Donizetti Str.,46.678118,11.155398
+549,Via Donizetti - Donizetti Str.,46.678298,11.155157
+550,Centro Commerciale - Einkaufszentrum,46.679587,11.132989
+551,Centro Commerciale - Einkaufszentrum,46.679635,11.134633
+552,Foresta - Forst,46.677952,11.118760
+553,Parcheggio - Parkplatz,46.683278,11.074936
+55351,via Noldin - Noldin Str.,46.427263,11.336449
+554,Tel Ponte - Töll Brücke,46.677248,11.084226
+555,Tel Ponte - Töll Brücke,46.677313,11.084176
+556,Chiusa Tel - Schleuse Töll,46.680451,11.091865
+557,Chiusa Tel - Schleuse Töll,46.680398,11.091783
+558,Bivio Plars di Sopra - Abzw. Oberplars,46.683197,11.097076
+559,Bivio Plars di Sopra - Abzw. Oberplars,46.683255,11.096134
+560,Plars di mezzo - Mitterplars,46.682711,11.106690
+561,Plars di mezzo - Mitterplars,46.682637,11.105872
+562,- Maratscher,46.684359,11.112891
+563,- Maratscher,46.684256,11.112773
+564,Seggiovia Velloi - Sessellift Vellau,46.685651,11.113941
+565,Seggiovia Velloi - Sessellift Vellau,46.685569,11.113797
+568,Municipio - Rathaus,46.683357,11.121536
+569,Municipio - Rathaus,46.683395,11.121518
+572,Stazione Marlengo - Bhf Marling,46.664386,11.138474
+573,- Steindl,46.659000,11.140279
+574,- Steindl,46.658134,11.140356
+575,Paese - Dorf,46.655687,11.140727
+576,Paese - Dorf,46.655661,11.140837
+577,Cantina di Marlengo - Kellerei Marling,46.647830,11.145756
+578,Cantina di Marlengo - Kellerei Marling,46.648567,11.145984
+580,S. Maria Assunta - Maria Himmelfahrt,46.667253,11.142259
+581,COMBI,46.670076,11.146934
+582,COMBI,46.669881,11.146760
+583,Via Foro Boario  - Viehmarktstr.,46.672054,11.148785
+584,Via Foro Boario  - Viehmarktstr.,46.672175,11.148552
+585,Cimitero - Friedhof,46.673648,11.147028
+586,Cimitero - Friedhof,46.673401,11.147259
+587,Via S. Giuseppe  - St. Josef Str.,46.675877,11.143809
+588,Via S. Giuseppe  - St. Josef Str.,46.675767,11.143962
+589,Via IV Novembre - 4. November Str.,46.676170,11.145772
+592,- Kaiserhof,46.671255,11.153323
+593,- Kaiserhof,46.671279,11.153343
+594,Via Otto Huber - Otto Huber Str.,46.671119,11.155407
+595,Via Otto Huber - Otto Huber Str.,46.671117,11.155729
+6,- Edelweiss,46.678690,11.087256
+600,Via S. Francesco - St. Franziskus Str.,46.676907,11.154295
+601,Ospedale Vecchio - Altes Krankenhaus,46.677676,11.152239
+602,Parcheggio Karl Wolf - Karl Wolf Parkpla,46.675066,11.158459
+603,Parcheggio Karl Wolf - Karl Wolf Parkpla,46.674944,11.158689
+605,Via Leopardi - Leopardi Str.,46.664716,11.156293
+606,Scuola Enrico Toti - Enrico-Toti-Schule,46.664777,11.152925
+607,Via Wolkenstein - Wolkenstein Str.,46.664131,11.151383
+608,Via Luis Zuegg - Luis Zuegg Str.,46.661753,11.149529
+610,Via Marlengo - Marlingerstr.,46.664610,11.145634
+611,Rione Marlengo - Marlinger Viertel,46.663297,11.144544
+612,Via Manzoni - Manzoni Str.,46.667786,11.151068
+617,Via Parini - Parini Str.,46.665134,11.170966
+618,Astoria,46.667833,11.169059
+621,Via dei Campi - Feldweg,46.663528,11.174479
+622,Via Fink - Finkweg,46.662120,11.176616
+623,Via Pienzenau - Pienzenauweg,46.661762,11.178704
+624,Via Pienzenau - Pienzenauweg,46.661790,11.179083
+625,- Tonner,46.660452,11.181572
+627,Stazione Merano - Bhf Meran,46.673784,11.150491
+628,Via Andreas Hofer - Andreas Hofer Str.,46.675348,11.152859
+630,- König Laurin,46.679366,11.147710
+631,Via Cassa di Risparmio - Sparkassenstr.,46.670872,11.160521
+633,Piazza della Rena - Sandplatz,46.670354,11.164226
+634,Piazza della Rena - Sandplatz,46.670351,11.164359
+635,- Plankenstein,46.668234,11.165564
+636,- Plankenstein,46.668029,11.166081
+637,Bivio Via Winkel - Abzw. Winkelweg,46.669055,11.168561
+638,Bivio Via Winkel - Abzw. Winkelweg,46.669097,11.168563
+640,Clinica S. Anna - St.-Anna-Klinik,46.669432,11.170398
+641,Clinica S. Anna - St.-Anna-Klinik,46.669465,11.170544
+642,Parco Schiller - Schillerpark,46.669050,11.171945
+643,Parco Schiller - Schillerpark,46.669089,11.171951
+644,Piazza Fontana - Brunnenplatz,46.669369,11.174046
+645,Piazza Fontana - Brunnenplatz,46.669164,11.173972
+647,Villa Maria,46.671659,11.173303
+648,Asilo Maia Alta - Kindergarten Obermais,46.672520,11.174138
+650,Lazago - Lazag,46.675230,11.176363
+651,- Rundegg,46.669896,11.177104
+652,Via Ivigna - Ifingerstr.,46.669056,11.179701
+653,Via Ivigna - Ifingerstr.,46.668861,11.181362
+654,Via Planta - Plantastr.,46.668812,11.184409
+655,Ponte Rametz - Rametz Brücke,46.668992,11.185408
+658,Bivio Avelengo - Abzw. Hafling,46.671371,11.190504
+659,Bivio Avelengo - Abzw. Hafling,46.671416,11.191802
+660,Castel Goiano - Schloß Goyen,46.671764,11.194724
+661,Castel Goiano - Schloß Goyen,46.671569,11.195607
+662,Eremita - Einsiedler,46.671403,11.200484
+663,Eremita - Einsiedler,46.671667,11.201319
+664,Funivie Merano 2000 - Bergbahnen Meran 2,46.671005,11.209326
+666,- Schwoager,46.667024,11.204209
+667,- Schwoager,46.666168,11.204296
+668,S.Caterina - St. Kathrein,46.645572,11.211035
+669,S.Caterina - St. Kathrein,46.645682,11.211297
+671,Paese - Dorf,46.644546,11.225348
+672,Parcheggio Nusser - Parkplatz Nusser,46.649324,11.217825
+673,Parcheggio Nusser - Parkplatz Nusser,46.650284,11.217149
+674,Avelengo di sopra - Oberdorf,46.653461,11.219433
+675,Avelengo di sopra - Oberdorf,46.653819,11.219737
+676,- Viertl,46.656782,11.221747
+677,- Viertl,46.657113,11.222774
+678,- Bergheim,46.659044,11.223047
+679,- Bergheim,46.659105,11.223399
+680,- Tommenknott,46.657365,11.228557
+681,- Tommenknott,46.657521,11.228634
+682,Villa Schäfer,46.661401,11.232993
+683,Villa Schäfer,46.661469,11.232899
+684,- Falzeben,46.665343,11.240490
+686,Campo Sportivo Lahn - Sportplatz Lahn,46.656842,11.185170
+687,Poligono - Schießstand,46.654873,11.184298
+688,Via Castel Gatto  - Katzensteinstr.,46.657466,11.182961
+689,- Förstler,46.622245,11.186621
+690,Depuratore Sinigo - Kläranlage Sinich,46.624147,11.185366
+691,Zona artigianale Sinigo - Handwerkerzone,46.630063,11.180316
+6911,S. Anna - St. Anna,46.607586,11.160059
+6912,Scuole Lana - Zollschule Lana,46.607395,11.164900
+6913,Scuole Lana - Zollschule Lana,46.607520,11.165368
+6919,Narano - Naraun,46.574823,11.161789
+692,Zona artigianale Sinigo - Handwerkerzone,46.629464,11.180646
+6920,Narano - Naraun,46.574608,11.161728
+6921,- Longnui,46.568271,11.167664
+6922,- Longnui,46.567936,11.168113
+6923,Piazza Paese - Dorfplatz,46.563586,11.169412
+6924,Piazza Paese - Dorfplatz,46.563664,11.169514
+6925,Prissiano - Prissian,46.554180,11.179413
+693,SunEdison,46.634056,11.177502
+694,SunEdison,46.634154,11.177459
+695,Via Enrico Fermi - Enrico Fermi Str.,46.636940,11.176002
+696,Via Enrico Fermi - Enrico Fermi Str.,46.637516,11.175668
+697,Via Enrico Tellini - Enrico Tellini Str.,46.642387,11.178055
+698,Via Enrico Tellini - Enrico Tellini Str.,46.642170,11.177805
+699,P. Vittorio Veneto - Vittorio Veneto Pla,46.645240,11.179812
+700,P. Vittorio Veneto - Vittorio Veneto Pla,46.645230,11.179770
+701,Ponte Mangione - Mangione Brücke,46.647364,11.177780
+702,Ponte Mangione - Mangione Brücke,46.647102,11.178265
+703,Latteria Sociale Merano - Milchhof Meran,46.653495,11.173522
+704,Latteria Sociale Merano - Milchhof Meran,46.653614,11.172934
+705,Piazza S. Vigilio - Vigilplatz,46.655880,11.169161
+706,Piazza S. Vigilio - Vigilplatz,46.656623,11.168284
+707,Via Fornaio - Bäckergasse,46.657647,11.167123
+708,Via Fornaio - Bäckergasse,46.657934,11.166702
+709,Via Hagen - Hagengasse,46.660290,11.165393
+710,Via Hagen - Hagengasse,46.660249,11.165365
+711,Piazza Kofler - Kofler Platz,46.662024,11.163982
+712,Scuola Negrelli - Negrelli Schule,46.663092,11.162517
+713,Scuola Negrelli - Negrelli Schule,46.663376,11.162163
+714,Via Matteotti - Matteotti Str.,46.664526,11.161433
+715,Via Matteotti - Matteotti Str.,46.664924,11.161071
+718,A.S.L. - Sanitätseinheit,46.668257,11.163219
+719,Via Petrarca  - Petrarca Str.,46.666374,11.159640
+720,Bivio Tirolo - Abzw. Tirol,46.681873,11.167180
+721,Bivio Tirolo - Abzw. Tirol,46.682547,11.166968
+722,Monte S. Zeno - Zenoberg,46.675683,11.170277
+723,Monte S. Zeno - Zenoberg,46.676026,11.170135
+724,- Leiterhof,46.679105,11.167243
+725,Lido - Schwimmbad,46.683105,11.161320
+726,Lido - Schwimmbad,46.683032,11.161299
+727,Minigolf,46.686172,11.158620
+728,Minigolf,46.686010,11.158703
+729,Distributore - Tankstelle,46.687466,11.156931
+730,Autostazione - Busbahnhof,46.689869,11.155475
+731,Tirolo Croce - Tiroler Kreuz,46.702239,11.157933
+732,- Lechner,46.700253,11.154190
+733,- Pamer Kreuz,46.697784,11.152450
+734,Funivia Muta - Seilbahn Hochmuth,46.696534,11.152744
+735,- Mühlanger,46.694811,11.154332
+736,Scuole - Schulen,46.691675,11.154696
+737,Scuole - Schulen,46.691595,11.154378
+738,Autostazione - Busbahnhof,46.689626,11.155318
+739,Lido - Schwimmbad,46.682711,11.161312
+740,Salita Tirolo - Tirolersteig,46.678397,11.164791
+741,Via Planta - Plantastr.,46.668839,11.183434
+742,Azienda Energetica - Etschwerke,46.675645,11.148651
+743,Azienda Energetica - Etschwerke,46.676058,11.148609
+745,- Trauttmansdorff,46.662271,11.184426
+746,Campo Sportivo Lahn - Sportplatz Lahn,46.657141,11.184820
+748,- Trauttmansdorff,46.661224,11.183667
+753,Parco di Maia - Maiapark,46.665775,11.170488
+754,- Lorenz Böhler,46.667387,11.174149
+755,Via Mayr Nusser - Mayr Nusser Str.,46.664656,11.177266
+756,Via Orazio Gaigher - Orazio Gaigher Str.,46.663482,11.177903
+758,Via Carlo Abarth - Carlo Abarth Str.,46.631598,11.177409
+759,Via Carlo Abarth - Carlo Abarth Str.,46.631757,11.177353
+760,Via Carlo Abarth - Carlo Abarth Str.,46.633461,11.177449
+762,Borgo Andreina,46.655426,11.149941
+763,Borgo Andreina,46.655315,11.149984
+764,Molino Pobitzer - Pobitzer-Mühle,46.652871,11.153627
+765,Molino Pobitzer - Pobitzer-Mühle,46.652722,11.154114
+766,Scuola Zuegg - Zuegg Schule,46.651913,11.158516
+768,Scuola Zuegg - Zuegg Schule,46.652036,11.158012
+769,Via Max Valier - Max Valier Str.,46.652173,11.161401
+770,Via Max Valier - Max Valier Str.,46.651822,11.160978
+771,- Zipperle,46.654236,11.161476
+772,- Zipperle,46.654637,11.161622
+773,Via Fabio Filzi - Fabio Filzi Str.,46.643181,11.178610
+775,- Raut,46.619332,11.187577
+776,- Raut,46.618404,11.187922
+777,Via Pfefferle - Pfefferleweg,46.613041,11.190246
+778,Via Pfefferle - Pfefferleweg,46.612717,11.190759
+779,Bivio Lana - Abzw. Lana,46.610158,11.192130
+780,Bivio Lana - Abzw. Lana,46.610093,11.192232
+794,Via Caserme - Kasernenstr.,46.659677,11.160070
+795,Via Caserme - Kasernenstr.,46.659987,11.160317
+796,Via dei Frutteti - Angerweg,46.657557,11.162007
+797,Via dei Frutteti - Angerweg,46.656804,11.161869
+798,Depuratore Sinigo - Kläranlage Sinich,46.624403,11.184912
+799,Piazza Kofler - Kofler Platz,46.661891,11.164087
+800,Stazione Maia Bassa - Bhf Untermais,46.656261,11.148836
+801,Stazione Maia Bassa - Bhf Untermais,46.656687,11.148813
+802,Via Piave - Piave Str.,46.666225,11.158587
+803,Via Piave - Piave Str.,46.666166,11.158523
+804,- Rundegg,46.670198,11.176739
+805,Asilo Maia Alta - Kindergarten Obermais,46.672266,11.173850
+806,Parco Marlengo - Marlingerpark,46.664066,11.148071
+807,- König Laurin,46.678496,11.147829
+809,Via Hirzer - Hirzerstr.,46.610214,11.162691
+810,Via Leonardo da Vinci - Leonardo da Vinc,46.610149,11.166926
+811,Tennis,46.612342,11.161768
+812,Piazza Tribus - Tribus Platz,46.613376,11.157358
+815,Zona Industriale Lana 1 - Industriezone,46.629379,11.171972
+817,Zona Industriale Lana 2 - Industriezone,46.630501,11.169310
+818,Zona Industriale Lana 3 - Industriezone,46.629929,11.166303
+819,Stazione - Bahnhof,46.679448,11.130967
+820,Stazione - Bahnhof,46.679461,11.130567
+821,Lido - Schwimmbad,46.682824,11.161246
+822,- Leiterhof,46.679073,11.167217
+823,Distributore - Tankstelle,46.648453,11.218917
+824,Via Verande - Verandenstr.,46.666675,11.148173
+825,Via Merano - Meranerstr.,46.621216,11.143722
+826,Via Merano - Meranerstr.,46.621040,11.143471
+840,Via Nazionale - Reichstr.,46.645500,11.177249
+841,Via Nazionale - Reichstr.,46.645750,11.177319
+845,Convento dei Cappuccini - Kapuzinerklost,46.615217,11.146047
+846,Convento dei Cappuccini - Kapuzinerklost,46.615111,11.146235
+849,- Förstler,46.622338,11.186207
+850,Chiesa - Kirche,46.539150,11.204464
+851,Bivio Ospedale - Abzw. Krankenhaus,46.497351,11.304991
+852,Zona produttiva Vurza - Handwerkerzone W,46.443218,11.340483
+853,Bivio La Costa - Abzw. Seit,46.442521,11.343990
+854,Bivio Merano - Meraner Kreuzung,46.493967,11.311492
+855,Bivio Merano - Meraner Kreuzung,46.493874,11.311482
+8565,Vigili del Fuoco - Feuerwehr,46.492323,11.393721
+8566,Vigili del Fuoco - Feuerwehr,46.492085,11.394411
+8567,Paese - Dorf,46.489339,11.404678
+8568,Paese - Dorf,46.489251,11.403821
+859,Via Schwanburg - Schwanburgstr.,46.541132,11.204269
+860,Vigili del Fuoco - Feuerwehr,46.543373,11.206201
+861,Via Giuseppe di Vittorio - Giuseppe Di V,46.474430,11.330101
+862,Via Braille - Braille Str.,46.472998,11.328237
+863,Acciaierie - Stahlwerke,46.479860,11.334523
+864,Rotonda Via Lancia - Kreisverkehr Lancia,46.482972,11.336249
+865,Rotonda Via Lancia - Kreisverkehr Lancia,46.482983,11.335973
+866,Passaggio a Livello Marlengo - Bahnhüber,46.662018,11.140231
+867,Via Canonico Gamper - Kanonikus Gamper S,46.443984,11.348511
+869,Campi Resia - Reschensportplätze,46.490006,11.318622
+870,Zona Industriale Lana 1 - Industriezone,46.629356,11.171931
+871,Zona Industriale Lana 3 - Industriezone,46.629694,11.166296
+872,Zona Industriale Lana 2 - Industriezone,46.630457,11.169297
+873,Via Aquila Nera - Schwarz Adler Str.,46.405669,11.320434
+874,Stazione - Bahnhof,46.404977,11.316384
+875,Ponte di Vadena - Pfattenbrücke,46.413884,11.315340
+878,Via Dante - Dante Str.,46.425714,11.340719
+879,Via Sottomonte - Unterbergstr.,46.428121,11.343630
+880,Bivio La Costa - Abzw. Seit,46.442397,11.343778
+881,Masetta - Wachsbleiche,46.418690,11.305686
+882,Mover - Mairhof,46.422976,11.306669
+883,Masetta - Wachsbleiche,46.418842,11.305660
+884,Stadio Europa - Europa Stadium,46.492727,11.314974
+885,Stadio Europa - Europa Stadium,46.492883,11.315009
+887,Ponte Rezia - Rätiabrücke,46.668341,11.152766
+889,Via Mainardo - Meinhardstr.,46.674437,11.149975
+890,Zona produttiva Avelengo - Gewerbegebiet,46.637829,11.231379
+891,Zona produttiva Avelengo - Gewerbegebiet,46.638260,11.231218
+892,- Kalkgruber,46.691663,11.167787
+894,S. Anna - St. Anna,46.607265,11.159333
+897,- Burgwies,46.595639,11.147419
+898,Via Lorenzer - Lorenzerweg,46.617458,11.148737
+899,Via Campi - Feldweg,46.644573,11.147035
+900,Via Campi - Feldweg,46.644603,11.146899
+901,Funivie Merano 2000 - Bergbahnen Meran 2,46.671479,11.209160
+902,Funivie Merano 2000 - Bergbahnen Meran 2,46.671555,11.209129
+903,Via Aldo Moro - Aldo Moro Str.,46.443821,11.347617
+905,Paese - Dorf,46.403064,11.318749
+906,Via Prantl - Prantlweg,46.605000,11.196102
+907,Via Prantl - Prantlweg,46.605145,11.195735
+908,Via Cappuccini - Kapuzinerstr.,46.612087,11.150497
+909,Via Cappuccini - Kapuzinerstr.,46.611969,11.150546
+910,- Gnealer,46.717777,11.186117
+911,- Hochegger,46.725098,11.187948
+912,- Hochegger,46.725013,11.187934
+913,Vernurio - Vernuer,46.724204,11.180640
+914,- Gnealer,46.717543,11.186242
+915,- Lichtenburg,46.549174,11.210177
+916,- Lichtenburg,46.549131,11.210027
+918,Asilo S. Pietro - Kindergarten St. Peter,46.611112,11.152672
+940,Via Hirzer - Hirzerstr.,46.610264,11.162632
+9403,Ponte Adige - Sigmundskron,46.485395,11.299917
+9404,Ponte Adige  - Sigmundskron,46.485450,11.299841
+941,Chiesetta S. Valentino - St. Valentinski,46.664585,11.184252
+942,S. Anna - St. Anna,46.607521,11.159815
+943,Via Länd - Ländstr.,46.616909,11.142764
+944,Filanda,46.424135,11.342348
+947,Via Diaz - Diaz Str.,46.422249,11.329684
+948,Parco Marconi - Spielpark Marconi,46.424927,11.332290
+949,via Goethe - Goethe Str.,46.427137,11.334170
+951,Paese - Dorf,46.413158,11.304638
+9610,Via Thalguter - Thalguter Str.,46.680609,11.125208
+9620,Scuole - Schulen,46.681387,11.118922
+9642,Bivio Scena - Abzw. Schenna,46.672019,11.190014
+9643,- Mitterplatt,46.674964,11.188908
+9646,Bivio Lido - Abzw. Schwimmbad,46.677194,11.189110
+9648,Hotel Walter,46.681366,11.189389
+9650,- Tannerhof,46.684628,11.189113
+9651,Paese - Dorf,46.689732,11.187597
+9664,- Moser,46.675991,11.121609
+9666,Via Bellini - Bellini Str.,46.677206,11.156651
+9667,Via Bellini - Bellini Str.,46.677039,11.156734
+970,Apres Club,46.576943,11.213087
+9701,Via Merano Pircher - Meranerstr. Pircher,46.498463,11.303411
+9702,Via Merano Pircher - Meranerstr. Pircher,46.498735,11.303183
+9703,Via Merano Camping - Meranerstr. Camping,46.500778,11.300128
+9704,Via Merano Camping - Meranerstr. Camping,46.501046,11.299835
+9705,Bagni di zolfo - Schwefelbad,46.503866,11.295675
+9706,Bagni di zolfo - Schwefelbad,46.504017,11.295600
+9707,Zona Cactus - Kaktussiedlung,46.505458,11.292151
+9708,Zona Cactus - Kaktussiedlung,46.505805,11.291286
+9709,Scuole - Schulen,46.510879,11.274298
+971,Zona sportiva Cermes - Sportzone Tscherm,46.625539,11.147702
+9710,Scuole - Schulen,46.510996,11.274346
+9713,Chiusa - Klaus,46.519621,11.260456
+9714,Chiusa - Klaus,46.519610,11.260550
+9715,Scuole - Schulen,46.529363,11.249628
+9716,Scuole - Schulen,46.529416,11.249171
+9717,Novale di Sotto - Unterkreuth,46.537173,11.241169
+9718,Novale di Sotto - Unterkreuth,46.536551,11.242121
+9719,- Rauhenbühel,46.543632,11.238388
+972,Zona sportiva Cermes - Sportzone Tscherm,46.625189,11.147752
+9720,- Rauhenbühel,46.544992,11.238351
+9721,- Schlemmer,46.551947,11.229627
+9722,- Schlemmer,46.552033,11.229525
+9723,- Bachau,46.555234,11.224148
+9724,- Bachau,46.555828,11.223636
+9725,Paese - Dorf,46.559660,11.223469
+9726,Paese - Dorf,46.561368,11.223794
+9727,Funivia - Seilbahn,46.563088,11.224232
+9729,- Berghütten,46.571857,11.217197
+9730,- Berghütten,46.571876,11.217241
+9731,Zona produttiva Winkelau - Gewerbezone W,46.596821,11.200287
+9732,Zona produttiva Winkelau - Gewerbezone W,46.596726,11.200380
+9733,Zona produttiva Enzenberg - Gewerbezone,46.514290,11.269138
+9734,Zona produttiva Enzenberg - Gewerbezone,46.513902,11.270147
+9741,Piazza S. Urbano - St. Urban Platz,46.518728,11.233252
+9743,Via Nalles - Nalserstr.,46.556216,11.220131
+9744,Via Nalles - Nalserstr.,46.557006,11.221001
+9747,Vigili del Fuoco - Feuerwehr,46.543437,11.205942
+9753,- Mühlanger,46.694753,11.154291
+9754,Funivia Muta - Seilbahn Hochmuth,46.696513,11.152841
+9755,- Pamer Kreuz,46.697850,11.152397
+9756,- Lechner,46.700150,11.154130
+9761,- Aspmair,46.634942,11.217411
+9762,- Aspmair,46.635005,11.217328
+9763,- Reith,46.626029,11.209646
+9764,- Reith,46.625904,11.209471
+9765,- Egger,46.614797,11.220844
+9766,- Egger,46.614965,11.220982
+9767,Verano - Vöran,46.605716,11.227140
+9768,Verano - Vöran,46.605973,11.226431
+9769,- Obermathon,46.604154,11.232834
+977,Via S.Valentino  - St. Valentin Str.,46.660373,11.182651
+9770,- Obermathon,46.604035,11.232057
+9771,Campo sportivo Verano - Sportplatz Vöran,46.608163,11.239289
+9773,- Grumser,46.660914,11.203029
+9774,- Grumser,46.661274,11.203072
+9775,Distributore - Tankstelle,46.648426,11.219076
+9776,- THALER,46.617453,11.226518
+9777,- THALER,46.617311,11.226762
+99,- Edelweiss,46.678943,11.088223
+9903,Ponte di Vadena - Pfattenbrücke,46.413859,11.315268
+9905,Vadena Nuova - Neupfatten,46.413268,11.310899
+9906,Vadena Nuova - Neupfatten,46.413215,11.310580
+9907,Paese - Dorf,46.413197,11.304798
+9908,Paese - Dorf,46.413793,11.305000
+9909,Birti,46.406385,11.299021
+9912,- Unterpazeider,46.667549,11.135019
+9913,- Krautsamer,46.650676,11.142929
+9914,- Krautsamer,46.651169,11.142559
+9915,- Tiefacker,46.648232,11.144330
+9916,- Tiefacker,46.648089,11.144712
+9917,- Reber,46.673819,11.129517
+9951,Zona produttiva Cermes- Gewerbegebiet Ts,46.628749,11.147484
+9952,Zona produttiva Cermes - Gewerbegebiet T,46.627674,11.147660
+9953,- Wiesenhof,46.679176,11.137857
+9954,- Wiesenhof,46.679144,11.138248
+9980,Acquaviva - Ackpfeif,46.589032,11.160242

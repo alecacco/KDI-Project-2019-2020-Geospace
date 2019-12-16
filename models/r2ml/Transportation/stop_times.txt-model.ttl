@@ -1,0 +1,1132 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix untitled-ontology-10: <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1drgi89d2x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "stop_times.txt" ;
+	km-dev:modelPublicationTime "1575735272866"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"trip_id\"}],[{\"columnName\":\"departure_time\"}],[{\"columnName\":\"arrival_time\"}],[{\"columnName\":\"stop_sequence\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"tripTime_uri\"}],[{\"columnName\":\"trip_id\"}],[{\"columnName\":\"departure_time\"}],[{\"columnName\":\"arrival_time\"}],[{\"columnName\":\"trip_uri\"}],[{\"columnName\":\"stop_uri\"}],[{\"columnName\":\"stop_sequence\"}]]" ;
+	km-dev:hasModelLabel "stop_times.txt" ;
+	km-dev:hasBaseURI "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"stop_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/stop_'+getValue(\\\"stop_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"trip_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/trip_'+ getValue(\\\"trip_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"tripTime_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/stopTime_'+ getValue('stop_id') + '_'  + getValue(\\\"trip_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tripTime_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"trip_id\",
+                        \"id\": [{\"columnName\": \"trip_id\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"trip_uri\",
+                        \"id\": [{\"columnName\": \"trip_uri\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"tripTime_uri\",
+                        \"id\": [{\"columnName\": \"tripTime_uri\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"stop_id\",
+                        \"id\": [{\"columnName\": \"stop_id\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"stop_uri\",
+                        \"id\": [{\"columnName\": \"stop_uri\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"arrival_time\",
+                        \"id\": [{\"columnName\": \"arrival_time\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"departure_time\",
+                        \"id\": [{\"columnName\": \"departure_time\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"stop_sequence\",
+                        \"id\": [{\"columnName\": \"stop_sequence\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [
+                    {
+                        \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip\",
+                        \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip1\",
+                        \"isPrimary\": false,
+                        \"isProvenance\": false,
+                        \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TripID\",
+                        \"DomainLabel\": \"untitled-ontology-10:Trip1 (add)\"
+                    },
+                    {
+                        \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                        \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                        \"isPrimary\": true,
+                        \"isProvenance\": false,
+                        \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TripID\",
+                        \"DomainLabel\": \"untitled-ontology-10:StopTime1\"
+                    }
+                ]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopID\",
+                    \"DomainLabel\": \"untitled-ontology-10:Stop1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"arrival_time\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ArrivalTime\",
+                    \"DomainLabel\": \"untitled-ontology-10:StopTime1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"departure_time\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DepartureTime\",
+                    \"DomainLabel\": \"untitled-ontology-10:StopTime1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"departure_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"departure_time\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_sequence\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopSequence\",
+                    \"DomainLabel\": \"untitled-ontology-10:StopTime1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_sequence\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_sequence\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Stop1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Trip1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"tripTime_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:StopTime1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tripTime_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tripTime_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStop\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStopTimes\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d a rr:TriplesMap .
+
+_:node1drgi89d2x1 km-dev:hasTriplesMap km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x2 rr:tableName "stop_times.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasLogicalTable _:node1drgi89d2x2 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:logicalTable _:node1drgi89d2x2 ;
+	rr:subjectMap _:node1drgi89d2x3 .
+
+_:node1drgi89d2x1 km-dev:hasSubjectMap _:node1drgi89d2x3 .
+
+_:node1drgi89d2x3 km-dev:isPartOfMapping _:node1drgi89d2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime1" ;
+	rr:class untitled-ontology-10:StopTime ;
+	rr:template "{tripTime_uri}" .
+
+km-dev:PredicateObjectMap_0ef7615b-f32f-416a-ae3e-f02442584f8e rr:predicate untitled-ontology-10:hasStop .
+
+km-dev:RefObjectMap_766bb189-9806-41b8-9482-77f8b9c5a912 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap km-dev:RefObjectMap_766bb189-9806-41b8-9482-77f8b9c5a912 .
+
+km-dev:PredicateObjectMap_0ef7615b-f32f-416a-ae3e-f02442584f8e rr:objectMap km-dev:RefObjectMap_766bb189-9806-41b8-9482-77f8b9c5a912 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:predicateObjectMap km-dev:PredicateObjectMap_0ef7615b-f32f-416a-ae3e-f02442584f8e .
+
+km-dev:PredicateObjectMap_0ef7615b-f32f-416a-ae3e-f02442584f8e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0ef7615b-f32f-416a-ae3e-f02442584f8e .
+
+km-dev:PredicateObjectMap_88140aa3-e410-4ca8-9536-051cd542d0b3 rr:predicate untitled-ontology-10:DepartureTime .
+
+_:node1drgi89d2x4 rr:column "departure_time" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x4 .
+
+km-dev:PredicateObjectMap_88140aa3-e410-4ca8-9536-051cd542d0b3 rr:objectMap _:node1drgi89d2x4 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:predicateObjectMap km-dev:PredicateObjectMap_88140aa3-e410-4ca8-9536-051cd542d0b3 .
+
+km-dev:PredicateObjectMap_88140aa3-e410-4ca8-9536-051cd542d0b3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_88140aa3-e410-4ca8-9536-051cd542d0b3 .
+
+km-dev:PredicateObjectMap_497ad7f6-7719-440a-bba0-e27285526235 rr:predicate untitled-ontology-10:ArrivalTime .
+
+_:node1drgi89d2x5 rr:column "arrival_time" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x5 .
+
+km-dev:PredicateObjectMap_497ad7f6-7719-440a-bba0-e27285526235 rr:objectMap _:node1drgi89d2x5 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:predicateObjectMap km-dev:PredicateObjectMap_497ad7f6-7719-440a-bba0-e27285526235 .
+
+km-dev:PredicateObjectMap_497ad7f6-7719-440a-bba0-e27285526235 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_497ad7f6-7719-440a-bba0-e27285526235 .
+
+km-dev:PredicateObjectMap_2e78b0c0-1ee3-48ce-a5f5-680ac1787d13 rr:predicate untitled-ontology-10:StopSequence .
+
+_:node1drgi89d2x6 rr:column "stop_sequence" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x6 .
+
+km-dev:PredicateObjectMap_2e78b0c0-1ee3-48ce-a5f5-680ac1787d13 rr:objectMap _:node1drgi89d2x6 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:predicateObjectMap km-dev:PredicateObjectMap_2e78b0c0-1ee3-48ce-a5f5-680ac1787d13 .
+
+km-dev:PredicateObjectMap_2e78b0c0-1ee3-48ce-a5f5-680ac1787d13 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2e78b0c0-1ee3-48ce-a5f5-680ac1787d13 .
+
+km-dev:PredicateObjectMap_322a317d-6c55-43a9-9ce8-3d65def130ff rr:predicate untitled-ontology-10:TripID .
+
+_:node1drgi89d2x7 rr:column "trip_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x7 .
+
+km-dev:PredicateObjectMap_322a317d-6c55-43a9-9ce8-3d65def130ff rr:objectMap _:node1drgi89d2x7 .
+
+km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d rr:predicateObjectMap km-dev:PredicateObjectMap_322a317d-6c55-43a9-9ce8-3d65def130ff .
+
+km-dev:PredicateObjectMap_322a317d-6c55-43a9-9ce8-3d65def130ff a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_322a317d-6c55-43a9-9ce8-3d65def130ff .
+
+km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 a rr:TriplesMap .
+
+_:node1drgi89d2x1 km-dev:hasTriplesMap km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 .
+
+km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x8 rr:tableName "stop_times.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasLogicalTable _:node1drgi89d2x8 .
+
+km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 rr:logicalTable _:node1drgi89d2x8 ;
+	rr:subjectMap _:node1drgi89d2x9 .
+
+_:node1drgi89d2x1 km-dev:hasSubjectMap _:node1drgi89d2x9 .
+
+_:node1drgi89d2x9 km-dev:isPartOfMapping _:node1drgi89d2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop1" ;
+	rr:class untitled-ontology-10:Stop ;
+	rr:template "{stop_uri}" .
+
+km-dev:PredicateObjectMap_a6be9df6-0192-4b59-b129-b8eaaf6e6929 rr:predicate untitled-ontology-10:StopID .
+
+_:node1drgi89d2x10 rr:column "stop_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x10 .
+
+km-dev:PredicateObjectMap_a6be9df6-0192-4b59-b129-b8eaaf6e6929 rr:objectMap _:node1drgi89d2x10 .
+
+km-dev:TriplesMap_3b29ae9a-97e4-4df3-9994-ccf90558c2d6 rr:predicateObjectMap km-dev:PredicateObjectMap_a6be9df6-0192-4b59-b129-b8eaaf6e6929 .
+
+km-dev:PredicateObjectMap_a6be9df6-0192-4b59-b129-b8eaaf6e6929 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a6be9df6-0192-4b59-b129-b8eaaf6e6929 .
+
+km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e a rr:TriplesMap .
+
+_:node1drgi89d2x1 km-dev:hasTriplesMap km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e .
+
+km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x11 rr:tableName "stop_times.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasLogicalTable _:node1drgi89d2x11 .
+
+km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e rr:logicalTable _:node1drgi89d2x11 ;
+	rr:subjectMap _:node1drgi89d2x12 .
+
+_:node1drgi89d2x1 km-dev:hasSubjectMap _:node1drgi89d2x12 .
+
+_:node1drgi89d2x12 km-dev:isPartOfMapping _:node1drgi89d2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip1" ;
+	rr:class untitled-ontology-10:Trip ;
+	rr:template "{trip_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_bbf42641-3dc7-4254-ae2e-9442b3bb8519 rr:predicate untitled-ontology-10:hasStopTimes .
+
+km-dev:RefObjectMap_8d76e96f-3e21-42c9-aa9f-bd2a823b2194 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_12015d88-06c6-48c6-978d-71a1d3fb7d8d ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap km-dev:RefObjectMap_8d76e96f-3e21-42c9-aa9f-bd2a823b2194 .
+
+km-dev:PredicateObjectMap_bbf42641-3dc7-4254-ae2e-9442b3bb8519 rr:objectMap km-dev:RefObjectMap_8d76e96f-3e21-42c9-aa9f-bd2a823b2194 .
+
+km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e rr:predicateObjectMap km-dev:PredicateObjectMap_bbf42641-3dc7-4254-ae2e-9442b3bb8519 .
+
+km-dev:PredicateObjectMap_bbf42641-3dc7-4254-ae2e-9442b3bb8519 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bbf42641-3dc7-4254-ae2e-9442b3bb8519 .
+
+km-dev:PredicateObjectMap_e3eec9de-3527-44f0-9078-39c9db3c3e72 rr:predicate untitled-ontology-10:TripID .
+
+_:node1drgi89d2x13 rr:column "trip_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasObjectMap _:node1drgi89d2x13 .
+
+km-dev:PredicateObjectMap_e3eec9de-3527-44f0-9078-39c9db3c3e72 rr:objectMap _:node1drgi89d2x13 .
+
+km-dev:TriplesMap_a626c9f9-de1f-4e59-9b24-05be3072d03e rr:predicateObjectMap km-dev:PredicateObjectMap_e3eec9de-3527-44f0-9078-39c9db3c3e72 .
+
+km-dev:PredicateObjectMap_e3eec9de-3527-44f0-9078-39c9db3c3e72 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drgi89d2x1 .
+
+_:node1drgi89d2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e3eec9de-3527-44f0-9078-39c9db3c3e72 .

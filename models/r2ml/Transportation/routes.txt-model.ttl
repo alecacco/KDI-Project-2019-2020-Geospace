@@ -1,0 +1,1065 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1drh26btsx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "routes.txt" ;
+	km-dev:modelPublicationTime "1575751987132"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"route_text_color\"}],[{\"columnName\":\"route_color\"}],[{\"columnName\":\"route_type\"}],[{\"columnName\":\"route_long_name\"}],[{\"columnName\":\"route_short_name\"}],[{\"columnName\":\"route_id\"}],[{\"columnName\":\"agency_id\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"route_text_color\"}],[{\"columnName\":\"agency_uri\"}],[{\"columnName\":\"route_uri\"}],[{\"columnName\":\"route_tras\"}],[{\"columnName\":\"route_color\"}],[{\"columnName\":\"route_long_name\"}],[{\"columnName\":\"route_short_name\"}],[{\"columnName\":\"route_id\"}],[{\"columnName\":\"agency_id\"}]]" ;
+	km-dev:hasModelLabel "routes.txt" ;
+	km-dev:hasBaseURI "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"agency_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"agency_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_' + getValue('agency_id')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"route_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/route_' + getValue(\\\"route_id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"route_tras\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if str(getValue('route_type')) == '0':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Tram_Streetcar_Light_rail'\\nelif getValue('route_type') == '1':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Subway_Metro'\\nelif getValue('route_type') == '2':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Rail'\\nelif getValue('route_type') == '3':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Bus'\\nelif getValue('route_type') == '4':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Ferry'\\nelif getValue('route_type') == '5':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Cable_car'\\nelif getValue('route_type') == '6':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Gondola_Suspended_cable_car'\\nelif getValue('route_type') == '7':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Funicular'\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_tras\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"agency_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID\",
+                    \"DomainLabel\": \"untitled-ontology-10:Agency1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"http://www.w3.org/2001/XMLSchema#float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"agency_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Agency1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"agency_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:int\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_short_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteShortName\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_short_name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_short_name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_long_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteLongName\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_long_name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_long_name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_color\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteColor\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_color\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_color\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_text_color\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteTextColor\",
+                    \"DomainLabel\": \"untitled-ontology-10:Route1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_text_color\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_text_color\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"route_tras\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:TransportEnum1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_tras\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"route_tras\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAgency\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTransportEnum\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 a rr:TriplesMap .
+
+_:node1drh26btsx1 km-dev:hasTriplesMap km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx2 rr:tableName "routes.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasLogicalTable _:node1drh26btsx2 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:logicalTable _:node1drh26btsx2 ;
+	rr:subjectMap _:node1drh26btsx3 .
+
+_:node1drh26btsx1 km-dev:hasSubjectMap _:node1drh26btsx3 .
+
+_:node1drh26btsx3 km-dev:isPartOfMapping _:node1drh26btsx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route1" ;
+	rr:class <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route> ;
+	rr:template "{route_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_994a37b5-beb4-4c74-8500-389f68021fc0 rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAgency> .
+
+km-dev:RefObjectMap_1869081b-8289-42e5-a795-0dee1421a69f a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap km-dev:RefObjectMap_1869081b-8289-42e5-a795-0dee1421a69f .
+
+km-dev:PredicateObjectMap_994a37b5-beb4-4c74-8500-389f68021fc0 rr:objectMap km-dev:RefObjectMap_1869081b-8289-42e5-a795-0dee1421a69f .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_994a37b5-beb4-4c74-8500-389f68021fc0 .
+
+km-dev:PredicateObjectMap_994a37b5-beb4-4c74-8500-389f68021fc0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_994a37b5-beb4-4c74-8500-389f68021fc0 .
+
+km-dev:PredicateObjectMap_43aeba00-92b0-4c2a-9ca3-ef5aec286ea4 rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTransportEnum> .
+
+km-dev:RefObjectMap_801d57b4-f6a5-4f6c-a21f-6a08a85b5f65 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_772c7bdc-1a1d-4879-8582-de74376d97f2 ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap km-dev:RefObjectMap_801d57b4-f6a5-4f6c-a21f-6a08a85b5f65 .
+
+km-dev:PredicateObjectMap_43aeba00-92b0-4c2a-9ca3-ef5aec286ea4 rr:objectMap km-dev:RefObjectMap_801d57b4-f6a5-4f6c-a21f-6a08a85b5f65 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_43aeba00-92b0-4c2a-9ca3-ef5aec286ea4 .
+
+km-dev:PredicateObjectMap_43aeba00-92b0-4c2a-9ca3-ef5aec286ea4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_43aeba00-92b0-4c2a-9ca3-ef5aec286ea4 .
+
+km-dev:PredicateObjectMap_37cc06bf-d3e1-4799-848f-90eef5fe881e rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteTextColor> .
+
+_:node1drh26btsx4 rr:column "route_text_color" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx4 .
+
+km-dev:PredicateObjectMap_37cc06bf-d3e1-4799-848f-90eef5fe881e rr:objectMap _:node1drh26btsx4 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_37cc06bf-d3e1-4799-848f-90eef5fe881e .
+
+km-dev:PredicateObjectMap_37cc06bf-d3e1-4799-848f-90eef5fe881e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_37cc06bf-d3e1-4799-848f-90eef5fe881e .
+
+km-dev:PredicateObjectMap_fbd45774-1385-4cd3-9fca-a56387ab4908 rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteColor> .
+
+_:node1drh26btsx5 rr:column "route_color" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx5 .
+
+km-dev:PredicateObjectMap_fbd45774-1385-4cd3-9fca-a56387ab4908 rr:objectMap _:node1drh26btsx5 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_fbd45774-1385-4cd3-9fca-a56387ab4908 .
+
+km-dev:PredicateObjectMap_fbd45774-1385-4cd3-9fca-a56387ab4908 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fbd45774-1385-4cd3-9fca-a56387ab4908 .
+
+km-dev:PredicateObjectMap_6338af03-894a-4e06-a9ee-faf9504bd87d rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteLongName> .
+
+_:node1drh26btsx6 rr:column "route_long_name" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx6 .
+
+km-dev:PredicateObjectMap_6338af03-894a-4e06-a9ee-faf9504bd87d rr:objectMap _:node1drh26btsx6 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_6338af03-894a-4e06-a9ee-faf9504bd87d .
+
+km-dev:PredicateObjectMap_6338af03-894a-4e06-a9ee-faf9504bd87d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6338af03-894a-4e06-a9ee-faf9504bd87d .
+
+km-dev:PredicateObjectMap_019741de-c527-412e-bd99-262e70751646 rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteShortName> .
+
+_:node1drh26btsx7 rr:column "route_short_name" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx7 .
+
+km-dev:PredicateObjectMap_019741de-c527-412e-bd99-262e70751646 rr:objectMap _:node1drh26btsx7 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_019741de-c527-412e-bd99-262e70751646 .
+
+km-dev:PredicateObjectMap_019741de-c527-412e-bd99-262e70751646 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_019741de-c527-412e-bd99-262e70751646 .
+
+km-dev:PredicateObjectMap_9d07a2a1-b8af-455c-ac43-521ae9c1643f rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID> .
+
+_:node1drh26btsx8 rr:column "route_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx8 .
+
+km-dev:PredicateObjectMap_9d07a2a1-b8af-455c-ac43-521ae9c1643f rr:objectMap _:node1drh26btsx8 .
+
+km-dev:TriplesMap_9bcc934d-8227-4c6a-95bb-376b5c118a52 rr:predicateObjectMap km-dev:PredicateObjectMap_9d07a2a1-b8af-455c-ac43-521ae9c1643f .
+
+km-dev:PredicateObjectMap_9d07a2a1-b8af-455c-ac43-521ae9c1643f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9d07a2a1-b8af-455c-ac43-521ae9c1643f .
+
+km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 a rr:TriplesMap .
+
+_:node1drh26btsx1 km-dev:hasTriplesMap km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 .
+
+km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx9 rr:tableName "routes.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasLogicalTable _:node1drh26btsx9 .
+
+km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 rr:logicalTable _:node1drh26btsx9 ;
+	rr:subjectMap _:node1drh26btsx10 .
+
+_:node1drh26btsx1 km-dev:hasSubjectMap _:node1drh26btsx10 .
+
+_:node1drh26btsx10 km-dev:isPartOfMapping _:node1drh26btsx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency1" ;
+	rr:class <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency> ;
+	rr:template "{agency_uri}" .
+
+km-dev:PredicateObjectMap_c3df4531-3a3a-4821-a1af-16259336b4e5 rr:predicate <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID> .
+
+_:node1drh26btsx11 rr:column "agency_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasObjectMap _:node1drh26btsx11 .
+
+km-dev:PredicateObjectMap_c3df4531-3a3a-4821-a1af-16259336b4e5 rr:objectMap _:node1drh26btsx11 .
+
+km-dev:TriplesMap_a3ed94ec-f52d-40f4-abd3-aafb41fab0f3 rr:predicateObjectMap km-dev:PredicateObjectMap_c3df4531-3a3a-4821-a1af-16259336b4e5 .
+
+km-dev:PredicateObjectMap_c3df4531-3a3a-4821-a1af-16259336b4e5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c3df4531-3a3a-4821-a1af-16259336b4e5 .
+
+km-dev:TriplesMap_772c7bdc-1a1d-4879-8582-de74376d97f2 a rr:TriplesMap .
+
+_:node1drh26btsx1 km-dev:hasTriplesMap km-dev:TriplesMap_772c7bdc-1a1d-4879-8582-de74376d97f2 .
+
+km-dev:TriplesMap_772c7bdc-1a1d-4879-8582-de74376d97f2 km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx12 rr:tableName "routes.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drh26btsx1 .
+
+_:node1drh26btsx1 km-dev:hasLogicalTable _:node1drh26btsx12 .
+
+km-dev:TriplesMap_772c7bdc-1a1d-4879-8582-de74376d97f2 rr:logicalTable _:node1drh26btsx12 ;
+	rr:subjectMap _:node1drh26btsx13 .
+
+_:node1drh26btsx1 km-dev:hasSubjectMap _:node1drh26btsx13 .
+
+_:node1drh26btsx13 km-dev:isPartOfMapping _:node1drh26btsx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum1" ;
+	rr:class <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum> ;
+	rr:template "{route_tras}" .

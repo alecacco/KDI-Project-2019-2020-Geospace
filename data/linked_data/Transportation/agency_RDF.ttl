@@ -1,0 +1,23 @@
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyName> "SASA"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID> "101"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyUrl> "https://github.com/OneBusAway/onebusaway-vdv-modules"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyTimezone> "Europe/Berlin"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_101> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyLang> "de"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyLang> "it"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyPhone> "+39 0461 821000"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyTimezone> "Europe/Rome"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyUrl> "http://www.ttesercizio.it"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyName> "Trentino trasporti esercizio S.p.A."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID> "12"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyLang> "it"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyPhone> "+39 0461 821000"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyTimezone> "Europe/Rome"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyUrl> "http://www.ttesercizio.it"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyName> "Trentino trasporti esercizio S.p.A."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/agency_12> <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID> "12"^^<http://www.w3.org/2001/XMLSchema#int> .
+
