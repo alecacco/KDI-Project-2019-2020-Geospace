@@ -1,0 +1,11 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?time ?diff
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasActivityEnum ontology:A_Walk .
+    ?path ontology:hasDifficultyEnum ?diff .
+    values (?diff ?diff_) { (ontology:Low 1) (ontology:Medium 2) (ontology:High 3) }
+    ?path ontology:AvgTravelTime_seconds ?time .
+} order by ?diff_ ?time

@@ -1,0 +1,10 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?act
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasActivityEnum ?act .
+    ?path ontology:hasDifficultyEnum ontology:High .
+    FILTER(?act=ontology:A_Walk||?act=ontology:A_Bike||?act=ontology:A_Other)
+}

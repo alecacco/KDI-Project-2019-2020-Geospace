@@ -1,0 +1,21 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT ?shopname ?dist ?name
+WHERE {
+    ?attr a ontology:Attraction .
+    ?attr ontology:PoiName ?name .
+    ?attr ontology:hasAttractionEnum ?enum .
+    ?attr ontology:hasAddress ?addr .
+    ?addr ontology:City ?city .
+    ?shop a ontology:Shop .
+    ?shop ontology:PoiName ?shopname .
+    ?shop ontology:Latitude ?latshop .
+    ?shop ontology:Longitude ?lonshop .
+    ?attr ontology:Latitude ?latcat .
+    ?attr ontology:Longitude ?loncat .
+    FILTERregex(str(?name),'Cathedral')
+    FILTERregex(str(?city),'Bolzano')
+    FILTERregex(str(?shopname),'Pharmacy')
+    BIND (omgeo:distance(?latshop, ?lonshop, ?latcat, ?loncat) AS ?dist)
+} order by ?dist

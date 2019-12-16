@@ -1,0 +1,13 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?enum
+WHERE {
+    ?p a ontology:Stop .
+    ?p ontology:StopName ?value .
+    FILTER regex(str(?value), "Borino") .
+    ?stopTime ontology:hasStop ?p .
+    ?trip ontology:hasStopTimes ?stopTime .
+    ?trip ontology:hasRoutes ?route .
+    ?route ontology:hasTransportEnum ?enum .
+}

@@ -1,0 +1,28 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT ?name ?an ?par ?int ?well ?rest ?latacc ?lonacc
+WHERE {
+    ?p a ontology:Stop .
+    ?p ontology:StopName ?value .
+    FILTER regex(str(?value), "stazione") .
+    ?p ontology:Latitude ?lat .
+    ?p ontology:Longitude ?lon .
+    ?com a ontology:Municipality .
+    ?com ontology:ISTAT_Municipality 'Bolzano' .
+    ?com ontology:Latitude ?latc .
+    ?com ontology:Longitude ?lonc .
+    FILTER( omgeo:distance(?lat, ?lon, ?latc, ?lonc) < 2)
+    ?acc a ontology:Accomodation .
+    ?acc ontology:PoiName ?name .
+    ?acc ontology:Animals ?an .
+    ?acc ontology:Parking ?par .
+    ?acc ontology:Internet ?int .
+    ?acc ontology:Wellness ?well .
+    ?acc ontology:HasRestaurant ?rest .
+    ?acc ontology:Latitude ?latacc .
+    ?acc ontology:Longitude ?lonacc .
+    ?acc ontology:hasAccommodationEnum ontology:Hotel .
+    FILTER(omgeo:distance(?latacc, ?lonacc, ?lat, ?lon)<5)
+}

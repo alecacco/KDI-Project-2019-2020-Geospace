@@ -1,0 +1,489 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "lat",
+      "lon"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Alta Badia Shop & Rental Bike La Villa"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.903129"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.583082"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Armin Ski & Bike"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.726881"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.558451"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Baldi Sport"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "10.591356"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.620157"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bikeguide Mich Roberto"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.272691"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.312242"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bike RS"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.763405"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.553392"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bike & Ski Center Papin Sport"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "12.270452"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.730805"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bike store"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "12.168603"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.737772"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bike Top Badia"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.895038"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.609326"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Dolomiti Adventures Bike Rent&Shop"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.760204"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.553811"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Easy-Living Rent a E-Bike Eppan Berg"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.244079"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.457122"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Eppan E-bike Rent"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.27971"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.462188"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Etzi's Bikeshop"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.0652"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.6706"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bycicle Staffler Josef"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.162689"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.61198"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hire Bike 2000"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.763239"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.552119"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Kreaktiv KG"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.953694"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.91773"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "m2bike"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.44166"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.91355"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Nardello"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.654429"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.714455"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ötzi Bike Academy"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.007709"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.650041"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Outdoorstudio Cycle Shop & Rentals"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.200221"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.735701"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bike rental - rent and go"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "12.030971"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.761429"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Rent a bike: RIDE +39"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.33556"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.42545"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Rent & go - Sportbazar Ladurns"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.387745"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.951341"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "RH Racing"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "12.088888"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.831998"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Rush E-Motion Bike"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.651902"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.717107"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sarner Bike"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.257478"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.441624"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Servicestation Bike Miribung"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.930208"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.698972"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ski & Bike Rent Service"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.54326"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.431174"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sport Corones"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "12.030439"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.76156"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sport Tenne"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "10.533239"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.765541"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sport Tubris"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.954641"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.919103"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bici Alto Adige - bike renta"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.24376"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.412475"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "South Tyrol bike rental"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "10.518798"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.828695"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Tio's bikes"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.89623"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.606242"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Walter's Radlklinik"
+        },
+        "lon" : {
+          "type" : "literal",
+          "value" : "11.429086"
+        },
+        "lat" : {
+          "type" : "literal",
+          "value" : "46.900525"
+        }
+      }
+    ]
+  }
+}

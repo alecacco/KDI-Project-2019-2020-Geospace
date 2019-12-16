@@ -1,0 +1,10 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?time
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasDifficultyEnum ontology:Low .
+    ?path ontology:AvgTravelTime_seconds ?time .
+    FILTER(?time>=60&&?time<=120)
+}

@@ -1,0 +1,9 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasDifficultyEnum ontology:Low .
+    ?path ontology:EquipmentRequired false .
+}

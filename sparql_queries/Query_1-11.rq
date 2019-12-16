@@ -1,0 +1,17 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT ?name ?lat ?lon
+WHERE {
+    ?p a ontology:Municipality .
+    ?p ontology:ISTAT_Municipality ?name .
+    ?p ontology:Latitude ?lat .
+    ?p ontology:Longitude ?lon .
+    ?com a ontology:Municipality .
+    ?com ontology:ISTAT_Municipality 'Villa Lagarina' .
+    ?com ontology:Latitude ?latc .
+    ?com ontology:Longitude ?lonc .
+    FILTER( omgeo:distance(?lat, ?lon, ?latc, ?lonc) <= 1)
+    FILTER(?name != 'Villa Lagarina')
+}

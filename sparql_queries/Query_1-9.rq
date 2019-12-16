@@ -1,0 +1,11 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?name
+WHERE {
+    ?shop a ontology:Shop .
+    ?shop ontology:PoiName ?name .
+    ?shop ontology:hasAddress ?addr .
+    ?addr ontology:hasProvinceEnum ontology:BZ .
+    ?shop ontology:hasShopEnum ontology:S_Local_traditional_products .
+}

@@ -1,0 +1,441 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "sh"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "The Ansitz Waldgries Manor"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Tenuta Waldgries"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Benedictine Monastry of Muri-Gries"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Bozner Bier Hopfen & Co."
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Dominican Church"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Butcher's shop Schrott"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Glögglhof"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Parco Ducale / Herzogspark"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "07:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Capuchin Church"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Winery Bolzano Bozen"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Winery Bolzano Bozen"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Gummerhof R. Malojer Vinery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Weingut Tenuta Rottensteiner"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Weingut Tenuta Rottensteiner"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Little Gallery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Estate & Monastery Muri - Gries"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "00:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Crib Collection, Muri Gries Monastery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Tenuta Loackeer Schwarhof"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "00:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Mercantile Museum"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "00:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Messner Mountain Museum Firmian"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Butcher's shop Egger"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Butcher's shop Windegger"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Butcher's shop Windegger"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "07:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Fruit and Vegetable Market"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Pastalpina Pur Südtirol"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "07:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Pastalpina Pur Südtirol"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "00:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Mareccio / Maretsch castle"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "St. George Church"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Stiftskirche in Gries / Chiesa Abbaziale a Gries"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Unterganznerhof"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Egger Ramer Vinery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Egger Ramer Vinery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "00:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Fliederhof Winery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schmid Oberrautner vinery"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "08:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Base Camp Dolomites"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Outdoor swimming pool"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "07:30:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Public bike rental"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "The Salewa Cube indoor climbing gym"
+        }
+      },
+      {
+        "sh" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#time",
+          "type" : "literal",
+          "value" : "09:00:00"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Südtirol Rad"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?PoiName ?vote 
+WHERE {
+    ?Accomodation a ontology:Accomodation .
+    ?Accomodation ontology:PoiName ?PoiName .
+    ?Accomodation ontology:hasDescription ?description .
+    ?description ontology:VoteAverage ?vote .
+    ?Accomodation ontology:hasAccommodationEnum ontology:Hotel .
+} order by desc(?vote) limit 20
+

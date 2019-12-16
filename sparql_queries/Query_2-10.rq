@@ -1,0 +1,26 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?from ?to ?diff ?c ?email ?phone ?web ?city ?street ?num ?cap ?prov
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasActivityEnum ontology:A_Walk .
+    ?path ontology:hasDifficultyEnum ?diff .
+    ?path ontology:fromPosition ?fp .
+    ?fp ontology:PoiName ?from .
+    ?path ontology:toPosition ?tp .
+    ?tp ontology:PoiName ?to .
+    OPTIONAL{?tp ontology:hasDescription ?desc}
+    OPTIONAL{?desc ontology:DescriptionContent ?c}
+    OPTIONAL{?tp ontology:hasContact ?cont}
+    OPTIONAL{?cont ontology:Email ?email}
+    OPTIONAL{?cont ontology:PhoneNumber ?phone}
+    OPTIONAL{?cont ontology:Website ?web}
+    OPTIONAL{?tp ontology:hasAddress ?add}
+    OPTIONAL{?add ontology:City ?city}
+    OPTIONAL{?add ontology:Street ?street}
+    OPTIONAL{?add ontology:Number ?num}
+    OPTIONAL{?add ontology:CAP ?cap}
+    OPTIONAL{?add ontology:hasProvinceEnum ?prov}
+    FILTER(?diff=ontology:Medium||?diff=ontology:High)
+}

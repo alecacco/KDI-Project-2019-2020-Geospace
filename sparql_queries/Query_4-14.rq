@@ -1,0 +1,11 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?menu ?cont
+WHERE {
+    ?rest a ontology:Restaurant .
+    ?rest ontology:PoiName ?name .
+    ?rest ontology:ServesCousine ?menu .
+    ?rest ontology:hasDescription ?desc .
+    ?desc ontology:DescriptionContent ?cont .
+    FILTERregex(str(?menu),'Lokale')
+}

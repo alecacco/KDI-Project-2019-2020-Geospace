@@ -1,0 +1,16 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?time ?diff
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    FILTER regex(str(?name), "546") .
+    ?path ontology:hasActivityEnum ?type .
+    ?path ontology:hasDifficultyEnum ?diff .
+    ?path ontology:AvgTravelTime_seconds ?time .
+    ?path ontology:toPosition ?p1 .
+    ?p1 ontology:Altitude ?alt1 .
+    ?path ontology:fromPosition ?p2 .
+    ?p2 ontology:Altitude ?alt2 .
+    FILTER(?alt1<=?alt2)
+}

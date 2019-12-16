@@ -1,0 +1,16 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?PoiName ?sh ?eh ?tt
+WHERE {
+    ?Accomodation a ontology:Accomodation .
+    ?Accomodation ontology:PoiName ?PoiName .
+    ?Accomodation ontology:hasAddress ?addr .
+    ?addr ontology:City 'bolzano' .
+    ?Accomodation ontology:hasTimetable ?tt .
+    ?tt ontology:hasSchedules ?sch .
+    ?sch ontology:ScheduleName "checkin" .
+    ?sch ontology:StartHour ?sh .
+    ?sch ontology:EndHour ?eh .
+    FILTER (?sh <= '14:30')
+} 
+
