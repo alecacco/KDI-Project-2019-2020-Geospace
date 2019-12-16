@@ -1,6 +1,16 @@
 # KDI-project-2019-2020
 Project for the 2019/2020 Knowledge and Data Integration course @ UniTn
 
+# Team Members
+
+* Alessandro Cacco - Project Manager and Data Integration Coordinator
+* Martina Battisti - Conceptual modeling coordinator 
+* Bertiana Balliu - Conceptual modeling 
+* Sara Callaioli - Data integration 
+* Daniele Isoni - Data integration 
+* Stefano Leonardi - Conceptual modeling 
+* Michela Lorandi - Data integration
+
 # Requirements
 
 In order to reproduce every step of the process to create the final Knowledge graph in RDF format you must statisfy the following requirements:
@@ -85,3 +95,7 @@ The dataset folder `./data/datasets/Mountain/huts/rifugi.csv` can be obtained by
 ## Merge all linked data
 
 To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script `./models/script/merge_RDFs.py` that will merge all linked data in a big RDF that can be found at `./data/linked_data/GeoSpace_RDF.ttl.zip`. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
+
+# Additional notes
+
+The `./sparql_queries` folder contains all the queries we have produced. To check them load the final RDF `./data/linked_data/GeoSpace_RDF.ttl.zip` unzipped in GraphDB and run them.
