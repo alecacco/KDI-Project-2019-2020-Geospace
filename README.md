@@ -56,6 +56,25 @@ All the scripts are intended to be run with the root of the repo as Working Dire
 * [Optional] If you want to change the destination of the output, you need to modify the path in `Write File` command
 * [Optional] The intermediate step `Write CSV` will save the file in your Desktop, and at the same location the python script will take the file just created. If you want to change the location, change the path in the commands and the python script
 
+## Mountain datasets
+
+### Mountain paths
+
+The dataset of mountain paths are contained in `./data/datasets/Mountain/paths`, specifically:
+* `topojson.json`, the json file containing the coordinates information about paths
+* sentieri_coordinates.csv, the output of the parse_topojson.py script
+* sentieri_coordinates_final.csv, the final output dataset of the rapidminer process
+
+To correctly load the datasets:
+* execute the python script `./models/script/Mountain/parse_topojson_sentieri.py` from the `.data/datasets/Mountain/paths` folder, in order to parse the topojson.json file into the `sentieri_coordinates.csv` file.
+* execute the rapidminer process `./models/rapidminer/sentieri_rmprocess.rmp`, changing the path of the script to `./models/script/get_sentieri.py`, using as working directory the `./data/datasets/Mountain/paths` (to correctly load the `sentieri_coordinates.csv` file)
+
+The output dataset of the RM process should correspond to the `sentieri_coordinates_final.csv` file. The corresponding Karma model is located in `./models/r2ml/sentieri_coordinates-model.tll`, which links the dataset to the ontology into `./data/linked_data/sentieri_karma_RDF.tll`.
+
+### Mountain huts
+
+The dataset folder `./data/datasets/Mountain/huts/rifugi.csv` can be obtained by executing the `./models/script/get_rifugi.py`, which scrapes all the data from the SAT APIs and website. This can be mapped with the `./models/r2ml/rifugi.csv-model.tll` model into the file `./data/linked_data/rifugi_karma_RDF.tll`
+
 ## Merge all linked data
 
 To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script `./models/script/merge_RDFs.py` that will merge all linked data in a big RDF that can be found at `./data/linked_data/GeoSpace_RDF.ttl.zip`. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
