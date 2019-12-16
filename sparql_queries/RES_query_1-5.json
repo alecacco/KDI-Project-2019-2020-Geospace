@@ -1,0 +1,17 @@
+{
+  "head" : {
+    "vars" : [
+      "enum"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Bus"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT ?PoiName
+WHERE {
+    ?rest a ontology:Restaurant .
+    ?rest ontology:PoiName ?PoiName .
+    ?rest ontology:Latitude ?lat .
+    ?rest ontology:Longitude ?lon .
+    ?com a ontology:Municipality .
+    ?com ontology:ISTAT_Municipality 'Vipiteno' .
+    ?com ontology:Latitude ?latc .
+    ?com ontology:Longitude ?lonc .
+    ?rest ontology:ServesCousine ?cous . 
+    FILTER regex(str(?cous), "Lokale") .
+    FILTER(omgeo:distance(?lat, ?lon, ?latc, ?lonc) <= 15)
+} 
+

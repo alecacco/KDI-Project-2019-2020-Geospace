@@ -1,0 +1,11 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?name ?sequence
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    FILTER regex(str(?name), "546") .
+    ?path rdf:subClassOf ?seq .
+    ?seq ontology:Sequence ?sequence .
+}

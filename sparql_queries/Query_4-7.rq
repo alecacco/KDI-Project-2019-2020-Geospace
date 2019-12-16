@@ -1,0 +1,8 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name
+WHERE {
+    ?poi a ontology:PointOfInterest .
+    ?poi ontology:PoiName ?name .
+    FILTER regex(str(?name), "InfoPoint") .
+}

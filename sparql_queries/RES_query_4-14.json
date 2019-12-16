@@ -1,0 +1,3233 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "menu",
+      "cont"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "AgroPobitzer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In the comfortable restaurant in our historic farm are mainly served products directly of our own farm and field. Perfect for year group celebrations, birthday parties, company parties or the typical South Tyrolean autumn tradition, the so called Törggelen. Among tasty South Tyrolean quality products and Mediterranean digestibility you can enjoy from morning to evening the variety of the gastronomic pleasures. Enjoy in our garden coffee and homemade apple strudel, the typical Tyrolean afternoon snack “Marende” or a fruit buffet. Our homemade juices taste best after a beautiful bike tour with the whole family."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Berggasthof Haidenberg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Wir bewirten Sie gerne auf unserer großen Panoramaterasse sowie im Garten mit Liegewiese.Es finden im Sommer verschiedene Veranstaltungen statt wie das Brotbacken im urigem Steinbackofen, wo Sie miterleben können wie das Brot entsteht und natürlich gibt es auch Brot zum mit nach Hause nehmen.Zu Mittag gibt es Grillfeiern sowie Fondue auf Vorbestellung."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Vecchio Fausthof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Only with reservation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Angerguterkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Hikers and bikers can enjoy the home-style cuisine and the cozy Tyrolean Stube"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ansitz Velseck"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Whether it is the most beautiful day of your life, the special birthday or just a party with friends and family: in the Manor House Velseck it will be an unforgettable experience.The unique and exclusive atmosphere, the majestic mountain scenery and the regional specialities will inspire you and your guests.Baptisms, birthdays, weddings, company and family celebrations. The Manor House Velseck is the perfect location for any kind of celebration. Our premises offer you and your guests enough space for the very special moments in life.Let yourself and your guests be charmed!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Aspmayrhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Take a reservation!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bacherhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Typical homemade meals like Schlutzkrapfen or Knödel (dumplings) and homemade juices."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Agriturismo Gapphof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "NEW OPENING - 13.04.2017The newly build Gapphof is situated 325 mt above sea level in the village of Algund, in between orchards, approx. 1 km of the centre and near the city of Meran. The new build house with it's park and the natural swimming pond will give you well-being every morning.Do not hesitate to contact us for further Information."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bauernstube Messnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "You will find our farm restaurant in the centre of the village. We converted part of the old stable into a restaurant in 1997.Our restaurant features cosy little snugs, where we serve our guests local Tyrolean specialities including Knödel dumplings, Schlutzkrapfen (pasta parcels), Gerstesuppe (a hearty local soup), platters with farm produce and much more. Every Friday we offer roast pork knuckle with various side dishes. In autumn, you can enjoy the local harvest festival feasts known as Törggelen, where a Tyrolean Schlachtplatte (a hearty meal of pork, sausages and sauerkraut) is served. For desert there are chestnuts, other types of nuts, fruit and doughnuts. Why not visit our farm restaurant, where you experience a wonderful evening enjoying a wide range of specialities.Open daily from July until the end of March from 4pm. Monday closed. From the end of March to the end of June, our farm restaurant will be closed. Reservation call +39 0474 548352!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Baumannhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "\"Buschenschank\" - Tyrolean tavern with home cooking"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Dorfner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Dorfnerhof is situated in a calm place. It offers an excellent traditional cuisine with home-made products. It's the ideal location for family or company celebrations."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Berggasthof Lanzenschuster"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Family serves hearty home-made South Tyrolean specialities with regional products. In November and December the restaurant is open on reservation in the evening. "
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Berggasthof Lanzenschuster"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Family serves hearty home-made South Tyrolean specialities with regional products. In November and December the restaurant is open on reservation in the evening."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Gasthof Plonerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Plonerhof Restaurant Inn in Gereuth is famous for its excellent cuisine and it makes use of locally grown produce (milk, vegetables, meat) as well as game and Tyrolean style specialties. It is the ideal meeting point for family and company events. In the autumn it is the ideal place for \"Törggelen\" with steaming hot chestnuts and new wine!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Cantina Brandis"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Located right on the golf course, beautiful garden, tyrolean specialties for small and large appetites."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buchnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Lajen-Ried is well known as the cradle of the ‘Törggele’ culture, when the season’s new wine is served up with accompanying farmhouse fare in autumn. However, guests will enjoy a stop here at any time of year. The Schenk family dishes up seasonal delicacies from the garden and wine cellar in the 17th century panelled farmhouse parlour both in winter and spring."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Ausserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Located about 4 km from Lana in the direction of Val d'Ultimo, right on the nature trail Aichberg. Tyrolean Mare and ends on pre-order grilled specialties. In the fall of Meat platter with Sauerkraut."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Gamper"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A vineyard with traditional hospitality. Enjoy an unforgettable time at our Ansitz Villa Rasslhof. Our impressive vineyard is situated close to the Southerntyrolean Wine road in the region of Bozen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Glögglkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The over 300 year old, traditional wine and fruit farm is located in a hillside directly on the Marl Waalweg. Stone cellar with a beautiful garden. Self-production of wines, juices, bacon, and other typical South Tyrolean products. House specialty: Brettl snacks with hot boiled potatoes, bacon dumplings, cheese balls, in late autumn Schlachtplatte"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Trattoria Gruber"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Trattoria Gruber"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gschlierhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Pfefferlechner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Tavern in the heart of Lana with a view to the stable. OWN HOUSE BREWERY AND DISTILLERY. Large playground with \"Indian country\". BUS PARKING. Much comes from our own produce: wine, beer from the Haubrauerei, home-distilled liquor, bacon from our own smokehouse, home-smoked trout. Hearty coming from the kitchen: roast leg of pork, spare ribs, Mare ends on the Brettl, Tyrolean dishes. And desserts like the pan fresh grapes.House specialty: beers from its own microbrewery"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hofstaetterhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Innerperskolerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Innerperskoler farm is located in sunny Aicha di Fiè, surrounded by vineyards and chestnut groves. The altitude of 700m above sea level favours both viniculture and cattle farming. In 2014/15 the Prieth family, the current owners, established a farmhouse inn where local South Tyroleans and tourists alike are welcome to delight in the fruits of the harvest.Innerperskoler farm was first mentioned in 1267, more accurate records date back to 1569. In 1736, a chapel was erected in order to bless and protect the farm and the house. It was dedicated to Saint Florian, the patron saint of chimney sweeps and firefighters, yet the farm and the barn burnt down entirely in 1994. Many precious documents and other objects were lost in the flames. The former owner Hermann Vieider rebuilt house and farm completely.Innerperskoler farm was first mentioned in 1267, more accurate records date back to 1569. In 1736, a chapel was erected in order to bless and protect t"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Agritur Buschenschank Lenzenhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Fantastic view of Lake Kaltern, Tyrolean Food. Hot meals 12 a. m. - 7 p. m."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Inn Oberlegar"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "At Oberlegar farm the really farmers know how to dish up a treat. The farm has made a name for itself with its delicious asparagus dishes. Both farmhouse parlors and the sun terrace are perfect for savoring delicious food in good company. The Schwarz family’s hospitality and a drop of the house wine complete the experience perfectly. Advance orders required."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farm bar Oberschol"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Cosy farm bar in the mountains above Vilpiano. We serve various dishes with home-made products.Open in spring and in autumn, only on Saturdays and on Sundays."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Pfraum"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Situated above Kastelbell to reach directly from Latschander Waalweg"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Agriturismo Pitschlmann"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In our Pitschlmann farm inn we offer traditional South Tyrolean dishes. In oder to reach the highest quality, we chose the best natural products. In our farm inn, we wrmlx welcome our gests and daily visitors.During every season, we server the right meals. Info 0471/725544"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Planitzer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Tasty traditional fare, home-made fruit juices and our own wine – genuine delights of the palate await you at the Planitzer winery and tavern, right next to the Cosmas and Damian Chapel in Glen. This idyllic hamlet in the community of Montagna at the foot of the Trudner Horn Nature Park is just ten minutes by car from the Egna-Ora exit of the A22 freeway.Glen and its surroundings are interesting. The line of the old Railway Val di Fiemme from Ora to Cavalese with the Viaduct of Gleno, the famous Gothic winged altar by Hans Klocker in St. Stephen’s Church in Pinzano, the waterfall in the gorge of Trodena, the Pinzoner and Glener Egger natural monument. The lovely plateau with the typical vineyards is the ideal place to relax and enjoy the sun on the spacious terrace with its panoramic views, from Salorno, to the whole South Tyrolean Unterland until to the Lake Caldaro."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farmhouse restaurant/Inn Santlhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We offer typical Tyrolean food and vegetables from our garden. Sample our wines made on the premises."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farm Bar Schluntner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Schluntner is located near the hiking trail „Altavia di Laives“ and is therefore the perfect place to rest during your hike.On working days only on reservation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Agriturismo Stangler Hof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Only with prenotation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farm bar Unterrosser"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Escape from the heat of the city to our summer terrace, enjoying a glass of local wine only a few minutes from the city center. After a nice tour in autumn on the trail „Altavia Laives“ you can try a dinner especially for this time of the year. The typical dinner is called „Törggelen“. You are always welcome!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "\"Buschenschank\" Unterweirachhof Tavern"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A cozy wine arbor terrace, serving various home-grown wines. Fresh juices served with homemade Brettljausen (cold cuts), and a children’s playground await you."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farmhouse restaurant Weingut Gruber"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Homemade local Food, taste our wine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Cafe am Waal"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Suggestion: homemade apple strudel, cakes, bacon dumplingsOwn products: apple juice, bacon"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ciastel Osteria Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy good home-made food in our traditional country inn. We serve varied menus with biological products from our farm.BOOKING REQUIRED!!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Cristlà Restaurant & Pizzeria"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Experience moments of pleasure with a wonderful view on Sas de Pütia in the restaurant - pizzeria Cristlà. The menu includes pizzas baked in a wood oven and dumplings, tasty antipasti and pasta dishes. Homemad, carefully prepared with fresh regional produce."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ebenheim Keller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Characteristic cellar restaurant built in 1588 – where to try traditional Tyrolean snacks and small, warm dishes. Cheese degustation as well as great choice of selected, local wines. Roasted chestnuts in autumn.Perfect also for bigger groups."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ebnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Ebnerhof: Our passionate philosophy of the recurring cycles and thoroughly planned sustainability can be seen in our wine tavern in the Eisack Valley: there we will treat you to our own award-winning wines and high-quality farmhouse cooking. We conjure up delicious South Tyrolean dishes from fresh, high-quality, seasonal produce. These culinary delights can be enjoyed in our easy-to-reach wine tavern high above the Eisack Valley at an altitude of 500 metres above sea level.On agreement the wine selling is available the whole year."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ebnicherhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "High above Bozen, nestled away in an ancient chestnut grove on the sunny slopes of the Ritten mountain, is Ebnicherhof farm. This is the perfect destination for mild autumn walks, when the countryside is ablaze with colour and the sky crystal clear. The farmhouse parlour and sun terrace are the ideal place to while away the time enjoying typical farm dishes, ‘Nuier’, the season’s new wine, and unique views stretching from the Dolomites to the Überetsch (Upper Adige) valley and Unterland (Lower Adige)."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Edelansitz Zimmerlehen"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our spacious basement offers the possibility to celebrate your wedding, your birthday, your family celebration or your anniversary in a rustic full of Story ambience. Besides homemade products, which mainly counts our tender beef, we offer products of Völser farmers and farms."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Feichtnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ferienwohnung Dorfmüllerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy the traditional tyrolean specialities at the Dorfmüllerfarm, own butcher in the house, own meat"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Fichtenhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Home-made products, herbal-kitchen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Fischerkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional cellar restaurant serving excellent, south tyrolean dishes . Home-made wines, tasty snacks, home-made dumplings, goulash as well as grilled meat and delicious cakes. Wine and grappa degustation, roasted chestnuts in autumn. Large garden beautifully surrounded by nice wineyards. For groups open also out of opening hours."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Föhrnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Already in 1135 the Föhrnerhof farm is mentioned in a document. The farm offers views across Bolzano, the Oltradige until the Bassa Atesina and insights into a long history.Speck, home-made bread, spinach ravioli, spinach, cheese and beetroot dumplings, boiled beef, spare ribs, knuckle of pork, house sausage with cabbage, rabbit, lamb and mutton dishes – this is only a short abstract of specialities which are seasonally dished up at the farm inn.Wine lovers are spoiled with Chardonnay, Vernatsch and Lagrein. The homemade juices, like apple, elderflower, peppermint, lemon balm and blackcurrant juice complete the range perfectly."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Formerkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The traditional, family-run cellar lies beside our Garni.Enjoy an entertaining evening in our ancient cellar vaults with Tirol Marende, bacon, cheese or farm toast."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Fronthof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Farm Fronthof is located in Aica di Fiè."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Furlhütte"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The mountain inn invites you to typical South Tyrolean delicacies."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Brünnl"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A splendid panoramic view, heavenly peace and filled holiday wishes!Your family restaurant in Quadrat at Parcines"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Inn Hochbrunner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A warm Welcome! We offer you delicious South Tyrolean cuisine and a good wine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Huber"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Country inn surrounded by vineyards, in a sunny position in the Valle Isarco and with panoramic views. Starting point for many excursions."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Kienegg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Located on a sunny hill above Algund with a breathtaking view all over Merano."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Kreuzweg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Relaxing and enjoyable hours await you in our traditional Gasthof am Tschögglberg. Surrounded by a beautiful hiking area we got down the sense of good and beautiful in the cradle. The aromatic blend of spicy South Tyrolean cuisine and light Mediterranean cuisine is framed by warm hospitality and homely rooms. A good night's sleep after a day full of enjoyment, nothing stands in the way. Closed on Thursday afternoon"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Langfenn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Family serves hearty home-made South Tyrolean specialities with regional products."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Leiter am Waal"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "closed from 02.07.2019 until 10.07.2019"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Messner Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The restaurant offers delicious regional cuisine with wine of their own production. You can relax on the sunny veranda with a view of the small beautiful Church of St. Martin, enjoy the nature in the big and shaddy garden.In autumn the restaurant is known as a typical \"Törggele\" place."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Moar"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We are looking forward to welcome you to spoil you with regional specialties from our own production and homemade cakes.Our rooms are also absolutely perfect for groups, business meals, family parties and in autumn for the traditional „Törggelen“. Dinner only on reservation (except on Sundays)."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Mörrerhof Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Lanthaler family will be delighted to welcome you to their recently refurbished historical inn. At the Mörrerhof Inn, only the best locally grown, seasonal fare makes it to the table. Be spellbound at the magnificent views from our terrace. Do not miss the opportunity of visiting our small chapel (1740). You can reach us on foot or by bike. There’s plenty of room for parking.Mörrerhof Inn (750 m)Starting point: S. Martino/St.  Martin ¦ S. Leonardo/St. LeonhardHiking trail number: 5 ¦ 30+5Difference in altitude: 150 m ¦ 100 m (descent) 150 m (ascent)Walking time: 50 minutes ¦ 1 hour 50 minutesDifficulty level: easyOpening hours summer: 01/04 - 30/11Closing day: MondayOpening hours winter: December - March only on Saturdays and SundaysAccessible by car - recharging station for electric bikes"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Trattoria Noafer/Noafer Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Guesthouse Noafer has been in the family for three generations, but has been a place to drop by to refresh for much longer.In times gone by all kinds of people who were on the go such as craftsmen going from place to place, inhabitants of Bozen seeking nature, or even farmers who had sold their ware in the valley, stopped by at Noafer to enjoy a nice glass of wine or some \"Speck\" (bacon speciality) whilst enjoying a friendly chat with the locals in the Stube (rustic wooden room). Nowadays it's families, trekkers, businesspeople enjoying their lunches and many more, but they all come for the same thing.  Enjoying nature whilst enjoying some homemade apple strudel, or having fun at a game of cards in the enticing Stube (rustic wooden room) in winter."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Trattoria Pfoshof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The dishes from our farmhouse kitchen are simple but delicious. Enjoy them in our parlours or on the sun terrace with panoramic view. Products from our own farm."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Trattoria Plattner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant Plattner, Törggelen"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Rafflerhof  KG"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Berggasthaus Rafflerhof, above Lana, with its large panoramic terrace, offers a unique panoramic view over the Meran countryside and the surrounding South Tyrolean mountains. Let yourself be pampered by a contemporary, but still down-to-earth South Tyrolean cuisine, where great emphasis is placed on the processing of fresh and seasonal products. From farmhouse bread to various stuffed Schlutzkrapfen and various types of ice cream, almost all food is produced in-house."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sandwirt Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Historic inn – the birthplace of Andreas Hofer. Offers fresh Tyrolean specialties as well as Mediterranean dishes.Non-stop hot meals.In case of group reservations of 6 or more persons, the kitchen opens also in the evening."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Tavern Schwabhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our tavern Schwabhof is located near the hike path \"Altavia di Laives“. You can reach the tavern by walking about one and a half hours from Leifers or by driving 20 minutes with your car. Our guesthouse offers a lot of South Tyrolean dishes, grill specialities and more - ONLY ON RESERVATION!The Mahlknecht family is looking forward to welcoming you!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ristorante Sonneck"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Because of the indigenous cuisine and knowledge of wine. the ristorante become a culinary instance."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Valzurg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Völlaner Badl"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Come to visit the Restaurant Völlaner Badl."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Zunerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "At Zunerhof we daily serve excellent dumplings, “Spätzle” but also Schlutzkrapfen (ravioli with spinach filling) Herrengröstel (meat dish with roasted potatoes), roasted pork knuckle (upon request) and much much more. In addition to that we also offer a fine selection of South Tyrolean wines as well as home-made juices. Wonderful specialities which will be served in one of our beautiful Stuben of the 16th century, or, as soon as the weather allows it, on our sunny terrace. Some of the many specialities you can taste at Zunerhof: •Deer gulash with porcino mushrooms •Dumpling tris with salad •“Herrngröstel” with bacon coleslaw •Home-made “Schlutzer” •Roasted pork knuckles cooked in the traditional wooden oven (upon request)"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthaus Zur Kirche"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our mountain inn lies near Lago di Favogna, a favorite biotope and swimming lake that is an insider tip for nature lovers. Typical Alto Adige cuisine with fresh ingredients and choice wines. Rooms are available at the inn as well."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Alpenrose"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "On Reservation: venison"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Bauhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our kitchen specializes in regional dishes. On reservation, we also provide food for different occasions such as Birthday party, first communion, confirmation and so on."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Burgschenke"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome to the tavern Burgschenke"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Casatsch Pfeffersburg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Forsterbräu"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In characteristic, brewery restaurant the guest can enjoy a refreshing beer and tasty local cuisine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Gsteigerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The guest house Gsteigerhof offers home-made specialities and local products."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Haselstaude Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Open from Easter to Allhallows (from January to Easter open only on Saturdays and Sundays)."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Huber"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "On daily basis, Hannes prepares fresh Mediterranean and South-Tirol specialities onto your table, of course using only fresh herbs and vegetables from our garden and meat products from the farm.An experience for gourmets"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Kaltenhauser"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our cozy family-run, will spoil you in our original farmhouse parlor (Stube) with typical South Tyrolean dishes as well as many fresh farm products from our own farm. After a relaxing walk in autumn you may enjoy a pleasurable \"Toerggelen\". At the same time you may try our wines from our own vineyard. We are looking forward to welcoming you and ask for a short reservation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Klammer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Let us spoil you with our culinary delights, a delicious combination of local and Mediterranean cuisine. In addition you can enjoy a glass of good wine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Gasthof Köfererhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Koefererhof's tiny 5 hectares of wines are located at the base of the Dolomite Mountains between 700 and 800 metres above sea level. At this high altidude the variation in temperatures from day to night is ideal, and the carefully tended high-density vineyards yield intensely fragrant, concentrated and well-balanced wines."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Lex"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Nice, well kept village inn. Local Food, traditional local cuisine with simple dishes."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Lipp"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A popular tourist restaurant destination in Predonico overlooking the hohle (entire) Adige valley, South-Tyrol home cooking. Family-run guest house in a panoramic position, rooms"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Moar"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Albergo Moar"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Niederhof Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Niederhofs special platter, braised beef, homemade potato dumplings.House specialties: Venison steak in Lagrein sauce, spaetzle noodles and red cabbage (Wildererpfandl)Breathtaking views of the Texelgruppe Nature Park and waterfall; authentic South Tyrolean cuisine with a Mediterranean touch."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Obermair"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The court ObermairEhrenburg in Kiens,The first written mention of Obermair goes back to 1318 and is thus one of the oldest farms in the area.Initially belonged to the court of the Count Goertz, then the estate was frequently sold, inherited and sold again.Since 1860, guests at the inn run Obermair and already in 1900 the Obermairhof of Falkensteiner family has farmed.As you can see our kitchen pot is filled to the brim ...combined, refined dishes with an occasional touch of the exotic. Just the \"magic of the diversity of South Tyrol\"."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Onach"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Pfitscherhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Well known for our local tyrolean specialities."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Inn Rechtebner"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The restaurant of the Inn is open only for lunch and not for dinner."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Restaurant Burgfrieden"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Especially suitable for traveling buses, situated on the main road between Vipiteno and Bressanone."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Restaurant Oberraut"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We wish you pleasure in eating, so we use fresh, seasonal produce from South Tyrol, especially products from the immediate area, such as herbs from our meadows, beef from our own attitude and our wildlife from hunters from hunting district."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Cavallino"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The guest house Rösslwirt is 5 km distant from the state highway Brennero-Bolzano."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Inn Schneiderwiesen"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "For our guests, a big dining room as well as several other smaller rooms and an original Tyrolean “Stube“ where to try traditional South Tyrolean dishes and refined venison dishes. A rich assortment of wines complete our offer and refine each plate.Our inn also dispose of a sunny terrace where you have the possibility to taste delicious homemade desserts and typical \"breadbord-snacks\". Enjoy the South Tyrolean golden autumn: when leafs turn multicoloured it's time for \"Törggelen\", roasted chestnuts and the \"new wine\".We're looking forward to meet you!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Schwarze Katz"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "a little Gasthof with some simply rooms without bathroom inside (but washbasin) and a restaurant."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Signaterhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Albergo Simeler"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome to the taverna Simeler"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Sturmhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In autumn you can also \"Törggelen\""
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof Tschigg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The inn ist situated on the high mountain road."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Tschötscherhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Tirolean specialities and wines from local and homemade production."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gasthof zur Traube"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome to Gasthof Zur Traube!The restaurant is open. Closed on Wednesdays."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gastro Lounge Bruthendler"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Wir freuen uns, Sie in Algund begrüßen zu dürfen!Mit neuem Konzept, historischem Hintergrund, mediterranem Ambiente, Begeisterung und Mut das traditionelle mit dem Modernen zu verbinden...geboren war der Name Gastro Lounge Bruthendler.Ob sie gemütlich in der Hennen Bar bei einem leckeren Burger und einem frisch gezapften Meckatzer entspannen, sich für ein mediterranes Essen mit einem Glas Hauswein Piwi vom Weingut der Familie Leiter (Besitzer des Gasthofes Bruthendler) in einem unserer historischen Gewölbe entscheiden oder im Sommer auf der romantischen Terrasse verweilen - eines ist Gewiss, sie werden gut versorgt und mit einem Lächeln nachdenken, wann sie uns wohl das nächste mal wieder besuchen kommen ...Es ist besser zu genießen und zu bereuen, als zu bereuen dass man nicht genossen hat ..."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Giernhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In our cozy Tavern and in our winter garden with panoramic views, we spoil you with traditional dishes such as roast potatoes with egg and bacon, or the typical dumplings."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Glangerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Glangerhof lies at an altitude of 1,000 m and offers a beautiful view over the Dolomites, a deer park with 20-30 deer, small pets and a dairy cattle. The Stube in the 400-year-old farm are decorated with cross vaults and even the baking corner with its oven is worth a visit. Livemusic completes the amazing offer."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gostnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "High above Ponte Gardena is the Gostnerhof. An ideal destination to mild autumn days. The two farmhouse parlors, and the sun terrace and the spacious playground invite you too comfortable hours.Open:Open from 08 April to 14 May, Saturday from 16:00 clock and Sunday from 12.00 clock.Open every day from 23st September to 10st December from 16 clock to 23 clock, Sunday from 12 clock.Advance orders required."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Malleier Alois - Götzfried Keller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Rustic tavern in Tisner Mountain, 5 km above Lana on the trail (Brandis - St. Hippolytus) located. Originally, the building served as a watchtower for castle Leon Castle and Chateau Mayen castle. Witnesses are the shot holes in the 1 m thick walls. Tyrolean cuisine with home-grown wines (schiava, Zweigelt, Kerner), as well as fresh apple juice and home-made chestnut. Large playground and petting zoo for children. Free pick up and return bearer service for Lana. Suitable for bus companies, family and corporate celebrations. House specialty: Götzfried Brettl, asparagus in spring, autumn Toerggelen"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gourmetrestaurant Luisl Stube im Schlosswirt Forst"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Schlosswirt Forst near the FORST brewery is the right spot for connoisseurs and gourmets in an idyllic and remarkable setting with traditional restaurant and awarded gourmet restaurant Luisl Stube.Four romantic rooms for your overnight stay with à la carte breakfast."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Grasweger Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The retreat destination on the Partschinser Waalweg trail!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Griesserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "This listed farmhouse is situated north of Brixen, between Vahrn and Neustift, at the foot of a steeply sloping vineyard. It once belonged to the so-called Mairhöfen and provided income for the bishop. Today it is here to spoil you with a drop of its home-produced wine and tasty dishes."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gstirnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Cozy, romantic atmosphere in the vaults of the 15th century.  A roaring fire in the open fireplace, live music with the South Tyrolean Alps Amigos.  Here people meet for a hearty Brettlmarende and fall to Törggele. "
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gummererhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Gummererhof lies high above the Brixen valley basin, nestling amongst chestnut groves and vineyards.  In autumn, when the days draw in and get cooler, a lot of 'törggelling' goes on in the farmhouse - that involves finishing off the day with tasty farm fare and a glass of the season's new wine.  House ‘Sekt’ (sparkling wine), made from the native ‘Blatterle’ grape is a special feature of the Gummererhof farm.Open days:Open daily from mid September to mid December from 15.00. Closed on Mondays. Open from  Friday to Sunday in January and February. Booking recommended."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Haidenhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant between the Waalweg path and the high mountain road."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Haidnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We would like to spoil you with delicious dishes on our idyllic farm. Come to us, enjoy the peace and taste the wine from our own cellar and vineyard. Let yourself be enchanted by the pleasant surroundings and enjoy the sun on our terrace. In our large and small rooms there is a lot of space. We offer you local dishes,  homemade juices, self-made wines and much more. Our rooms are also suitable for special celebrations (baptisms, weddings)"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hienghof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We offer many local and home-grown products. All products are homemade and genuinely South Tyrolean. Every Sunday there will be delicious meat dishes, prepared using our own farm-grown cattle. Try Rosemarie’s Krapfen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hofschank bei den Urlärchen"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Osteria ai larici millenari a S. Geltrude"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hofschänke Baumann"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Hot and cold Tyrolean dishes made with homegrown products. Tiroler Stuben and sun terrace. Large car park, about 500 meters from the bus stop (line Merano Lana Ultimo). Pre-booked groups."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hofschänke Bittnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Hofschänke Bittnerhof"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Gsteigerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Renovated, cozy farmhouse in the Monte Corno National Park. You can taste traditional dishes, handmade cakes and juices. Open only in spring and autumn. Monday - friday only on reservation. Open from 10th of April to 22 of May on saturday rom 10 o'clock, and from 13th of August to 20th of November on saturday and sunday from 10 o'clock."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hofschank Himmelreich-Hof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "With us comfort is noticeable!We have the well-typical hearty South Tyrolean Marende (\"Himmelreicher-plate\") and home-cooked food in a picturesque setting with a glass of our quality wines from the 7/10 bottle or fabricated from the barrel. The 7/10 wines directly, with the mobile filling machine, sterile filled at court. The remarkable thing is that the wine is served directly from the cellar to the guest. From setting the vine, the fostering and care of Ordinary Time, the reader, total production, during the maturation process and ultimately to the bottling of the wine never leaves our winery!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Niedermoar"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Niedermairhof farm is situated high above Kastelbell on the side of the Trumsberg mountain. From its sun terrace you can enjoy fantastic views down and across Vinschgau valley and into Martelltal valley and inside there is a cosy and inviting wood-panelled farm parlour. The Kaserer family’s many home made products will turn ordinary meals into a real treat.Open days:Open from 1st April to 20th December. Thursdays closed. From 15th June to 20th August closed Thursdays and Sundays. Orders in advance required for evening meals."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farm Wiedenhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A perfect place for old and young. A lot of hiking possibilities, great view of the city of Bolzano, petting zoo, playgroung, typical Tyrolean cuisine with our own products and \"Törggelen\" with reservation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Farm Inn Malenger Mill"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Local dishes"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Auer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Beschreibung des Gastronomiebetries....."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Gasthof Post"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Hmmmm ... simply delicious! We offer culinary delicacies and genuine South Tyrolean specialties."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Gsoihof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "As a farm hotel, which still produces milk, cheese and meat, we are also well-known for high-quality dishes with a traditional touch, which are, in our opinion, the basis of a good gourmet kitchen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Hofer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We serve venison on reservation."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Lahnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy all kinds of delicacies and a good glass of wine in our dining room."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Lener"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We only use the freshest, highest quality ingredients. Our guests enjoy carefully selected wines and excellent service. And we also have our own Pizzeria, which produces delicious pizzas from an original wood-burning oven."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Mair am Bach"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Mair am Bach Hotel cuisine is very refined; together with the typical South Tyrolean delicacies we offer dishes from international cooking tradition. We offer many South Tyrolean and international delicacies, together with true gastronomic threats which will make every gourmet happy! Our cuisine is also famous for the fish-based dishes. The pleasure of a good meal is completed by a wide choice of vinage wines."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Mondschein"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In our old fashioned dinning room that over the centuries has kept his original aspect and in our \"Tavern of the Fuggers\" we will surprise You with our specialities from the kitchen and the wine-cellar."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Gstör e Mexicos"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Open from 7.30 am to 12.00 pm. Breakfast buffet from 7.30-10.00 am in the hotel’s dining room. Warm cuisine from 12.00 am to 11. pm. During the summer open all days."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Pizzeria Thuinerwaldele"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy fine dishes from the region or fantastic creations from the South Tyrolean cuisine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Schaurhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In our three dining-halls – two in Tyrolean rustic style from the year 1908 and one with vaulted ceiling – we serve you delicious creations from our chef Georg Steurer made of the best ingredients of the respective season, fresh fruit and vegetables of local produce as well as home made pasta and sweet delicacies. Elaborate preparation with mainly local ingredients, partly produced on our own farm, which leave nothing to be desired."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Sonnenheim"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We will spoil you with the best of the South Tyrolean cuisine and cellar."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Ristorante Waldheim"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Let yourself be pampered in our original Tyrolean farmhouse. As a national park host and a Slow Food member, we want to make a small contribution to the preservation of our rural cultural landscape with our traditional South Tyrolean dishes."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Tolderhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our family-run 3-star hotel, located in Winnebach - San Candido, an ilyllic village in the Alta Pusteria, South Tyrol. Here your will find peace and relax, without sacrificing comfort and service.With our very convienient location we are the ideal accommodation for families, hikers, nature lovers and sports enthusiasts."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Weingut Pacherhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "There are four panelled Stuben in Hotel Pacher-Hof, one of which is the oldest in South Tyrol, that invite you to have pleasant parties or family celebrations. Whether it is for weddings, christenings, first communions, confirmations, mother’s day, birthdays or a cosy meal, Restaurant Pacherhof is waiting for you with its first-class, high-quality Tyrolean cuisine adapted to modern tastes. We choose the ingredients for our dishes with care; refine them with herbs and spices along with seasonal vegetables from our own garden. Pay a visit to our Restaurant Pacherhof in Neustift near Brixen and sample our culinary delights!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Huberhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Huberhof farm lies above the Brixen valley basin in the idyllic hamlet of Elvas. The farm family has converted their 18th century cowshed into an inviting inn, where guests can enjoy the best of the Eisack valley’s culinary fare. The farm also takes Farm Holiday guests.Open days:Open from the end of September to the beginning of December. Open Monday at noon, Thursday and Friday from 3 pm, Saturday and Sunday from 12 am. Tuesday and Wednesday on reservation only. Open from early April to mid-May Saturday and Sunday from 12 noon. Reservations for the rest of the year are welcome for groups of 15 people or more."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Jägerkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional South Tyrolean cellar offering home-made wines. Warm and cold dishes, roasted chestnuts in autumn."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Buschenschank Bergjosl"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Open: from March to DecemberClosed on Monday and Tuesday"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Jausenstation Braunhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The inn is family runned and is offering local, traditional dishes as dumpling, ravioli and more."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Dursterhof Farm"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We pamper guests with various specialties on our rustic panoramic terrace. Insider tip: fresh raspberries from early July to the end of October."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hoferhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Situated on the high mountain road."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Jausenstation Hofer-Hof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Cozy retreat with stunning views over the Adige Valley. Hearty snack with homemade pita bread, homemade wine, juices from our own production, fruit salad of the season. The snack bar serves genuine authenticity and quality and is it with the badge \"Real quality on the Mountain\", has been awarded the Quality Initiative in Merano. House specialty: South Tyrolean fare"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ristoro Knofelkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy home-style cuisine and regional in the rustic cellar of the historic Knofelkeller"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Snackstation Tschuegghof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our guests await homemade South Tyrolean specialties with products from our own cultivation.Opening hours: Monday - Saturday 11.30 am to 23.30 pm.In March, April, May, June, September, October and November also open on Sundays. In January, February, July, August and December on Sundays closed."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Waldheim"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Johannserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our unique and beautiful farm is our pride and joy, and farming is our passion. Enjoy a couple of hours in our company, taking part in the simple lifestyle and traditions of a farmer’s life."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Kastelazkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant, Snack bar in St. Jakob, close to the church. Closed from November until May."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Kleinmarer"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In our traditional restaurant we spoil with typical specialties that are prepared with many products from our own farm. On reservation!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Knappenstube"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Chef and owner, Christian Rainer, is a passionate chef who knows how to cultivate traditional cuisine with love for fresh produce and seasonal dishes.You will find us directly in the museum of the mining world Ridnaun Schneeberg in Maiern.The cozy Knappenstube was built in 1993, paneled with old wood and grown on the robust original wall of the mine.Our restaurant has about 90 seats in the interior and about 90 seats on the panoramic terrace."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Köhl'n Keller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The historical tavern in the centre of TiroloEnjoy the unique interior under protection of historical importance.Enjoy tasty beer, local wines and traditional food"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Köstenthalerhof - Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Unique country inn with panoramic views. 200 metres to the valley terminal at the Taser cable-car. Good home cooking, Tyrolean specialities. Large garden with panoramic views."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Laab hut"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A great goal for everyone who wants to enjoy some winter adventures!Hot food from 11:00 a.m. to 08.00 p.m."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Lafoglerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The historic Lafogl farm is situated in a fantastic location just below Castelrotto/Kastelruth. It features four cosily furnished holiday apartments with space for two to four people. The daily \"bread roll service\" and the breakfast basket with tasty farm products, which the Rier family will bring to your door every morning if you wish, will get you ready for your adventures in the Alpe di Siusi/ Seiser Alm hiking and winter sports paradise.The Lafogl farm is also a traditional “buschenschank”. With lots of love and passion, farmer Regina prepares all delicacies from scratch and completely by hand. Look forward to South Tyrolean delights, such as dumplings, Schlutzkrapfen, venison goulash, buckwheat cake …Sounds great, doesn’t it? Visit us!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Lafreider-Hof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Assistence with farm work, pets allowed (on agreement), a wide selection of fruit and vegetables in summer and autumn, herb garden, chestnut and wine evenings in October and November."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Laitnkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The farm Laitnkeller is located in Aica di Fiè."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo bad Turmbach"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Bad Turmbach is located in the beautiful hilly landscape of Eppan, among old castles. The surrounding vineyards and orchards are ideal for walking and relaxing."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Albergo Pensione Torggler"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional restaurant."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Larm-Hof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Larmhof (originally called Laureinhof) was first documented in 1344, and it is also mentioned in the tale of the Dwarf King, Laurin, as his summer residence. The modern building exists since 1797, where the Winkler family will pamper you with homemade dishes and SouthTyrolean hospitality."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Lexnhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The tavern offers home-made, local starters, main courses and desserts. From November to February only on request.november - february: with prenotation"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Lingeralm"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Welcome to the Lingeralm, visit us on the middle of the sunny Lingeralm Möltner plateau. In our tavern with panoramic views we will spoil you with typical South Tyrolean dishes and cakes and snacks . For the little ones , but also for our great guests we have all sorts to offer. A large sun terrace , plenty of space to romp for the kids and a small children 's playground with swings ."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Martscholerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Farmhouse with traditional food."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Moarhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Moarhof, delicacies from the region."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "moidls lokäischn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "\"moidls lokäischn\" is a café, restaurant, bakery and shop in one. People meet here for coffee, to eat a snack or to stock up on local specialities. We are a village store, bakery, souvenir shop and are delighted when we become a meeting place for locals and guests."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Mountain Village Hasenegg"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Popular inn just above Verdins, with comfortable sun terrace. From May to October: Sunday morning pint with live music and specialities from the grill. During the afternoon: cakes and ice-cream specialities. Live transmission of sports events on large screen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Nalserbacherkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Nalserbacherkeller is not far from Nals, on the road towards Prissian and Tisens.  The Pallweber family will spoil you in the comfortable cellar or under the vines in the open air.  The kitchen offers tasty, varied food, hospitality and a friendly atmosphere.  Home-distilled fruit schnaps will round off your meal!Open from the beginning of April to the end of June from Thursday to Sunday and from the beginning of August to mid-December from Thursday to Monday. Opening hours: Saturdays, Sundays and public holidays from 4 pm to midnight, weekdays from 5 pm to midnight. Reservation desired."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Niedristhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Great value is placed on the authentic origin of farm produce at Niedristhof farm in Percha, which can be found in abundance. The magnificent farm garden can be admired both from the sun terrace and also the cosy farmhouse parlour. What better way to assure yourself of the origin of the fresh products? Delicious specialities from the Pustertal valley will really get your mouth watering and provide proof that farm grown produce is the best.Speck, soft cheese and 'Kaminwurzen' (chimney smoked sausage), with home baked bread. Barley soup, spinach, cheese and herb dumplings, cabbage salad with Speck, Speck dumplings with goulash, fried eggs with sautéed potatoes, house sausage with cabbage, 'Kaiserschmarrn' (sugared pancakes with raisins), omelettes and 'Niggilan' (small yeast doughnuts) with poppy seed. On advance request, goulash soup, roast beef and pork. In spring, nettle dumplings. In summer, salad with cream cheese on prior request and homemade juices."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Oberfinserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Delicious local Food will be served"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Obermoserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Obermoserhof lies amid mountain pastures and looks out over the pleasant village of Feldthurns.  It makes an ideal spot to explore the mountains of the Eisack valley.  Those seeking to take it easier can take in the warming rays of the sun on the terrace or simply enjoy the views of the nearby Geisler mountain peaks. The Obermoserhof  offers Farm Holidays too.Open days:Open from mid-September to mid-December from Wednesday to Saturday from 17.00 and Sunday from 12.00.  Monday and Tuesday closed."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Oberpartegger"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Oberpartegger lies nestled between the vineyards and can be reached walking on beautiful walking paths. Enjoy homemade delicacies grown on the farm and fields in the cosy Stube. You can taste delicious asparagus dishes during spring, and pasties stuffed with wild garlic. Of course, don’t forget about the Speck and our typical dishes.In autumn open on Sunndays from 13.00. Booking requested."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Obertalmühle"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "..."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Örtlhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We offer you local dishes with our own meat, vegetables and herbage from the garden. Reservation desired"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Paulser Dorfkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy the most beautiful moments in our \"Paulser Dorfkeller\".In atmospheric and rustic environment you can enjoy top wines from the best wineries in South Tyrol with hearty Tyrolean cuisine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Pedratsch"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Delicious local food will be served!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Peintnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Peintnerhof lies at the end of the village of Velturno and can be reached on the hiking trails between Bressanone and Velturno. Homemade food and beverages make every Törggelen party a unique experience. In winter we will pamper you with delicacies from our traditional farm kitchen."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Pinzonerkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The restaurant offers specialities from the barbecue, a young Southtyrolean cuisine with local products and a big selection of local wines in a special ambience.Open: Thursday, Friday 17 - 24 o'clock; Saturday, Sunday 10 - 24 o'clock. Day off: Monday - Wednesday"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Pizzeria Biergarten Remo"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The spacious restaurant in the Tyrolean style offers a lot of space. It is ideal for business lunches and family celebrations. A stone cellar invites you to \"Toerggelen\""
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Prantneralm"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Prantneralm mountain inn has a beautiful panoramic view on a sea level of 1800m. The menu offers traditional, local dishes."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Putzerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our Buschenschank is located in Novale/Ried and offers tipical local food."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Rebmannkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "On the western outskirts of Lana is the quaint tavern. Enjoy the traditional Tyrolean dishes witha good glass of homemade wine in the shady beer garden or in the 700 year old cellars. On your visit, the team is looking forward from Rebmannkeller."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Bucherkeller Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Features a children's playground, sun terrace, traditional cuisine, homemade cakes, traditional Törggelen in autumn, ideal for groups.Albin & Erika look forward to your visit!Bucherkeller Snack Bar (650 m)Starting point: S. Martino/St. Martin ¦ S. Leonardo/St. Leonhard Hiking trail number: 5 ¦ 30+5 Difference in altitude: 50 m | 100 m (descent) 50 m (ascent)Walking time: 20 minutes ¦ 1 hourDifficulty level: easyOpening hours summer: March - end of NovemberClosing day: TuesdayOpening hours winter: December only Friday-Sunday, 25/12 - 06/01 dailyAccessible by baby carriage and by car - playground"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant G'würzerkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant with garden. South Tyrolean dishes and Italian cuisine."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hilberkeller Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional offering of typical South Tyrolean delicacies in a harmonious atmosphere.Old wine cellar, beer garden and grill specialties, Törggelen in season. Beautiful children's playground.Open all day on weekends!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Kranebitt"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "traditonal cuisine in a pleasant atmosphere."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Oberwirtskeller Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Open from Easter to the end of October.The kitchen is open from 6.00 to 9.00 p.m.Closing day: Thursday."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Martinerhof’s Brauhaus Restaurant and Pizzeria"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Open the whole year.Closing day: noneThe kitchen is open from 12 a.m. to 2 p.m. and from 6 p.m. to 9.00 p.m."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant/Pizzahouse Torgglkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our kitchen has always understood how to successful combine Tyrolean tradition and Mediterranean flair – a fact to which our satisfied guests can testify."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Zum Hasen"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "By the historical meaning of this traditional house the kitchen is also a grown element. Our guests are spoilt with typical South Tyrolean specialties as for example  dumplings, the Pustertaler Bauerngröstel or ravioli.  Also Italian dishes are offered: spaghetti alla Carbonara, mozzarella Caprese, our Tiramisú, and many other creations. With pleasure we also cook for groups to special occasions. Furthermore, you have 50 different pizza creations at your disposal, directly from our wooden stove and in all variations. Our Restaurant is opened also during the gastronomic week \"Terner Bauernkuchl\" in autumn. Discover, experience and enjoy dishes made according to traditional recipes of the Pustertal Valley."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Pizzeria \"Zum Kalten Keller\""
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant - Pizzeria - Bar - Pub! Closing day on wednsday. Restaurant open from 11.00 - 14.00 0 clock."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Plattenhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Home-style cooking, grilled pork knuckles and chickens from the spit. 30 seats inside and another 50 seats on our terrace in the summer."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Ruster"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A unique dining experience is waiting for you at the Ruster Restaurant. We have a wide selection of dishes, hopefully enough to satisfy every diner. Why not try local dishes and the delicious traditional cuisine of South Tyrol? What about a superb dinner in the intimate and inviting ambience of the typical “stube” or in the beer garden? Our chef cooks impeccably executed menus of local and international dishes that are served in relaxed surroundings. Obviously the dinner is complemented by an excellent wine list or by the most exquisite beers. Enjoy dining in a different way and remember Virginia Wolf’s words: \"One cannot think well, love well, sleep well if one has not dined well”..."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ristorante Castello Neuhaus"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Luferkeller Restaurant Törggele Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Our restaurant, with large sun terrace, is ideal for groups and celebrations, and on cozy evenings it is particularly suitable for couples.Leave all stress behind and enjoy a quiet rest on our terrace. Whether in the sun or under the shady vine arbor (roofed), you can unwind.The cellar is also open for guests from mid-September to the end of November. During those months, you can savor our traditional Törggelen dishes!The Windisch family looks forward to your visit!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Unteregger Inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The guesthouse Untereggerhof, located directly in the inviolated nature is the perfect place to relax after a walk or to enjoy a traditional and first-class food.During winter at evening only with reservation!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Vinumgarten"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Vinumgarten -the name of the restaurant provides not just a cozy place in our garden, but also the special connection from good food and excellent wine. It awaits an authentic Alpine-Mediterranean cuisine, combined with fine wines of small local wineries in the unique setting of two wooden wine barrels. The cuisine of the owner and chef Klaus Pircher reflects the classic and modern South Tyrol. Selected seasonal products from producers in the area can be found in the kitchen. For aperitif Aperol from Marling of the private distillery Unterthurner, followed by fresh mountain butter from Unterschweighof from the Ulten Valley combined with homemade bread and fresh vegetables from South Tyrol, this are just a few examples."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Restaurant Weis Keller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Closed from November until the end of March."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Rielingerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Röckhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The \"Röckhof\" is situated in the sunny slopes of Villanders.7/10 - bottling, distillery, guided tour of the farm and cellar, typical dishes such as Schlutzkrapfen, potato pasties and homemade sausages. On Saturdays and Sundays we are open from midday."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Saderhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy the beautiful view from our farm and let yourself be inspired by the peaceful location. We offer our guests a wide choice: from \"Hofschank\" (traditional food and drinks), of course with its own products such as bacon, vegetables, up to a relaxing holiday for the whole family!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sandgruberhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Sandgruberhof is located in the pedestrian zone leading to Tyrol Castle, around 10 minutes on foot from the center of the village. The historic structure of the Sandgruberhof has been fundamentally preserved to the present day. It is easy to forget time and space in the centuries-old vaulted cellar, in the garden with its spectacular views and whilst enjoying the lovingly prepared dishes and delicacies."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sattlerhütte"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Sattler Cottage is a very well-located, calm mountain alp below the Möltner Kaser ."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Schillerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Schillerhof is located on a glade and offers you a nonrecurring view to Rosengarden and Latemar. Following forest roads you can arrive from Nova Levante, Tires, Obergummer or the Niggerpass.Relax on our sunny terrace with nonrecurring panorama and enjoy fresh South Tyrolean food made by our chef."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Schlosskeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Törggele Inn"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Soleseid Farm Holiday"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional farmer's cuisine, cosy farmhouse-style dining rooms and a relaxed setting. Located just off the Erta/Piz de Plaies hiking trail and slope."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Speckkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Cold dishes with traditional speck, cheese and sausages as well as smoked beef; cold dishes such as goulash, polenta and dumplings, perfectly combined to excellent and home-made local red and white wines. Music upon request."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Stachelburgkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The residence is a playful Early Renaissance building from the second half of the 16th Century. For several generations, the beautiful, romantic building has been private property and was changed into a bar and Törggele cellar. The residence consists of some oriel towers, a free-standing staircase with loggia, simple wooden ceilings and decorative frescoes. The entire residence reflects pride and beauty. Many years ago, it was protected from the road by a battlement wall."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Steffelehof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Particular, family run, wine cellar offering home-made wines and grappas. The farm also offers organic products. Excellent traditional cuisine featuring warm and cold dishes. Roasted chestnuts in autumn.  Also included in the „Mountain Inn’s guide“."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Steidlerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Traditional ambience with a beautiful view over Bolzano. The farm inn Steidlerhof offers local cuisine, tasty local specialities and self produced wines.  "
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Sterneck - mountain inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Suggestion: homemade strudel, cakes and South Tyrolean fritters; TörggelenOwn products: bacon, juices, vegetables, herbs"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Strasserhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Strasserhof farm lies above Neustift amidst vineyards and enjoys great views across the whole of the Brixen valley basin. The cosy old panelled parlour is just as impressive. Whether inside or outside, seated under the walnut tree, guests will feel at home on the Strasserhof farm. Farm Holiday guests are also welcome.Open days:Open daily from September to December from 12.00 to 23.00. Closed Mondays. "
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Tlò Plazores Osteria Restaurant"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Indulge in the perfumed scents of this elegant gothic building with its rural cosiness while relaxing in the large garden and watching the animals graze."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Zur Dorfmühle"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "In the rustic \"Zur Dorfmühle\" Törggelen Cellar, Manfred and Angelika will delight you with typical and seasonal South Tyrolean barbecue, game, wild herb, pasta and Törggelen (new wine season) specialties."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Torgglkeller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A wonderful medieval cellar in historic building. Guests will have the chance to try traditional dishes, perfectly combined to top quality, local wines kept alive: traditional roasted chestnuts in autumn as well as different other festivities. At Torgglkeller you will never miss music and good  mood. Also available parking area and playground for children."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Tschurtschenthalerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "A nice restaurant in the middle of the Mountain with a verry good restaurant."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ungererhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The Hofschenke is located in the old farmhouse of the Ungererhof. In the newly furnished guest rooms in the rustic peasant style, tradition and cosiness meet. Local dishes for the discerning palate can be found on our menu just as much as hearty farms or lovingly prepared \"Kosterler\" from our own garden and cellar. Our wine list offers a selection of the most popular wines of the area!"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Unteraichnerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Treat yourself to all kinds of delicious farm culinary fare in a cosy farmhouse parlour after a good long walk. The Unteraichnerhof in the little village of Barbian is just the place for this, situated in a particularly suitable part of the Eisack river valley for walkers. Don’t miss the home made mulberry juice – a rare treat.Advance orders required."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Untermeinlechner - traditional inn"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Suggestion: homemade South Tyrolean fritters, strudel and cakes, roast muttonOwn products: bacon, vegetables, fruit"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Unterrainerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We serve our guests in our Stube filled with hand carved tables. Our guests can also enjoy a beautiful view on our sunny terrace over the Valle Isarco and enjoy some good, homemade food and a glass of our wine.CLOSED ON MONDAY, TUESDAY - THURSDAY BOOKING ONLY"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Verleierhof/Vigiler Heubadl"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "traditional dishes"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Villscheiderhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "'The Villscheiderhof inn is ideally positioned along the well-known Chestnut Trail and looks out over Brixen, the seat of the local bishop. The Hilpold family are looking forward to treating you to tasty dishes and excellent wines in their newly built farmhouse parlour or on the terrace.Open days:Open from mid March to mid June and in October and November.  Tuesday to Friday from 16.00 and Saturday and Sunday from 12.00.  Closed on Mondays."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Walderhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Restaurant and bar"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Ranch Warger"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "We await you with traditional dishes from our farm and garden. Reservation required"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Wassererhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Buschenschank: The wine tavern at the moment is open. Thursday and friday from 18 p.m. and saturday e sunday from 12 p.m.Wineyard: Wine is sold at the farm all year"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Wastlhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Stylish wine cellar offering wine tastings, roasted chestnuts in autumn  and the perfect location for any kind of party. Absolutly not to miss: a guided tour through our vineyards. During summer months also grill platter as well as different, regional specialties."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Weintal"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The restaurant Weintal is located in the middle of the apple orchards of Naturno and can be reached on foot by the panoramic trail and also by car via \"Steinstraße\"."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Winklerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "All those keen on nature and good home cooking should pay a visit to the Winklerhof farm in St. Moritz in Villanders. Guests can take a seat in a choice of two cosy farm parlours and taste characteristic Eisack valley dishes prepared by the Fink family. Frau Fink’s ‘Schlutzer’ (spinach ravioli) are well known in gourmet circles.Orders required in advance."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Winklerhof"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "Enjoy a visit surrounded by orchards, cozy tranquility and South Tyrolean hospitality. Our farm is located in a sunny and quiet location on the edge of Parcines/Partschins. Eventful and carefree holidays in the healthy mountain air await guests any time of year. Take a deep breath, let your body and soul relax and experience pure nature."
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Wirtshaus Ansitz Goller"
+        },
+        "menu" : {
+          "type" : "literal",
+          "value" : "Törggele Lokale"
+        },
+        "cont" : {
+          "type" : "literal",
+          "value" : "The inn with a historic atmosphere offers original Tyrolean lounges and traditional dishes, a journey through time with a bucolic character."
+        }
+      }
+    ]
+  }
+}

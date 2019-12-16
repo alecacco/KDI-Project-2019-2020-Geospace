@@ -1,0 +1,16 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?time ?from ?to ?length
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:hasActivityEnum ontology:A_Walk .
+    ?path ontology:hasDifficultyEnum ontology:Low .
+    ?path ontology:AvgTravelTime_seconds ?time .
+    ?path ontology:fromPosition ?fp .
+    ?fp ontology:PoiName ?from .
+    ?path ontology:toPosition ?tp .
+    ?tp ontology:PoiName ?to .
+    ?path ontology:Length ?length .
+    FILTER(?length<=5000)
+}

@@ -1,0 +1,302 @@
+{
+  "head" : {
+    "vars" : [
+      "PoiName",
+      "sh",
+      "eh",
+      "tt"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Stadt%20Hotel%20Città_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "None"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Stadt Hotel Città"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Apartment%20Fewo_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "21:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Apartment Fewo"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Life%20Studio%20&%20City%20Bike_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "22:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Life Studio & City Bike"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Cooper%20Apartments_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "19:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Cooper Apartments"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Hotel%20Regina_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "00:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Regina"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Der%20Eggentaler_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "00:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Der Eggentaler"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Guesthouse48_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "17:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Guesthouse48"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Loft%2082%20Apartments_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "22:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Loft 82 Apartments"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Gardenhotel%20Premstaller_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "22:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Gardenhotel Premstaller"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Life%20Apartment%20&%20City%20Bike_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "22:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Life Apartment & City Bike"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Tivoli%20apartments_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "19:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Tivoli apartments"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Park%20Residence%20Apartments_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "19:30"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Park Residence Apartments"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Bozenapartments%20Garibaldi_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "21:30"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Bozenapartments Garibaldi"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Apartments%20Klotz_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "20:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "13:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Apartments Klotz"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Hotel%20Figl%20***S_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "00:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:00"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Figl ***S"
+        }
+      },
+      {
+        "tt" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_Appartamenti%20Cà%20de%20Bezzi_bolzano"
+        },
+        "eh" : {
+          "type" : "literal",
+          "value" : "19:00"
+        },
+        "sh" : {
+          "type" : "literal",
+          "value" : "14:30"
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Appartamenti Cà de Bezzi"
+        }
+      }
+    ]
+  }
+}

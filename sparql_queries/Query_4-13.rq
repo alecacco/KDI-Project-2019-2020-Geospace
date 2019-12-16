@@ -1,0 +1,17 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT DISTINCT ?name ?sh
+WHERE {
+    ?attr a ontology:Attraction .
+    ?attr ontology:PoiName ?name .
+    ?attr ontology:hasAttractionEnum ?enum .
+    ?attr ontology:hasAddress ?addr .
+    ?addr ontology:City ?city .
+    ?attr ontology:hasTimetable ?time .
+    ?time ontology:hasSchedules ?sched .
+    ?sched ontology:StartHour ?sh .
+    BIND (hours(?sh) AS ?hours)
+    FILTER(?hours<10)
+    FILTERregex(str(?city),'Bolzano')
+}

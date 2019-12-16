@@ -1,0 +1,403 @@
+{
+  "head" : {
+    "vars" : [
+      "shopname",
+      "dist",
+      "name"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ultental Pharmacy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "27.436645533954692"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ultental Pharmacy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "27.47962476907041"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy of Court"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "33.46512683454373"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy of Court"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "33.50708043131944"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy \"Apoteca Corvara\""
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "40.178821251222836"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy \"Apoteca Corvara\""
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "40.22705733712383"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy \"Apoteca Alta Badia\""
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "43.12436923944631"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy \"Apoteca Alta Badia\""
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "43.173041377809604"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Sebatum"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "52.300757617182065"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Sebatum"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "52.34609446237447"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Reischach/Riscone"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "55.013025134843446"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Reischach/Riscone"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "55.059273361395135"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy von Zieglauer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "55.51526751651765"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy von Zieglauer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "55.56084057978909"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy S. Barbara"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "56.53433873023368"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy S. Barbara"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "56.57936225922082"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Gaudenz"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "61.8597940790863"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Gaudenz"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "61.900207682462906"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Dr. Aichner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "63.29291227838336"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Dr. Aichner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "63.33557253318776"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Dr. Aichner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "65.28397150659688"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Dr. Aichner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "65.32621564557213"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "65.51469146045108"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "65.55433667812112"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Curon"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Cathedral dedicated to the Assumption of Mary"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "70.8568649232435"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pharmacy Curon"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Museum of the Cathedral's Treasure"
+        },
+        "dist" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "70.89102460631075"
+        }
+      }
+    ]
+  }
+}

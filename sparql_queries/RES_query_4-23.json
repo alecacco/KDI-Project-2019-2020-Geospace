@@ -1,0 +1,1852 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "shopname"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Armin Huber photographer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Alma Paramount"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Armin Huber photographer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Appartements Barbara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Armin Huber photographer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Almhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Armin Huber photographer"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Haus Waldruhe"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Claudio Foto Atelier"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Appartements Kerschbaumer"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Claudio Foto Atelier"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Huberhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Pradell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Edera"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Mirabel"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Salieta"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Hubertus"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Victoria"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Hell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Chalet G"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence La Tambra"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Antines"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Alaska"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Etruska"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Ronce"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Restaurant Rusctlea"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Mountain Design Hotel Eden Selva"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Fanes"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Villa Stella"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Bernardi"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Rodella"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Duniculeur"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartment Kristyn"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Elektro Foto Oberkofler"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Terra - The Magic Place Relais & Châteaux"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Flaim Optic"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "La Terrazza Residence"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Miramonti Corvara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Pension Rungg"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Vajolet San Cassiano"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Ciasa Mirasas"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Ploner"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Antares"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Melodia del Bosco"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Chalet Maria"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Dolomit"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lagació Hotel Mountain Residence"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photo shop Hofer Arnold"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schupferhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photo shop Hofer Arnold"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni-Residence Villa Paul"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Pradell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Edera"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Mirabel"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Salieta"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Hubertus"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Victoria"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Hell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Chalet G"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence La Tambra"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Antines"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Larciunei"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Etruska"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Ronce"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Vastle"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Alpinflair"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Villa Stella"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Rodella"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Moroder"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Gherdëina"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartment Kristyn"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photographer Michael Messner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Traube"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photographer Michael Messner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Vitrolerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photographer Michael Messner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Turnerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photographer Michael Messner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Weisse Lilie - Giglio Bianco"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Photographer Michael Messner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Tirolerhof Pension"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Fotolito Varesco"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Chalet Agave"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Fotolito Varesco"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Villa Groff"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Okay"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schloss Paschbach"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Okay"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lochererhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Okay"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Gardenhotel Premstaller"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Okay"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "The Lodge - Golfclub Eppan"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Rier"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lamondis"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Fotostudio 2000"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Bad Kochenmoos"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Fotostudio 2000"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartment Zielspitz"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Tabernar"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Appartements Kerschbaumer"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Tabernar"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Huberhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Foto Wieser"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Goldene Rose"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Silvia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Almhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kerschbaumhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Haus Waldruhe"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Boutique & Gourmet Hotel Orso Grigio"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Green-Energy-Point"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Valcastello Dolomites Chalet & Polo Club"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz Jewelry - Photo"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Unterer Obereggerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Mapgraphic Edition"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schloss Paschbach"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Mapgraphic Edition"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lochererhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Mapgraphic Edition"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Raffl"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Mapgraphic Edition"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "La Terrazza Residence"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Silvia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Almhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Simpaty"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kerschbaumhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Boutique & Gourmet Hotel Orso Grigio"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Microfilmdigital"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Valcastello Dolomites Chalet & Polo Club"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Foto Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Auriga"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Foto Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apparthotel Central"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Silvia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Emma Historic Hotel"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Simpaty"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Boutique & Gourmet Hotel Orso Grigio"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Valcastello Dolomites Chalet & Polo Club"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Mondschein"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Lamm"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Temblhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Pension Alpenblick"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Larch"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Stefansdorf"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Aparthotel Panorama"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Aichner"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Alpine Chalets App. Pichlerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kronplatz CHALET WALCHHORN Brunico Dolomites"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Ried"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rapid"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Clara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Opticus optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Auriga"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Opticus optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apparthotel Central"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Brugger optics"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Traube"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Brugger optics"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Turnerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Brugger optics"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Tirolerhof Pension"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optics Cadore"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Festnerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optics Cadore"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Haubenthal"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optics Cadore"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Beikircher"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optics Cadore"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Chalet Olympia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optics Cadore"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Appartamenti Residence Montana"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Gritsch"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Ortlerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optician Leitner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Raffl"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Stefansdorf"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Aparthotel Panorama"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Aichner"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Alpine Chalets App. Pichlerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kronplatz CHALET WALCHHORN Brunico Dolomites"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Ried"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Mariner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Clara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Markus Optic"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "La Terrazza Residence"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Mira"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lamondis"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Traube"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Turnerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Tirolerhof Pension"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Stefansdorf"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Aparthotel Panorama"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Aichner"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Alpine Chalets App. Pichlerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kronplatz CHALET WALCHHORN Brunico Dolomites"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Ried"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optic Rubner"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Clara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Willy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Miramonti Corvara"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Willy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Kolfuschgerhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Willy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garnì Sirio"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Willy"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Antares"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Zublasing"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schloss Paschbach"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Zublasing"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Lochererhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Zublasing"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Gardenhotel Premstaller"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Optik Zublasing"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "The Lodge - Golfclub Eppan"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ottica Cadore S.N.C."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Silvia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ottica Cadore S.N.C."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Emma Historic Hotel"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ottica Cadore S.N.C."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Simpaty"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ottica Cadore S.N.C."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Boutique & Gourmet Hotel Orso Grigio"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Ottica Cadore S.N.C."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Valcastello Dolomites Chalet & Polo Club"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Pradell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Edera"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Mirabel"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Salieta"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Hubertus"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Victoria"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Hell"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Chalet G"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence La Tambra"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Antines"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Larciunei"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartments Etruska"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Ronce"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Vastle"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Alpinflair"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Villa Stella"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Villa Moroder"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Pramstaller Optics - Optician"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartment Kristyn"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Moritz"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Bella Ariston"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Rösch"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Apartment Hotel Christine"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Schenna Garni Eden Bed & Breakfast"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Staschitz - photo shop and jewellery"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "City Hotel Merano"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Wisthaler Photography"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Residence Silvia"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Wisthaler Photography"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Hotel Almhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Wisthaler Photography"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Kerschbaumhof"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Wisthaler Photography"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Haus Waldruhe"
+        }
+      },
+      {
+        "shopname" : {
+          "type" : "literal",
+          "value" : "Wisthaler Photography"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Boutique & Gourmet Hotel Orso Grigio"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?name ?fromName ?toName
+WHERE {
+    ?path a ontology:ActivityPath .
+    ?path ontology:PathName ?name .
+    ?path ontology:fromPosition ?from .
+    ?from ontology:PoiName ?fromName .
+    ?path ontology:toPosition ?to .
+    ?to ontology:PoiName ?toName .
+    FILTER (regex(str(?fromName), 'RODA DI VAEL') && regex(str(?toName), '\'ALEARDO FRONZA\' ALLE CORONELLE')).
+}

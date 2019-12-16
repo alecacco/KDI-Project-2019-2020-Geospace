@@ -1,0 +1,142 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "enum"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Turner Windegger"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Goldsmith Mair"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Wood carving Runggaldier"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Innerhofer - arts & crafts, costumes"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Inderst Landhandel - Agriculture"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Lichtstudio Eisenkeil"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Obermarzoner Wood carving"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Saddlery Thaler"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Service 4 you"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Local Arts and crafts"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Carpentry Weithaler"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "Woodstore Laimer"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      },
+      {
+        "name" : {
+          "type" : "literal",
+          "value" : "moni.B Bags & Accessories made of tractor inner tubes"
+        },
+        "enum" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts"
+        }
+      }
+    ]
+  }
+}

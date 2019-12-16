@@ -1,0 +1,15 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX omgeo:   <http://www.ontotext.com/owlim/geo#>
+
+SELECT *
+WHERE {
+    ?acc a ontology:Accomodation .
+    ?acc ontology:PoiName "Camping Daino" .
+    ?acc ontology:hasAddress ?addr .
+    ?addr ontology:City ?c .
+    ?acc ontology:hasAccommodationEnum ?enum .
+    ?acc ontology:hasDescription ?desc .
+    ?desc ontology:DescriptionContent ?cont .
+    OPTIONAL{?acc ontology:NumOfBeds ?p}
+}

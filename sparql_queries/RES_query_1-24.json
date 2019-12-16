@@ -1,0 +1,137 @@
+{
+  "head" : {
+    "vars" : [
+      "PoiName",
+      "vote",
+      "phone",
+      "email",
+      "site"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Boutique Hotel Diana"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.7"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Palazzo Lodron Bertelli. Dimora Storica & Spa"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.7"
+        }
+      },
+      {
+        "site" : {
+          "type" : "literal",
+          "value" : "www.monroc.it "
+        },
+        "phone" : {
+          "type" : "literal",
+          "value" : "0463-735000 "
+        },
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Monroc Hotel"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        },
+        "email" : {
+          "type" : "literal",
+          "value" : "info@monroc.it "
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Garni Hotel Clara"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Gasthof Zum Löwen-Post"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Madonna"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Residence der Bircher"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Lagació Hotel Mountain Residence"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Terra - The Magic Place Relais & Châteaux"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "The Panoramic Lodge"
+        },
+        "vote" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#float",
+          "type" : "literal",
+          "value" : "9.6"
+        }
+      }
+    ]
+  }
+}

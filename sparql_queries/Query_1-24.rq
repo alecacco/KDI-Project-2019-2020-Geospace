@@ -1,0 +1,15 @@
+PREFIX ontology:<http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#>
+
+SELECT ?PoiName ?vote ?phone ?email ?site
+WHERE {
+    ?Accomodation a ontology:Accomodation .
+    ?Accomodation ontology:PoiName ?PoiName .
+    ?Accomodation ontology:hasDescription ?description .
+    ?description ontology:VoteAverage ?vote .
+    ?Accomodation ontology:hasContact ?contact .
+    ?Accomodation ontology:hasAccommodationEnum ontology:Hotel .
+    OPTIONAL{?contact ontology:PhoneNumber ?phone }
+    OPTIONAL{?contact ontology:Email ?email }
+    OPTIONAL{?contact ontology:Website ?site }
+} order by desc(?vote) limit 10
+

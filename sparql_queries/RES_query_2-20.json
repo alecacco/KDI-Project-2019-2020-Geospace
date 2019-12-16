@@ -1,0 +1,137 @@
+{
+  "head" : {
+    "vars" : [
+      "PoiName"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Furlhütte"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Albergo Alpenrose"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Albergo Burgschenke"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Gasthof Klammer"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Albergo Lex"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Albergo Pfitscherhof"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Gasthof Restaurant Burgfrieden"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Gasthof Albergo Simeler"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Gasthof Post"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Lahnerhof"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Lener"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Mondschein"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Pizzeria Thuinerwaldele"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Schaurhof"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Sonnenheim"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Jausenstation Braunhof"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Knappenstube"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "moidls lokäischn"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Prantneralm"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Hotel Restaurant Kranebitt"
+        }
+      },
+      {
+        "PoiName" : {
+          "type" : "literal",
+          "value" : "Ungererhof"
+        }
+      }
+    ]
+  }
+}
