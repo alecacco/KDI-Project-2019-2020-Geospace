@@ -1,0 +1,2131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10"
+     xml:base="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#WordNet -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#WordNet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#fromPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#fromPosition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:label>fromPosition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAccommodationEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAccommodationEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+        <rdfs:label>hasAccomodotationEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasActivityEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasActivityEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+        <rdfs:label>hasActivityEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:label>hasAddress</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAgency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAgency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:label>hasAgency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAttractionEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAttractionEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+        <rdfs:label>hasAttractionEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasCalendar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasCalendar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:label>hasCalendar</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasContact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact"/>
+        <rdfs:label>hasContact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+        <rdfs:label>hasDescription</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasDifficultyEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasDifficultyEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+        <rdfs:label>hasDifficultyEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasEmergency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasEmergency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EmergencyService"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+        <rdfs:label>hasEmergency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasExceptions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasExceptions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate"/>
+        <rdfs:label>hasExceptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasPoints -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasPoints">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:label>hasPoints</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasPriceEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasPriceEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop"/>
+        <rdfs:label>hasPriceEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasProvinceEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasProvinceEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum"/>
+        <rdfs:label>hasProvinceEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasRepetitionEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasRepetitionEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+        <rdfs:label>hasRepetitionEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasRoutes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasRoutes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:label>hasRoutes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasSchedules -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasSchedules">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:label>hasSchedules</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasShopEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasShopEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+        <rdfs:label>hasShopEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:label>hasStop</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStopTimes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasStopTimes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:label>hasStopTimes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTimetable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTimetable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable"/>
+        <rdfs:label>hasTimetable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTransportEnum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTransportEnum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+        <rdfs:label>hasTransportEnum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#toPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#toPosition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:label>toPosition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AcceptsReservation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AcceptsReservation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>AcceptReservation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>AgencyID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyLang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyLang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>AgencyLang</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>AgencyName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyPhone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyPhone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>AgencyPhone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyTimezone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyTimezone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>AgencyTimezone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AgencyUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>AgencyUrl</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AllDay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AllDay">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>AllDay</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Altitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Altitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Altitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Animals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Animals">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>Animals</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ArrivalTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ArrivalTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ArrivalTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AvgTravelTime_seconds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AvgTravelTime_seconds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>AvgTravelTime_seconds</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CAP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CAP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>CAP</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#City -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#City">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>CityName</rdfs:comment>
+        <rdfs:label>City</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CountyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CountyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>CountyName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DepartureTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DepartureTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>DepartureTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DescriptionContent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DescriptionContent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>DescriptionContent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>EndDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndHour -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndHour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>EndHour</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EquipmentRequired -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EquipmentRequired">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>EquipmentRequired</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ExceptionType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ExceptionType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>ExceptionType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#FirstAid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#FirstAid">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EmergencyService"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>FirstAid</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Free -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Free">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>Free</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Friday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Friday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Friday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#HasRestaurant -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#HasRestaurant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>HasRestaurant</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_County -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_County">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>CountyId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Municipality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Municipality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>MunicipalityName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Province -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ISTAT_Province">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>ProvinceAbbreviation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Internet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Internet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>Internet</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Latitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Latitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Length">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Lenght</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Longitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Longitude</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Monday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Monday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Monday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#MunicipalityName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#MunicipalityName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>MunicipalityId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NegativeGradient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NegativeGradient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>NegativeGradient</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumOfBeds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumOfBeds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>NumOfBeds</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumberOfVotes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumberOfVotes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>NumberOfVotes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Parking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Parking">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>Parking</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PathName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PathName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>PathName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PhoneNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PhoneNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>PhoneNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PoiID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PoiID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>PoiID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PoiName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PoiName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>PoiName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PositiveGradient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PositiveGradient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>PositiveGradient</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ReachableWithTransport -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ReachableWithTransport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ReachableWithTransport</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepeatEvery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepeatEvery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>RepeatEvery</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteColor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteColor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>RouteColor</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>RouteID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteLongName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteLongName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>RouteLongName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteShortName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteShortName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>RouteShortName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteTextColor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RouteTextColor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>RouteTextColor</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Saturday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Saturday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Saturday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ScheduleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ScheduleName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ScheduleName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Sequence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Sequence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Sequence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ServesCousine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ServesCousine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ServesCousine</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ServiceID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ServiceID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ServiceID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stars -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stars">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Stars</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>StartDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartHour -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartHour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>StartHour</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>StopCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopDesc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopDesc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>StopDesc</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>StopID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>StopName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopSequence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopSequence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>StopSequence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Street -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Street">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Street</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Sunday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Sunday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Sunday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Tags -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Tags">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Tags</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Thursday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Thursday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Thursday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TripID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TripID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>TripID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Tuesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Tuesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Tuesday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#VoteAverage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#VoteAverage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>VoteAverage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Website">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Website</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wednesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wednesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>Wednesday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wellness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wellness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>Wellness</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#WheelchairBoarding -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#WheelchairBoarding">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>WheelchairBoarding</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ZoneID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ZoneID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>ZoneID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Friday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Friday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Friday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Monday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Monday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Monday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Saturday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Saturday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Saturday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Sunday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Sunday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Sunday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Thuresday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Thuresday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Thursday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Tuesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Tuesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Tuesday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Wednesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#d_Wednesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>d_Wednesday</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#directionID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#directionID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>directID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#shapeID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#shapeID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>shapeID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#tripHeadsign -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#tripHeadsign">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>tripHeadsign</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#wheelchairAccessible -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#wheelchairAccessible">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>wheelchairAccessible</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Accommodation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">03547513</untitled-ontology-10:WordNet>
+        <rdfs:label>Accommodation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityPath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09410115</untitled-ontology-10:WordNet>
+        <rdfs:label>ActivityPath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08508037</untitled-ontology-10:WordNet>
+        <rdfs:label>Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08073958</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_Agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06627914</untitled-ontology-10:WordNet>
+        <rdfs:label>Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15198526</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_Calendar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate">
+        <untitled-ontology-10:WordNet>15198526, 05829606</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_CalendarDate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">07293990</untitled-ontology-10:WordNet>
+        <rdfs:label>Contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06737512</untitled-ontology-10:WordNet>
+        <rdfs:label>Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Difficulty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EmergencyService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EmergencyService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">03545775</untitled-ontology-10:WordNet>
+        <rdfs:label>EmergencyService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08633886</untitled-ontology-10:WordNet>
+        <rdfs:label>LineString</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08643858</untitled-ontology-10:WordNet>
+        <rdfs:label>Municipality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08637636</untitled-ontology-10:WordNet>
+        <rdfs:label>Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00156307</untitled-ontology-10:WordNet>
+        <rdfs:label>PointOfInterest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Repetition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04088393</untitled-ontology-10:WordNet>
+        <rdfs:label>Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04103160</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_Route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06507319</untitled-ontology-10:WordNet>
+        <rdfs:label>ICAL_Schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04209460</untitled-ontology-10:WordNet>
+        <rdfs:label>Shop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Shop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08674524</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_Stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06507319</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_StopTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06508490</untitled-ontology-10:WordNet>
+        <rdfs:label>Timetable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00948137</untitled-ontology-10:WordNet>
+        <rdfs:label>ENUM_Transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip">
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09410115</untitled-ontology-10:WordNet>
+        <rdfs:label>GTFS_Trip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Bike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Bike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Motorcycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Motorcycle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Walk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#A_Walk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Apartments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Apartments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#BZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#BZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#BedAndBreakfast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#BedAndBreakfast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Camping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Camping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Culture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Culture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Daily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Daily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#HolidayHouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#HolidayHouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Hostel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Hostel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Monthly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Monthly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#MountainHut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#MountainHut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NightlifeEntertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NightlifeEntertainment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Other -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Other">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Residence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Residence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Agricultural_products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Agricultural_products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Antiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Antiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Artist_gilder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Artist_gilder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Artists -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Artists">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Beverages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Beverages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Bikes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Bikes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Bread_baked_goods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Bread_baked_goods">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Cleanings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Cleanings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Computer_accessories_technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Computer_accessories_technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Drugstore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Drugstore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Fashion_clothing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Fashion_clothing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Flowers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Flowers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Fruits_vegetables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Fruits_vegetables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Groceries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Groceries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Handicrafts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Home_furnishings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Home_furnishings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Housewares -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Housewares">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Jeweller_Goldsmiths -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Jeweller_Goldsmiths">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Kids_fashion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Kids_fashion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Leather_ware_shoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Leather_ware_shoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Local_traditional_products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Local_traditional_products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Meat_sausages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Meat_sausages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_More_crafts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_More_crafts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Newspapers_books_stationary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Newspapers_books_stationary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Optician_photography -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Optician_photography">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Paints_Wallpapers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Paints_Wallpapers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Pet_supplies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Pet_supplies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Production_facilities_farm_shops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Production_facilities_farm_shops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Quill_embroidery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Quill_embroidery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Sculptor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Sculptor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Souvenirs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Souvenirs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Sports_equipment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Sports_equipment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Toys -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Toys">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Weaving_mill_arts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#S_Weaving_mill_arts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#SportLeisure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#SportLeisure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Bus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Bus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Cable_car -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Cable_car">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Ferry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Ferry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Funicular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Funicular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Gondola_Suspended_cable_car -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Gondola_Suspended_cable_car">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Rail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Rail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Subway_Metro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Subway_Metro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Tram_Streetcar_Light_rail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#T_Tram_Streetcar_Light_rail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Weekly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Weekly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Yearly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Yearly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$">
+        <rdfs:comment>$</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$$ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$$"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$$$ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#$$$"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>OntologyRoot</rdfs:label>
+        <untitled-ontology-10:WordNet rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08524579</untitled-ontology-10:WordNet>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ActivityEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Agency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AttractionEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Calendar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CalendarDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DifficultyEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#LineString"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#RepetitionEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ShopEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StopTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TransportEnum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Trip"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Attraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EmergencyService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Restaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Shop"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Municipality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stop"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

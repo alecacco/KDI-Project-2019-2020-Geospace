@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.2.0.3-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:compat="http://www.yworks.com/xml/yfiles-compat-arrows/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:VuejsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:x0="http://www.yworks.com/yFilesHTML/demos/EntityRelationship/1.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d1" for="node" attr.type="string" attr.name="url"/>
+	<key id="d2" for="node" attr.type="string" attr.name="description"/>
+	<key id="d3" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d4" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d5" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d6" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d7" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d8" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d10" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d11" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d12" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d13" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d14" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d15" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d16" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d18" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d18">
+		<y:SharedData>
+			<yjs:Color x:Key="1" value="#FFE8EEF7"/>
+			<yjs:Color x:Key="2" value="#FFB7C9E3"/>
+			<yjs:Color x:Key="3" value="#FFFF6666"/>
+			<yjs:Color x:Key="4" value="Red"/>
+			<yjs:Color x:Key="5" value="#FFFFFF99"/>
+			<yjs:Color x:Key="6" value="#FFFFCC00"/>
+			<yjs:SolidColorFill x:Key="7" color="Black"/>
+			<y:SmartEdgeLabelModel x:Key="8"/>
+			<yjs:DefaultLabelStyle x:Key="9" verticalTextAlignment="BOTTOM" horizontalTextAlignment="CENTER" textFill="BLACK">
+				<yjs:DefaultLabelStyle.font>
+					<yjs:Font fontSize="12" fontFamily="'Arial'"/>
+				</yjs:DefaultLabelStyle.font>
+			</yjs:DefaultLabelStyle>
+			<yjs:SolidColorFill x:Key="10" color="Black"/>
+			<yjs:Arrow x:Key="11" type="NONE"/>
+			<yjs:SolidColorFill x:Key="12" color="Black"/>
+			<yjs:SolidColorFill x:Key="13" color="Black"/>
+			<yjs:SolidColorFill x:Key="14" color="Black"/>
+			<yjs:SolidColorFill x:Key="15" color="Black"/>
+			<yjs:SolidColorFill x:Key="16" color="Black"/>
+			<yjs:SolidColorFill x:Key="17" color="Black"/>
+			<y:SmartEdgeLabelModelParameter x:Key="18" Model="{y:GraphMLReference 8}" Distance="5"/>
+			<yjs:SolidColorFill x:Key="19" color="Black"/>
+			<yjs:SolidColorFill x:Key="20" color="Black"/>
+			<yjs:SolidColorFill x:Key="21" color="Black"/>
+			<yjs:SolidColorFill x:Key="22" color="Black"/>
+			<yjs:SolidColorFill x:Key="23" color="Black"/>
+			<yjs:SolidColorFill x:Key="24" color="Black"/>
+			<yjs:SolidColorFill x:Key="25" color="Black"/>
+			<yjs:SolidColorFill x:Key="26" color="Black"/>
+			<yjs:SolidColorFill x:Key="27" color="Black"/>
+			<yjs:SolidColorFill x:Key="28" color="Black"/>
+			<yjs:SolidColorFill x:Key="29" color="Black"/>
+			<yjs:SolidColorFill x:Key="30" color="Black"/>
+			<yjs:SolidColorFill x:Key="31" color="Black"/>
+			<yjs:SolidColorFill x:Key="32" color="Black"/>
+			<yjs:SolidColorFill x:Key="33" color="Black"/>
+			<yjs:SolidColorFill x:Key="34" color="Black"/>
+			<yjs:SolidColorFill x:Key="35" color="Black"/>
+			<yjs:SolidColorFill x:Key="36" color="Black"/>
+			<yjs:SolidColorFill x:Key="37" color="Black"/>
+			<y:SmartEdgeLabelModelParameter x:Key="38" Distance="5">
+				<y:SmartEdgeLabelModelParameter.Model>
+					<y:SmartEdgeLabelModel/>
+				</y:SmartEdgeLabelModelParameter.Model>
+			</y:SmartEdgeLabelModelParameter>
+			<yjs:DefaultLabelStyle x:Key="39" verticalTextAlignment="BOTTOM" horizontalTextAlignment="CENTER" textFill="BLACK">
+				<yjs:DefaultLabelStyle.font>
+					<yjs:Font fontSize="12" fontFamily="'Arial'"/>
+				</yjs:DefaultLabelStyle.font>
+			</yjs:DefaultLabelStyle>
+			<yjs:SolidColorFill x:Key="40" color="Black"/>
+			<yjs:PolylineEdgeStyle x:Key="41" sourceArrow="{y:GraphMLReference 11}">
+				<yjs:PolylineEdgeStyle.stroke>
+					<yjs:Stroke fill="{y:GraphMLReference 26}" miterLimit="1.45"/>
+				</yjs:PolylineEdgeStyle.stroke>
+				<yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 26}"/>
+				</yjs:PolylineEdgeStyle.targetArrow>
+			</yjs:PolylineEdgeStyle>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d5">
+			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d4">
+				<y:RectD X="913.1798948874675" Y="133.7420284779356" Width="195.287912087912" Height="100.07777289377282"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Description</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[DescriptionString: String]]></sys:String>
+									<sys:String><![CDATA[Vote: Float]]></sys:String>
+									<sys:String><![CDATA[NumberOfVotes: Int]]></sys:String>
+									<sys:String><![CDATA[Tags: String]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.005068734264643604,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9902035480237146"/>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d4">
+				<y:RectD X="486.1588649792693" Y="690.9180697088445" Width="168.17555311355204" Height="66.91464468864478"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>EmergencyService</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[FirstAid: Boolean]]></sys:String>
+									<sys:String><![CDATA[GradeOfEmergency: {H,M,L}]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.01045318260737449"/>
+				</data>
+			</port>
+		</node>
+		<node id="n2">
+			<data key="d4">
+				<y:RectD X="874.2050737912673" Y="746.7990802019028" Width="178.1902849968842" Height="90"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Restaurant</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Price: Float]]></sys:String>
+									<sys:String><![CDATA[AcceptsReservations: Boolean]]></sys:String>
+									<sys:String><![CDATA[ServedCousine: String[ ]]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n3">
+			<data key="d4">
+				<y:RectD X="474.80383494209264" Y="441.00562736803" Width="164.92814065934078" Height="89.99999999999997"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Point</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Altitude: Float]]></sys:String>
+									<sys:String><![CDATA[Lat: Degrees]]></sys:String>
+									<sys:String><![CDATA[Lon: Degrees]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999967,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.00599060168075967,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999967,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p3"/>
+		</node>
+		<node id="n4">
+			<data key="d4">
+				<y:RectD X="1043.2971586929434" Y="615.5623354832865" Width="108.40099633699629" Height="90"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Contact</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Website: String]]></sys:String>
+									<sys:String><![CDATA[Phone: String]]></sys:String>
+									<sys:String><![CDATA[EMail: String]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n5">
+			<data key="d4">
+				<y:RectD X="580.7278769151975" Y="58.34132881590034" Width="211.01104761904776" Height="190.51330997717946"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>ActivityPath</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[PathName: String]]></sys:String>
+									<sys:String><![CDATA[AvgTravelTime: int(seconds)]]></sys:String>
+									<sys:String><![CDATA[Lenght: Float]]></sys:String>
+									<sys:String><![CDATA[From: PointOfInterest]]></sys:String>
+									<sys:String><![CDATA[To: PointOfInterest]]></sys:String>
+									<sys:String><![CDATA[EquipementRequired: Boolean]]></sys:String>
+									<sys:String><![CDATA[Difficulty: {H,M,L}]]></sys:String>
+									<sys:String><![CDATA[NegativeGradient: Float]]></sys:String>
+									<sys:String><![CDATA[PositiveGradient: Float]]></sys:String>
+									<sys:String><![CDATA[SuggestedType: ActivityEnum]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.005614219464733879"/>
+				</data>
+			</port>
+			<port name="p1"/>
+			<port name="p2"/>
+			<port name="p3"/>
+			<port name="p4"/>
+		</node>
+		<node id="n6">
+			<data key="d4">
+				<y:RectD X="277.31123252037605" Y="664.8077098720184" Width="195.2879120879121" Height="177.21865546218487"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Accommodation</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Stars: String]]></sys:String>
+									<sys:String><![CDATA[Price: Float]]></sys:String>
+									<sys:String><![CDATA[Type: AccomodationTypeEnum]]></sys:String>
+									<sys:String><![CDATA[HasRestaurant: Boolean]]></sys:String>
+									<sys:String><![CDATA[NumOfBeds: Integer]]></sys:String>
+									<sys:String><![CDATA[Parking: Boolean]]></sys:String>
+									<sys:String><![CDATA[Animals: Boolean]]></sys:String>
+									<sys:String><![CDATA[Internet: Boolean ]]></sys:String>
+									<sys:String><![CDATA[Wellness: Boolean]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n7">
+			<data key="d4">
+				<y:RectD X="735.2498732600733" Y="441.00562736803" Width="146.12530647130643" Height="90"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>PointOfInterest</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[ID: String]]></sys:String>
+									<sys:String><![CDATA[Name: String]]></sys:String>
+									<sys:String><![CDATA[Timetable: Timetable]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p8">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000008"/>
+				</data>
+			</port>
+			<port name="p9"/>
+			<port name="p10">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5205303247770371,0.5395524041657442"/>
+				</data>
+			</port>
+			<port name="p11"/>
+		</node>
+		<node id="n8">
+			<data key="d4">
+				<y:RectD X="1065.574961934443" Y="746.7990802019028" Width="178.1902849968842" Height="90"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Shop</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Price: Float]]></sys:String>
+									<sys:String><![CDATA[Type: ShopTypeEnum]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+		</node>
+		<node id="n9">
+			<data key="d4">
+				<y:RectD X="667.8941384638026" Y="746.7990802019028" Width="195.2879120879121" Height="90"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Attraction</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Free: Boolean]]></sys:String>
+									<sys:String><![CDATA[Type: AttracEnum]]></sys:String>
+									<sys:String><![CDATA[RecheabWithTransport: Boolean]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000003,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000003,0.008228113627449287"/>
+				</data>
+			</port>
+		</node>
+		<node id="n10">
+			<data key="d4">
+				<y:RectD X="999.8537008174856" Y="304.35938139226494" Width="195.287912087912" Height="103.81326856166012"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Timetable</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Schedule1(morning): Schedule]]></sys:String>
+									<sys:String><![CDATA[Schedule2(evening): Schedule]]></sys:String>
+									<sys:String><![CDATA[Vacation: Schedule[ ]]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000034,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000001"/>
+				</data>
+			</port>
+		</node>
+		<node id="n11">
+			<data key="d4">
+				<y:RectD X="124.39645667591418" Y="58.34132881590034" Width="211.01104761904776" Height="171.26330997717946"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>TransportEnum</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Tram, Streetcar, Light rail: 0]]></sys:String>
+									<sys:String><![CDATA[Subway, Metro: 1 ]]></sys:String>
+									<sys:String><![CDATA[Rail: 2]]></sys:String>
+									<sys:String><![CDATA[Bus: 3]]></sys:String>
+									<sys:String><![CDATA[Ferry: 4 ]]></sys:String>
+									<sys:String><![CDATA[Cable car: 5]]></sys:String>
+									<sys:String><![CDATA[Gondola, Suspended cable car: 6]]></sys:String>
+									<sys:String><![CDATA[Funicular: 7]]></sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n12">
+			<data key="d4">
+				<y:RectD X="1280.6759436331558" Y="58.34132881590034" Width="167.1717647058822" Height="270.938691643505"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Schedule (ICAL standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Name: String]]></sys:String>
+									<sys:String><![CDATA[StartHour: String]]></sys:String>
+									<sys:String><![CDATA[EndHour: String]]></sys:String>
+									<sys:String><![CDATA[AllDay: Boolean]]></sys:String>
+									<sys:String><![CDATA[StartDate: DateTime]]></sys:String>
+									<sys:String><![CDATA[EndDate: DateTime]]></sys:String>
+									<sys:String><![CDATA[Repetition: {daily, weekly, ]]></sys:String>
+									<sys:String><![CDATA[                monthly, yearly}]]></sys:String>
+									<sys:String><![CDATA[Every: int]]></sys:String>
+									<sys:String><![CDATA[Monday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Tuesday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Wednesday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Thuresday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Friday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Saturday: Boolean]]></sys:String>
+									<sys:String><![CDATA[Sunday :Boolean]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.4999999999999999"/>
+				</data>
+			</port>
+		</node>
+		<node id="n13">
+			<data key="d4">
+				<y:RectD X="497.18398830039223" Y="775.1832522949217" Width="146.12530647130643" Height="183.96436974789913"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>AccomodationTypeEnum</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Hotel: 1]]></sys:String>
+									<sys:String><![CDATA[BedAndBreakfast: 2]]></sys:String>
+									<sys:String><![CDATA[MountainHut: 3]]></sys:String>
+									<sys:String><![CDATA[Residence: 4]]></sys:String>
+									<sys:String><![CDATA[Apartments: 5]]></sys:String>
+									<sys:String><![CDATA[HolidayHouse: 6]]></sys:String>
+									<sys:String><![CDATA[Camping: 7]]></sys:String>
+									<sys:String><![CDATA[Hostel: 8]]></sys:String>
+									<sys:String><![CDATA[Other: 9]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n14">
+			<data key="d4">
+				<y:RectD X="1256.9448500776189" Y="401.4276132087523" Width="214.6339518169557" Height="552.5778346839548"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>ShopTypeEnum</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Agricultural_products: 1]]></sys:String>
+									<sys:String><![CDATA[Antiques: 2]]></sys:String>
+									<sys:String><![CDATA[Artist_gilder: 3]]></sys:String>
+									<sys:String><![CDATA[Artists: 4]]></sys:String>
+									<sys:String><![CDATA[Beverages: 5]]></sys:String>
+									<sys:String><![CDATA[Bikes: 6]]></sys:String>
+									<sys:String><![CDATA[Bread_baked_goods: 7]]></sys:String>
+									<sys:String><![CDATA[Cleanings: 8]]></sys:String>
+									<sys:String><![CDATA[Computer_accessories_technology: 9]]></sys:String>
+									<sys:String><![CDATA[Drugstore: 10]]></sys:String>
+									<sys:String><![CDATA[Fashion_clothing: 11]]></sys:String>
+									<sys:String><![CDATA[Flowers: 12]]></sys:String>
+									<sys:String><![CDATA[Fruits_vegetables: 13]]></sys:String>
+									<sys:String><![CDATA[Groceries: 14]]></sys:String>
+									<sys:String><![CDATA[Handicrafts: 15]]></sys:String>
+									<sys:String><![CDATA[Home_furnishings: 16]]></sys:String>
+									<sys:String><![CDATA[Housewares: 17]]></sys:String>
+									<sys:String><![CDATA[Jeweller_Goldsmiths: 18]]></sys:String>
+									<sys:String><![CDATA[Kids_fashion: 19]]></sys:String>
+									<sys:String><![CDATA[Leather_ware_shoes: 20]]></sys:String>
+									<sys:String><![CDATA[Local_traditional_products: 21]]></sys:String>
+									<sys:String><![CDATA[Meat_sausages: 22]]></sys:String>
+									<sys:String><![CDATA[More_crafts: 23]]></sys:String>
+									<sys:String><![CDATA[Newspapers_books_stationary: 24]]></sys:String>
+									<sys:String><![CDATA[Optician_photography: 25]]></sys:String>
+									<sys:String><![CDATA[Paints_Wallpapers: 26]]></sys:String>
+									<sys:String><![CDATA[Pet_supplies: 27]]></sys:String>
+									<sys:String><![CDATA[Production_facilities_farm_shops: 28]]></sys:String>
+									<sys:String><![CDATA[Quill_embroidery: 29]]></sys:String>
+									<sys:String><![CDATA[Sculptor: 30]]></sys:String>
+									<sys:String><![CDATA[Souvenirs: 31]]></sys:String>
+									<sys:String><![CDATA[Sports_equipment: 32]]></sys:String>
+									<sys:String><![CDATA[Toys: 33]]></sys:String>
+									<sys:String><![CDATA[Weaving_mill_arts: 34]]></sys:String>
+									<sys:String><![CDATA[Other: 35]]></sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.4999999999999999"/>
+				</data>
+			</port>
+		</node>
+		<node id="n15">
+			<data key="d4">
+				<y:RectD X="884.4782382677313" Y="857.7292752032748" Width="157.643956043956" Height="101.41834683954607"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>AttracEnum</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>Culture:0</sys:String>
+									<sys:String>NightlifeEntertainment:1</sys:String>
+									<sys:String>SportLeisure:2</sys:String>
+									<sys:String><![CDATA[Other: 3]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n16">
+			<data key="d4">
+				<y:RectD X="1015.0335865317711" Y="441.00562736803" Width="164.92814065934078" Height="149.44567119155383"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFD38AE2">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="#FFDBB7E3" offset="0"/>
+							<yjs:GradientStop color="#FFD38AE2" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Address</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Province: {TN, BZ}]]></sys:String>
+									<sys:String><![CDATA[City: String]]></sys:String>
+									<sys:String><![CDATA[Street: String]]></sys:String>
+									<sys:String><![CDATA[Number: String]]></sys:String>
+									<sys:String><![CDATA[CAP: int]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.005990601680760015,0.5000000000000001"/>
+				</data>
+			</port>
+		</node>
+		<node id="n17">
+			<data key="d4">
+				<y:RectD X="490.9498814622392" Y="304.35938139226494" Width="132.63604761904776" Height="57.119150183150225"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>LineString</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Sequence: Point [ ]]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9935220217328811"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9830850071947586"/>
+				</data>
+			</port>
+		</node>
+		<node id="n18">
+			<data key="d4">
+				<y:RectD X="132.258024441482" Y="441.00562736803" Width="195.2879120879121" Height="136.2115390185564"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Stop (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[stop_id: int]]></sys:String>
+									<sys:String><![CDATA[stop_name: String]]></sys:String>
+									<sys:String><![CDATA[stop_code: String]]></sys:String>
+									<sys:String><![CDATA[stop_desc: String]]></sys:String>
+									<sys:String><![CDATA[zone_id: int]]></sys:String>
+									<sys:String><![CDATA[wheelchair_boarding: int]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9940093983192397,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000001"/>
+				</data>
+			</port>
+		</node>
+		<node id="n19">
+			<data key="d4">
+				<y:RectD X="132.25802444148206" Y="257.869890272222" Width="195.287912087912" Height="127.11765488732314"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[StopTime (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[trip_id: int]]></sys:String>
+									<sys:String><![CDATA[arrival_time: String]]></sys:String>
+									<sys:String><![CDATA[departure_time: String]]></sys:String>
+									<sys:String><![CDATA[stop_sequence: int]]></sys:String>
+									<sys:String><![CDATA[stop: Stop]]></sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000001"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000001"/>
+				</data>
+			</port>
+		</node>
+		<node id="n20">
+			<data key="d4">
+				<y:RectD X="-144.60936127280343" Y="471.62016658911955" Width="195.287912087912" Height="183.96436974789916"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Trip (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[trip_id: Int]]></sys:String>
+									<sys:String><![CDATA[service_id: Float]]></sys:String>
+									<sys:String><![CDATA[trip_headsign: String]]></sys:String>
+									<sys:String><![CDATA[direction_id: Boolean]]></sys:String>
+									<sys:String><![CDATA[shape_id: Int]]></sys:String>
+									<sys:String><![CDATA[wheelchair_accessible: int]]></sys:String>
+									<sys:String><![CDATA[calendar: Calendar[ ]]]></sys:String>
+									<sys:String><![CDATA[route: Route]]></sys:String>
+									<sys:String><![CDATA[stop_times: StopTime[ ]]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999994"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999994"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999994"/>
+				</data>
+			</port>
+		</node>
+		<node id="n21">
+			<data key="d4">
+				<y:RectD X="-144.60936127280343" Y="749.1981723954298" Width="195.287912087912" Height="207.71436974789916"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Calendar (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[service_id: Float]]></sys:String>
+									<sys:String><![CDATA[monday: Int]]></sys:String>
+									<sys:String><![CDATA[tuesday: Int ]]></sys:String>
+									<sys:String><![CDATA[wednesday: Int]]></sys:String>
+									<sys:String><![CDATA[thursday: Int]]></sys:String>
+									<sys:String><![CDATA[friday: Int]]></sys:String>
+									<sys:String><![CDATA[saturday: Int]]></sys:String>
+									<sys:String><![CDATA[sunday: Int]]></sys:String>
+									<sys:String><![CDATA[start_date: DateTime]]></sys:String>
+									<sys:String><![CDATA[end_date: DateTime]]></sys:String>
+									<sys:String><![CDATA[exceptions: CalendarDate[ ]]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999994"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999994"/>
+				</data>
+			</port>
+		</node>
+		<node id="n22">
+			<data key="d4">
+				<y:RectD X="71.53629001765046" Y="863.2478974546841" Width="195.287912087912" Height="93.66464468864481"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[CalendarDate (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[service_id: Float]]></sys:String>
+									<sys:String><![CDATA[date: DateTime]]></sys:String>
+									<sys:String><![CDATA[exception_type: int{1, 2}]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.49999999999999983"/>
+				</data>
+			</port>
+		</node>
+		<node id="n23">
+			<data key="d4">
+				<y:RectD X="-152.4709290383713" Y="257.869890272222" Width="211.01104761904776" Height="141.3393697478991"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Route (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[route_id: Int]]></sys:String>
+									<sys:String><![CDATA[route_short_name: String]]></sys:String>
+									<sys:String><![CDATA[route_long_name: String]]></sys:String>
+									<sys:String><![CDATA[route_type: TransportEnum]]></sys:String>
+									<sys:String><![CDATA[route_color: String]]></sys:String>
+									<sys:String><![CDATA[route_text_color: String]]></sys:String>
+									<sys:String><![CDATA[agency: Agency]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1"/>
+			<port name="p2">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.006025389675621273"/>
+				</data>
+			</port>
+		</node>
+		<node id="n24">
+			<data key="d4">
+				<y:RectD X="-152.4709290383713" Y="58.34132881590034" Width="211.01104761904776" Height="127.11765488732314"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFFCC00">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 5}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 6}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title><![CDATA[Agency (GTFS standard)]]></x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[agency_id: Int]]></sys:String>
+									<sys:String><![CDATA[agency_name: String]]></sys:String>
+									<sys:String><![CDATA[agency_url: String]]></sys:String>
+									<sys:String><![CDATA[agency_timezone: String]]></sys:String>
+									<sys:String><![CDATA[agency_lang: String]]></sys:String>
+									<sys:String><![CDATA[agency_phone: String]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n25">
+			<data key="d4">
+				<y:RectD X="369.1387609404775" Y="98.14925993623228" Width="120.97382936178639" Height="110.89744773651557"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFFF0000">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 3}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 4}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>ActivityEnum</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[Walk: 1]]></sys:String>
+									<sys:String><![CDATA[Bike: 2]]></sys:String>
+									<sys:String><![CDATA[Motorcycle: 3]]></sys:String>
+									<sys:String><![CDATA[Other: 4]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.4999999999999998,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n26">
+			<data key="d4">
+				<y:RectD X="74.89974916930021" Y="642.5106197410897" Width="178.1902849968842" Height="127.11765488732314"/>
+			</data>
+			<data key="d6">
+				<x0:EntityNodeStyle insetFill="#FFB7C9E3">
+					<x0:EntityNodeStyle.fill>
+						<yjs:LinearGradient spreadMethod="PAD" startPoint="0,0" endPoint="1,1">
+							<yjs:GradientStop color="{y:GraphMLReference 1}" offset="0"/>
+							<yjs:GradientStop color="{y:GraphMLReference 2}" offset="1"/>
+						</yjs:LinearGradient>
+					</x0:EntityNodeStyle.fill>
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel>
+							<x0:EntityRelationshipModel.title>Municipality</x0:EntityRelationshipModel.title>
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[id: Int]]></sys:String>
+									<sys:String><![CDATA[CountyId: Int]]></sys:String>
+									<sys:String><![CDATA[Name: String]]></sys:String>
+									<sys:String><![CDATA[CountyName: String]]></sys:String>
+									<sys:String><![CDATA[ProvinceAbbreviation: String]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d15">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5000000000000001"/>
+				</data>
+			</port>
+		</node>
+		<edge id="e0" source="n7" target="n3" sourceport="p0" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" SegmentRatio="0.5000000000000017" Distance="-0.001"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 7}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 7}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e1" source="n7" target="n10" sourceport="p1" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasTimeTable</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 10}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 10}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e2" source="n7" target="n4" sourceport="p2" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 12}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 12}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e3" source="n7" target="n0" sourceport="p11" targetport="p1">
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="1010.8238509314235,183.780914924822"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 13}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 13}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e4" source="n7" target="n8" sourceport="p3" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="808.3125264957267,644.6680284743504"/>
+					<y:Bend Location="1161.5,753.25"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 14}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 14}"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e5" source="n7" target="n2" sourceport="p4" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="808.3125264957267,644.6680284743504"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 15}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 15}"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e6" source="n7" target="n1" sourceport="p5" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="808.3125264957268,644.6680284743504"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 16}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 16}"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e7" source="n7" target="n6" sourceport="p6" targetport="p1">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="808.3125264957267,644.4663635779922"/>
+					<y:Bend Location="374.9551885643321,677.7122210831791"/>
+					<y:Bend Location="471.625,685.875"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 17}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 17}"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e8" source="n10" target="n12" sourceport="p1" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasSchedule</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="1301,191.8557098539634"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 19}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 19}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e9" source="n6" target="n13" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="374.9551885643321,888.6884486230476"/>
+					<y:Bend Location="511.25,888.6884486230476"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 20}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 20}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e10" source="n8" target="n14" sourceport="p1" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="1154.6701044328852,865.75"/>
+					<y:Bend Location="1327,865.75"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 21}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 21}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e11" source="n9" target="n15" sourceport="p0" targetport="p0">
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="765.5380945077587,908.4384486230479"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 22}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 22}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e12" source="n7" target="n16" sourceport="p7" targetport="p0">
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 23}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 23}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e13" source="n5" target="n17" sourceport="p0" targetport="p0">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 24}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 24}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e14" source="n17" target="n3" sourceport="p1" targetport="p3">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasPoints</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 25}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 25}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e15" source="n5" target="n7" sourceport="p4" targetport="p9">
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasFrom</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" SegmentRatio="0.6482374613676113" Distance="-0.001"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="686.2334007247214,356.266015673095"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<y:GraphMLReference ResourceKey="41"/>
+			</data>
+		</edge>
+		<edge id="e16" source="n18" target="n3" sourceport="p0" targetport="p1">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 38}" Style="{y:GraphMLReference 39}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 27}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 27}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e17" source="n9" target="n7" sourceport="p1" targetport="p8">
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" Location="FromTarget" Distance="-0.001"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="779.75,754.25"/>
+					<y:Bend Location="808.3125264957267,644.6837850793924"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 28}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 28}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e18" source="n19" target="n18" sourceport="p0" targetport="p1">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasStop</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 29}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 29}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e19" source="n20" target="n19" sourceport="p0" targetport="p1">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasStopTime</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="135.19895666542138,360.75"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 30}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 30}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e20" source="n20" target="n21" sourceport="p1" targetport="p0">
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasCalendar</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" SegmentRatio="0" Distance="-0.750999999999749"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 31}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 31}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e21" source="n21" target="n22" sourceport="p1" targetport="p0">
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasExceptions</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" SegmentRatio="0.49999999999999467" Distance="-0.0010000000000047748"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="44.75,824.75"/>
+					<y:Bend Location="169.18024606160645,824.75"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 32}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 32}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e22" source="n20" target="n23" sourceport="p2" targetport="p0">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasRoutes</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 33}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 33}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e23" source="n23" target="n24" sourceport="p2" targetport="p0">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 18}" Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasAgency</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 34}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="SIMPLE" stroke="#FF000000" fill="{y:GraphMLReference 34}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e24" source="n23" target="n11" sourceport="p1" targetport="p0">
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 35}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 35}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e25" source="n5" target="n0" sourceport="p1" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="680.5,183.780914924822"/>
+					<y:Bend Location="1010.8238509314235,183.780914924822"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 36}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 36}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e26" source="n5" target="n25" sourceport="p2" targetport="p0">
+			<data key="d8"><![CDATA[]]></data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="624.25,143.97298380449007"/>
+					<y:Bend Location="583.875,153.59798380449007"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 37}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="CIRCLE" stroke="#FF000000" fill="{y:GraphMLReference 37}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e27" source="n26" target="n3" sourceport="p0" targetport="p2">
+			<data key="d10">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 38}" Style="{y:GraphMLReference 39}">
+						<y:Label.Text><![CDATA[is a]]></y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="205.75,672.25"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 11}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 40}" miterLimit="1.45"/>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow type="TRIANGLE" stroke="#FF000000" fill="{y:GraphMLReference 40}"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e28" source="n5" target="n7" sourceport="p3" targetport="p10">
+			<data key="d10">
+				<x:List>
+					<y:Label Style="{y:GraphMLReference 9}">
+						<y:Label.Text>hasTo</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 8}" SegmentRatio="0.748298239216532" Distance="-0.001"/>
+						</y:Label.LayoutParameter>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d11">
+				<x:List>
+					<y:Bend Location="676,209.5"/>
+					<y:Bend Location="811.3125264957265,356.266015673095"/>
+					<y:Bend Location="811.3125264957265,489.565343742947"/>
+				</x:List>
+			</data>
+			<data key="d12">
+				<y:GraphMLReference ResourceKey="41"/>
+			</data>
+		</edge>
+	</graph>
+</graphml>
