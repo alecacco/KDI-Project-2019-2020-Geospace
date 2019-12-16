@@ -10,30 +10,52 @@ In order to reproduce every step of the process to create the final Knowledge gr
 
 # Steps from data extraction to RDF generation
 
-All the scripts are intended to be run with the root of the repo as Working Directory.
-
 ## Point Of Interest
+All the scripts are intended to be run with the root of the repo as Working Directory.
 
 ### Province of Bolzano
 
-* [Optional] if you want to see the original dataset run the ```./models/script/POI/BZ/original-datasets-download.py``` and you will find the dataset in the ```./data/datasets/POI/BZ/original-datasets``` folder
-* [Optional] if you want to see the type analysis run the jupiter notebook ```./models/script/POI/BZ/types_analysis.ipynb```
-* To download the datasets ready for Karma you only need to run the ```./models/script/POI/BZ/final-datasets-download.py``` and you will find the dataset in the ```./data/datasets/POI/BZ/final-datasets``` folder ready to be imported in Karma
-* Then on Karma you must upload the ontology, the dataset and the corresponding model. They can be easily matched because the structure of the folders and the name of the files are easy to match under the two folder:
+* [Optional] if you want to see the original dataset run the `./models/script/POI/BZ/original-datasets-download.py` and you will find the dataset in the `./data/datasets/POI/BZ/original-datasets` folder
+* [Optional] if you want to see the type analysis run the jupiter notebook `./models/script/POI/BZ/types_analysis.ipynb`
+* To download the datasets ready for Karma you only need to run the `./models/script/POI/BZ/final-datasets-download.py` and you will find the dataset in the `./data/datasets/POI/BZ/final-datasets` folder ready to be imported in Karma
+* Then on Karma you must upload the ontology, the dataset and the corresponding model. They can be easily matched because the structure of the folders and the name of the files are easy to match inside the two folder:
 
     1. `./data/datasets/POI/BZ` for the datasets (you always have to take the datasets under the final-datasets folder)
     2. `./models/r2ml/POI/BZ` for the models
 
 ### Province of Trento
 
-* First you need to run the ```./models/script/POI/TN/original-download-and-merge.py``` that will create the file ```./data/datasets/POI/TN/original-dataset-comuni.csv```
-* Then you need to run the ```./models/script/POI/TN/clean-dataset.py``` that will clean the dataset and create the file ```./data/datasets/POI/TN/cleaned-full-dataset-comuni.csv```
-* Then run the ```./models/script/POI/TN/separate-datasets.py``` to create the datasets ready to be imported in Karma that can be found in ```./data/datasets/POI/TN/final-datasets```
-* Then on Karma you must upload the ontology, the dataset and the corresponding model. They can be easily matched because the structure of the folders and the name of the files are easy to match under the two folder:
+* First you need to run the `./models/script/POI/TN/original-download-and-merge.py` that will create the file `./data/datasets/POI/TN/original-dataset-comuni.csv`
+* Then you need to run the `./models/script/POI/TN/clean-dataset.py` that will clean the dataset and create the file `./data/datasets/POI/TN/cleaned-full-dataset-comuni.csv`
+* Then run the `./models/script/POI/TN/separate-datasets.py` to create the datasets ready to be imported in Karma that can be found in `./data/datasets/POI/TN/final-datasets`
+* Then on Karma you must upload the ontology, the dataset and the corresponding model. They can be easily matched because the structure of the folders and the name of the files are easy to match inside the two folder:
 
     1. `./data/datasets/POI/TN` for the datasets (you always have to take the datasets under the final-datasets folder)
     2. `./models/r2ml/POI/TN` for the models
 
+## Accomodation
+
+* [Optional] if you want to scrape the original dataset run the `./models/script/Accommodations/script_scraper.sh` and the dataset will be generated in the same folder
+* [Optional] if you executed the first step, copy the generated dataset in your home and run the `./models/script/Accommodations/clean_json.py`
+* If you do not want to scrape the dataset, copy the `./data/datasets/Accommodations/original-datasets/hotels.json` in your home directory
+* To obtain the final dataset import in RapidMiner the process `./models/rapidminer/hotel_process.rmp`
+* In RapidMiner, inside the Read XML block change the path to `./data/datasets/Accommodations/original-datasets/EserciziAlberghieri.xml`
+* In RapidMiner, inside the Execute Python block change the path to `./models/script/Accommodations/cleanEncoding.py`
+* In RapidMiner, inside the Write CSV block change the path to `./data/datasets/Accommodations/hotels_final.csv`
+* Then on Karma you must upload the ontology, the dataset and the corresponding model:
+    1. `./formal-model/SpaceDomain.owl` for the ontology
+    2. `./data/datasets/Accommodations/hotels_final.csv` for the dataset
+    3. `./models/r2ml/hotels_model.ttl` for the model
+
+## Municipality
+* First import the process `./models/rapidminer/Municipality/comuni_process.rpm` into RapidMiner
+* Then change in the  `Read CSV` command the path of the csv file with your relative path. You can find the file in `./data/datasets/Municipality/original_dataset/Elenco-codici-statistici-e-denominazioni-al-30_06_2019.csv`
+* Change in the  `Execute Python` command the path of the python script with your relative path. You can find the file in `./models/script/Municipality/comuni.py`
+* You will find the final dataset on your desktop
+* If you want to check the final output without running the RapidMiner process, you can find it in `./data/datasets/Municipality/final_dataset`
+* [Optional] If you want to change the destination of the output, you need to modify the path in `Write File` command
+* [Optional] The intermediate step `Write CSV` will save the file in your Desktop, and at the same location the python script will take the file just created. If you want to change the location, change the path in the commands and the python script
+
 ## Merge all linked data
 
-To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script ```./models/script/merge_RDFs.py``` that will merge all linked data in a big RDF that can be found at ```./data/linked_data/GeoSpace_RDF.ttl.zip```. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
+To merge all linked data you must first unzip all files inside the `./data/linked_data/` folder and then run the script `./models/script/merge_RDFs.py` that will merge all linked data in a big RDF that can be found at `./data/linked_data/GeoSpace_RDF.ttl.zip`. The file is zipped in order to be uploaded on github. This GeoSpace_RDF.ttl file will represent all our knowledge graph.
