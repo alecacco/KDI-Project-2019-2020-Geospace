@@ -1,0 +1,4432 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix untitled-ontology-10: <http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1drmbmri8x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "hotels_final.csv" ;
+	km-dev:modelPublicationTime "1575929736777"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"num_reviews\"}],[{\"columnName\":\"Servizi di ristorazione\"}],[{\"columnName\":\"score\"}],[{\"columnName\":\"stelle\"}],[{\"columnName\":\"numero_posti_letto\"}],[{\"columnName\":\"type_enum\"}],[{\"columnName\":\"description\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"prezzo_2\"}],[{\"columnName\":\"email\"}],[{\"columnName\":\"telefono\"}],[{\"columnName\":\"prezzo_1\"}],[{\"columnName\":\"website\"}],[{\"columnName\":\"street\"}],[{\"columnName\":\"Servizi benessere\"}],[{\"columnName\":\"city\"}],[{\"columnName\":\"cap\"}],[{\"columnName\":\"number\"}],[{\"columnName\":\"Animali\"}],[{\"columnName\":\"Internet\"}],[{\"columnName\":\"Parcheggio\"}],[{\"columnName\":\"checkout_to\"}],[{\"columnName\":\"checkout_from\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"lat\"}],[{\"columnName\":\"checkin_to\"}],[{\"columnName\":\"checkin_from\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"num_reviews\"}],[{\"columnName\":\"Servizi di ristorazione\"}],[{\"columnName\":\"score\"}],[{\"columnName\":\"stelle\"}],[{\"columnName\":\"numero_posti_letto\"}],[{\"columnName\":\"type_enum\"}],[{\"columnName\":\"description\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"email\"}],[{\"columnName\":\"telefono\"}],[{\"columnName\":\"website\"}],[{\"columnName\":\"checkin\"}],[{\"columnName\":\"point_uri\"}],[{\"columnName\":\"min_price\"}],[{\"columnName\":\"poi_uri\"}],[{\"columnName\":\"street\"}],[{\"columnName\":\"Servizi benessere\"}],[{\"columnName\":\"city\"}],[{\"columnName\":\"cap\"}],[{\"columnName\":\"checkout\"}],[{\"columnName\":\"description_uri\"}],[{\"columnName\":\"number\"}],[{\"columnName\":\"Animali\"}],[{\"columnName\":\"Internet\"}],[{\"columnName\":\"Parcheggio\"}],[{\"columnName\":\"checkout_to\"}],[{\"columnName\":\"checkout_uri\"}],[{\"columnName\":\"checkout_from\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"lat\"}],[{\"columnName\":\"province\"}],[{\"columnName\":\"checkin_uri\"}],[{\"columnName\":\"checkin_to\"}],[{\"columnName\":\"checkin_from\"}],[{\"columnName\":\"province_uri\"}],[{\"columnName\":\"address_uri\"}],[{\"columnName\":\"accomodation_uri\"}],[{\"columnName\":\"contact_uri\"}],[{\"columnName\":\"timetable_uri\"}]]" ;
+	km-dev:hasModelLabel "hotels_final.csv" ;
+	km-dev:hasBaseURI "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"prezzo_2\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"min_price\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"prezzo_1\\\") != '' and getValue(\\\"prezzo_2\\\") != '':\\n    num1 = float(getValue(\\\"prezzo_1\\\").replace(',','.'))\\n    num2 = float(getValue(\\\"prezzo_2\\\").replace(',','.'))\\n    if num1 == 0:\\n        return str(num2)\\n    elif num2 == 0:\\n        return str(num1)\\n    else:\\n        if num1 < num2:\\n            return str(num1)\\n        else:\\n            return str(num2)\\nelif getValue(\\\"prezzo_1\\\") != '':\\n    return getValue(\\\"prezzo_1\\\")\\nelif getValue(\\\"prezzo_2\\\") != '':\\n    return getValue(\\\"prezzo_2\\\")\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"prezzo_2\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"prezzo_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"min_price\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin_to\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"checkin\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"checkin\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout_to\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"checkout\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"checkout\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"website\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"contact_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"from hashlib import md5\\nreturn 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/contact_' + md5((getValue(\\\"website\\\") + getValue(\\\"email\\\") + getValue(\\\"telefono\\\")).encode('utf-8')).hexdigest()\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"email\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"telefono\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"website\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"contact_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"accomodation_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/accomodation_'+getValue('name').replace(' | ', '_').replace(' ', '_').replace('\\\\'', '_')+'_'+getValue('city').replace(' | ', '_').replace(' ', '_').replace('\\\\'', '_')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"accomodation_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"cap\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"province\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"cap = getValue('cap')\\nif cap[1]=='9':\\n    return 'BZ'\\nelse:\\n    return 'TN'\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cap\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"province\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"province\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"province_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"cap = getValue('cap')\\nif cap[1]=='9':\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#BZ'\\nelse:\\n    return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#TN'\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cap\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"province_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"province_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"address_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"from hashlib import md5\\nreturn 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/address_'+md5((getValue('city')+getValue('province')+getValue('street')+getValue('number')+getValue('cap')).encode('utf-8')).hexdigest()\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"street\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"cap\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"number\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"province\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"checkin_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/schedule_'+getValue('checkin')+'_'+getValue('name').replace('|', '').replace('\\\"', '')+'_'+getValue('city').replace('|', '').replace('\\\"', '')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"checkout_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/schedule_'+getValue('checkout')+'_'+getValue('name').replace('|', '').replace('\\\"', '')+'_'+getValue('city').replace('|', '').replace('\\\"', '')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"timetable_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/timetable_'+getValue('name').replace('|', '').replace('\\\"', '')+'_'+getValue('city').replace('|', '').replace('\\\"', '')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timetable_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"num_reviews\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"description_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"from hashlib import md5\\nreturn 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/description_'+md5(getValue(\\\"description\\\").encode('utf-8')).hexdigest()\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"accomodation_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"point_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/point_'+getValue(\\\"lat\\\")+'_'+getValue('lon')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"point_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"poi_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return 'http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10/pointofinterest_'+getValue(\\\"lat\\\")+'_'+getValue('lon')+'_'+getValue('name').replace(' | ', '_').replace(' ', '_').replace('\\\\'', '_')\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"poi_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"num_reviews\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumberOfVotes\",
+                    \"DomainLabel\": \"untitled-ontology-10:Description1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"num_reviews\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"num_reviews\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"score\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#VoteAverage\",
+                    \"DomainLabel\": \"untitled-ontology-10:Description1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"score\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"score\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"description\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#DescriptionContent\",
+                    \"DomainLabel\": \"untitled-ontology-10:Description1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Animali\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Animals\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Animali\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Animali\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Parcheggio\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Parking\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Parcheggio\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Parcheggio\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Internet\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Internet\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Internet\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Internet\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Servizi benessere\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Wellness\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Servizi benessere\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Servizi benessere\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Servizi di ristorazione\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#HasRestaurant\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Servizi di ristorazione\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Servizi di ristorazione\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"numero_posti_letto\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#NumOfBeds\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"numero_posti_letto\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"numero_posti_letto\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stelle\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Stars\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stelle\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stelle\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"telefono\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PhoneNumber\",
+                    \"DomainLabel\": \"untitled-ontology-10:Contact1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"telefono\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"telefono\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"email\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Email\",
+                    \"DomainLabel\": \"untitled-ontology-10:Contact1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"email\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"email\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"website\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Website\",
+                    \"DomainLabel\": \"untitled-ontology-10:Contact1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"website\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"website\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"min_price\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Price\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"min_price\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"min_price\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PoiName\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"city\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#City\",
+                    \"DomainLabel\": \"untitled-ontology-10:Adress1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"city\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"street\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Street\",
+                    \"DomainLabel\": \"untitled-ontology-10:Adress1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"street\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"street\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"number\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Number\",
+                    \"DomainLabel\": \"untitled-ontology-10:Adress1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"cap\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#CAP\",
+                    \"DomainLabel\": \"untitled-ontology-10:Adress1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cap\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cap\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lat\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Latitude\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lon\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Longitude\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin_from\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartHour\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_from\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_from\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin_to\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndHour\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_to\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_to\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout_from\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#StartHour\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule2 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_from\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_from\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout_to\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#EndHour\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_to\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_to\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ScheduleName\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ScheduleName\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"contact_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Contact1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"contact_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"contact_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"accomodation_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Accomodation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"accomodation_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"accomodation_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"address_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Adress1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"province_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:ProvinceEnum1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"province_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"province_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkin_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkin_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"checkout_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Schedule2\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"checkout_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"type_enum\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:AccommodationEnum1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type_enum\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"type_enum\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"timetable_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Timetable1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timetable_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timetable_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"description_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Description1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"description_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"point_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:Point1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"point_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"poi_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest\",
+                    \"DomainId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"untitled-ontology-10:PointOfInterest1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"poi_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"poi_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasContact\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest1\",
+                    \"edgeId\": \"http://www.w3.org/2000/01/rdf-schema#subClassOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1\",
+                    \"edgeId\": \"http://www.w3.org/2000/01/rdf-schema#subClassOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAddress\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasTimetable\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasSchedules\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasSchedules\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasDescription\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasAccommodationEnum\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum1\",
+                    \"edgeId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#hasProvinceEnum\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x2 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x2 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:logicalTable _:node1drmbmri8x2 ;
+	rr:subjectMap _:node1drmbmri8x3 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x3 .
+
+_:node1drmbmri8x3 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Accomodation1" ;
+	rr:class untitled-ontology-10:Accomodation ;
+	rr:template "{accomodation_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_8f75b120-fcef-41d2-b5e6-cf5771f66e9b rr:predicate untitled-ontology-10:hasAccommodationEnum .
+
+km-dev:RefObjectMap_35c86e41-bd65-49cf-9038-a7a21b292359 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_781d2a33-0275-4fa0-9acf-543d48a489a0 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_35c86e41-bd65-49cf-9038-a7a21b292359 .
+
+km-dev:PredicateObjectMap_8f75b120-fcef-41d2-b5e6-cf5771f66e9b rr:objectMap km-dev:RefObjectMap_35c86e41-bd65-49cf-9038-a7a21b292359 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_8f75b120-fcef-41d2-b5e6-cf5771f66e9b .
+
+km-dev:PredicateObjectMap_8f75b120-fcef-41d2-b5e6-cf5771f66e9b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8f75b120-fcef-41d2-b5e6-cf5771f66e9b .
+
+km-dev:PredicateObjectMap_f426be4b-3b4c-46cd-9e87-745334edafc8 rr:predicate untitled-ontology-10:hasAddress .
+
+km-dev:RefObjectMap_a5f0ad78-f07f-42d9-bf9b-8aade490610e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_a5f0ad78-f07f-42d9-bf9b-8aade490610e .
+
+km-dev:PredicateObjectMap_f426be4b-3b4c-46cd-9e87-745334edafc8 rr:objectMap km-dev:RefObjectMap_a5f0ad78-f07f-42d9-bf9b-8aade490610e .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_f426be4b-3b4c-46cd-9e87-745334edafc8 .
+
+km-dev:PredicateObjectMap_f426be4b-3b4c-46cd-9e87-745334edafc8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f426be4b-3b4c-46cd-9e87-745334edafc8 .
+
+km-dev:PredicateObjectMap_4be83a71-5180-40c0-9e58-1ac245da8c35 rr:predicate untitled-ontology-10:hasContact .
+
+km-dev:RefObjectMap_7e8a5e2d-d736-4459-b187-0141f23a79ef a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_7e8a5e2d-d736-4459-b187-0141f23a79ef .
+
+km-dev:PredicateObjectMap_4be83a71-5180-40c0-9e58-1ac245da8c35 rr:objectMap km-dev:RefObjectMap_7e8a5e2d-d736-4459-b187-0141f23a79ef .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_4be83a71-5180-40c0-9e58-1ac245da8c35 .
+
+km-dev:PredicateObjectMap_4be83a71-5180-40c0-9e58-1ac245da8c35 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4be83a71-5180-40c0-9e58-1ac245da8c35 .
+
+km-dev:PredicateObjectMap_af5614a2-150b-4f82-9cf9-8a22690602ac rr:predicate untitled-ontology-10:hasDescription .
+
+km-dev:RefObjectMap_d37c69cc-6d6d-4f96-bc91-cb4ca1ae5a23 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_d37c69cc-6d6d-4f96-bc91-cb4ca1ae5a23 .
+
+km-dev:PredicateObjectMap_af5614a2-150b-4f82-9cf9-8a22690602ac rr:objectMap km-dev:RefObjectMap_d37c69cc-6d6d-4f96-bc91-cb4ca1ae5a23 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_af5614a2-150b-4f82-9cf9-8a22690602ac .
+
+km-dev:PredicateObjectMap_af5614a2-150b-4f82-9cf9-8a22690602ac a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_af5614a2-150b-4f82-9cf9-8a22690602ac .
+
+km-dev:PredicateObjectMap_4b6b039f-6b10-43e1-90fa-856c76326b94 rr:predicate rdfs:subClassOf .
+
+km-dev:RefObjectMap_78960a31-7031-46fc-a6b2-2d6856550d68 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_78960a31-7031-46fc-a6b2-2d6856550d68 .
+
+km-dev:PredicateObjectMap_4b6b039f-6b10-43e1-90fa-856c76326b94 rr:objectMap km-dev:RefObjectMap_78960a31-7031-46fc-a6b2-2d6856550d68 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_4b6b039f-6b10-43e1-90fa-856c76326b94 .
+
+km-dev:PredicateObjectMap_4b6b039f-6b10-43e1-90fa-856c76326b94 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4b6b039f-6b10-43e1-90fa-856c76326b94 .
+
+km-dev:PredicateObjectMap_654435a9-5a1a-4889-9df9-e0737ad06324 rr:predicate untitled-ontology-10:hasTimetable .
+
+km-dev:RefObjectMap_0e45dfcb-0908-4555-bf2a-cdd57f4e670d a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_0e45dfcb-0908-4555-bf2a-cdd57f4e670d .
+
+km-dev:PredicateObjectMap_654435a9-5a1a-4889-9df9-e0737ad06324 rr:objectMap km-dev:RefObjectMap_0e45dfcb-0908-4555-bf2a-cdd57f4e670d .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_654435a9-5a1a-4889-9df9-e0737ad06324 .
+
+km-dev:PredicateObjectMap_654435a9-5a1a-4889-9df9-e0737ad06324 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_654435a9-5a1a-4889-9df9-e0737ad06324 .
+
+km-dev:PredicateObjectMap_699dc5cf-7245-466e-b5cf-1ad29ce000f9 rr:predicate untitled-ontology-10:HasRestaurant .
+
+_:node1drmbmri8x4 rr:column "Servizi di ristorazione" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x4 .
+
+km-dev:PredicateObjectMap_699dc5cf-7245-466e-b5cf-1ad29ce000f9 rr:objectMap _:node1drmbmri8x4 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_699dc5cf-7245-466e-b5cf-1ad29ce000f9 .
+
+km-dev:PredicateObjectMap_699dc5cf-7245-466e-b5cf-1ad29ce000f9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_699dc5cf-7245-466e-b5cf-1ad29ce000f9 .
+
+km-dev:PredicateObjectMap_1acc34f8-9169-44dc-a18b-0dc5936abe66 rr:predicate untitled-ontology-10:Stars .
+
+_:node1drmbmri8x5 rr:column "stelle" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x5 .
+
+km-dev:PredicateObjectMap_1acc34f8-9169-44dc-a18b-0dc5936abe66 rr:objectMap _:node1drmbmri8x5 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_1acc34f8-9169-44dc-a18b-0dc5936abe66 .
+
+km-dev:PredicateObjectMap_1acc34f8-9169-44dc-a18b-0dc5936abe66 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1acc34f8-9169-44dc-a18b-0dc5936abe66 .
+
+km-dev:PredicateObjectMap_c3aab7eb-ae8f-4666-a47a-a53ba0ebce13 rr:predicate untitled-ontology-10:NumOfBeds .
+
+_:node1drmbmri8x6 rr:column "numero_posti_letto" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x6 .
+
+km-dev:PredicateObjectMap_c3aab7eb-ae8f-4666-a47a-a53ba0ebce13 rr:objectMap _:node1drmbmri8x6 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_c3aab7eb-ae8f-4666-a47a-a53ba0ebce13 .
+
+km-dev:PredicateObjectMap_c3aab7eb-ae8f-4666-a47a-a53ba0ebce13 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c3aab7eb-ae8f-4666-a47a-a53ba0ebce13 .
+
+km-dev:PredicateObjectMap_5a69ac73-28ef-4e04-96fc-6b20e407f6c1 rr:predicate untitled-ontology-10:PoiName .
+
+_:node1drmbmri8x7 rr:column "name" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x7 .
+
+km-dev:PredicateObjectMap_5a69ac73-28ef-4e04-96fc-6b20e407f6c1 rr:objectMap _:node1drmbmri8x7 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_5a69ac73-28ef-4e04-96fc-6b20e407f6c1 .
+
+km-dev:PredicateObjectMap_5a69ac73-28ef-4e04-96fc-6b20e407f6c1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5a69ac73-28ef-4e04-96fc-6b20e407f6c1 .
+
+km-dev:PredicateObjectMap_209bb993-1ccc-44ad-9e0b-fdf340a01db9 rr:predicate untitled-ontology-10:Price .
+
+_:node1drmbmri8x8 rr:column "min_price" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x8 .
+
+km-dev:PredicateObjectMap_209bb993-1ccc-44ad-9e0b-fdf340a01db9 rr:objectMap _:node1drmbmri8x8 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_209bb993-1ccc-44ad-9e0b-fdf340a01db9 .
+
+km-dev:PredicateObjectMap_209bb993-1ccc-44ad-9e0b-fdf340a01db9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_209bb993-1ccc-44ad-9e0b-fdf340a01db9 .
+
+km-dev:PredicateObjectMap_fcd19c15-cf41-43dc-9a32-f0863995b234 rr:predicate untitled-ontology-10:Wellness .
+
+_:node1drmbmri8x9 rr:column "Servizi benessere" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x9 .
+
+km-dev:PredicateObjectMap_fcd19c15-cf41-43dc-9a32-f0863995b234 rr:objectMap _:node1drmbmri8x9 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_fcd19c15-cf41-43dc-9a32-f0863995b234 .
+
+km-dev:PredicateObjectMap_fcd19c15-cf41-43dc-9a32-f0863995b234 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fcd19c15-cf41-43dc-9a32-f0863995b234 .
+
+km-dev:PredicateObjectMap_d5e4c642-6abe-4fc6-97fa-59e68d9736b8 rr:predicate untitled-ontology-10:Animals .
+
+_:node1drmbmri8x10 rr:column "Animali" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x10 .
+
+km-dev:PredicateObjectMap_d5e4c642-6abe-4fc6-97fa-59e68d9736b8 rr:objectMap _:node1drmbmri8x10 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_d5e4c642-6abe-4fc6-97fa-59e68d9736b8 .
+
+km-dev:PredicateObjectMap_d5e4c642-6abe-4fc6-97fa-59e68d9736b8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d5e4c642-6abe-4fc6-97fa-59e68d9736b8 .
+
+km-dev:PredicateObjectMap_e258a716-d0f6-40b2-9ca5-75851f962dea rr:predicate untitled-ontology-10:Internet .
+
+_:node1drmbmri8x11 rr:column "Internet" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x11 .
+
+km-dev:PredicateObjectMap_e258a716-d0f6-40b2-9ca5-75851f962dea rr:objectMap _:node1drmbmri8x11 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_e258a716-d0f6-40b2-9ca5-75851f962dea .
+
+km-dev:PredicateObjectMap_e258a716-d0f6-40b2-9ca5-75851f962dea a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e258a716-d0f6-40b2-9ca5-75851f962dea .
+
+km-dev:PredicateObjectMap_056346ae-2834-4d05-b1a4-32fb7f59ef9e rr:predicate untitled-ontology-10:Parking .
+
+_:node1drmbmri8x12 rr:column "Parcheggio" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x12 .
+
+km-dev:PredicateObjectMap_056346ae-2834-4d05-b1a4-32fb7f59ef9e rr:objectMap _:node1drmbmri8x12 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_056346ae-2834-4d05-b1a4-32fb7f59ef9e .
+
+km-dev:PredicateObjectMap_056346ae-2834-4d05-b1a4-32fb7f59ef9e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_056346ae-2834-4d05-b1a4-32fb7f59ef9e .
+
+km-dev:PredicateObjectMap_8182b656-3806-4c40-88f1-dc4aefac6a9b rr:predicate untitled-ontology-10:Longitude .
+
+_:node1drmbmri8x13 rr:column "lon" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x13 .
+
+km-dev:PredicateObjectMap_8182b656-3806-4c40-88f1-dc4aefac6a9b rr:objectMap _:node1drmbmri8x13 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_8182b656-3806-4c40-88f1-dc4aefac6a9b .
+
+km-dev:PredicateObjectMap_8182b656-3806-4c40-88f1-dc4aefac6a9b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8182b656-3806-4c40-88f1-dc4aefac6a9b .
+
+km-dev:PredicateObjectMap_9184efda-8bf4-471d-9c8d-376e85a976b3 rr:predicate untitled-ontology-10:Latitude .
+
+_:node1drmbmri8x14 rr:column "lat" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x14 .
+
+km-dev:PredicateObjectMap_9184efda-8bf4-471d-9c8d-376e85a976b3 rr:objectMap _:node1drmbmri8x14 .
+
+km-dev:TriplesMap_63e8f7a4-1dd9-4887-863d-5977b522d5c5 rr:predicateObjectMap km-dev:PredicateObjectMap_9184efda-8bf4-471d-9c8d-376e85a976b3 .
+
+km-dev:PredicateObjectMap_9184efda-8bf4-471d-9c8d-376e85a976b3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9184efda-8bf4-471d-9c8d-376e85a976b3 .
+
+km-dev:TriplesMap_781d2a33-0275-4fa0-9acf-543d48a489a0 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_781d2a33-0275-4fa0-9acf-543d48a489a0 .
+
+km-dev:TriplesMap_781d2a33-0275-4fa0-9acf-543d48a489a0 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x15 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x15 .
+
+km-dev:TriplesMap_781d2a33-0275-4fa0-9acf-543d48a489a0 rr:logicalTable _:node1drmbmri8x15 ;
+	rr:subjectMap _:node1drmbmri8x16 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x16 .
+
+_:node1drmbmri8x16 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#AccommodationEnum1" ;
+	rr:class untitled-ontology-10:AccommodationEnum ;
+	rr:template "{type_enum}" .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x17 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x17 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:logicalTable _:node1drmbmri8x17 ;
+	rr:subjectMap _:node1drmbmri8x18 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x18 .
+
+_:node1drmbmri8x18 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Adress1" ;
+	rr:class untitled-ontology-10:Adress ;
+	rr:template "{address_uri}" .
+
+km-dev:PredicateObjectMap_1aa760f6-3841-4668-94a9-bc0d227b62cf rr:predicate untitled-ontology-10:hasProvinceEnum .
+
+km-dev:RefObjectMap_41d08b4a-8976-474c-a517-a8f1e507b6b0 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c30e476d-afa8-4e79-9ffe-c36b31359995 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_41d08b4a-8976-474c-a517-a8f1e507b6b0 .
+
+km-dev:PredicateObjectMap_1aa760f6-3841-4668-94a9-bc0d227b62cf rr:objectMap km-dev:RefObjectMap_41d08b4a-8976-474c-a517-a8f1e507b6b0 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:predicateObjectMap km-dev:PredicateObjectMap_1aa760f6-3841-4668-94a9-bc0d227b62cf .
+
+km-dev:PredicateObjectMap_1aa760f6-3841-4668-94a9-bc0d227b62cf a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1aa760f6-3841-4668-94a9-bc0d227b62cf .
+
+km-dev:PredicateObjectMap_c37ac667-5942-4b23-8a65-e0604c40772f rr:predicate untitled-ontology-10:Street .
+
+_:node1drmbmri8x19 rr:column "street" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x19 .
+
+km-dev:PredicateObjectMap_c37ac667-5942-4b23-8a65-e0604c40772f rr:objectMap _:node1drmbmri8x19 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:predicateObjectMap km-dev:PredicateObjectMap_c37ac667-5942-4b23-8a65-e0604c40772f .
+
+km-dev:PredicateObjectMap_c37ac667-5942-4b23-8a65-e0604c40772f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c37ac667-5942-4b23-8a65-e0604c40772f .
+
+km-dev:PredicateObjectMap_2a54a5bb-10c3-4cc9-878f-2166ded9918b rr:predicate untitled-ontology-10:City .
+
+_:node1drmbmri8x20 rr:column "city" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x20 .
+
+km-dev:PredicateObjectMap_2a54a5bb-10c3-4cc9-878f-2166ded9918b rr:objectMap _:node1drmbmri8x20 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:predicateObjectMap km-dev:PredicateObjectMap_2a54a5bb-10c3-4cc9-878f-2166ded9918b .
+
+km-dev:PredicateObjectMap_2a54a5bb-10c3-4cc9-878f-2166ded9918b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2a54a5bb-10c3-4cc9-878f-2166ded9918b .
+
+km-dev:PredicateObjectMap_eaf5f1e0-1dc1-4359-be7e-c56e4c312c42 rr:predicate untitled-ontology-10:CAP .
+
+_:node1drmbmri8x21 rr:column "cap" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x21 .
+
+km-dev:PredicateObjectMap_eaf5f1e0-1dc1-4359-be7e-c56e4c312c42 rr:objectMap _:node1drmbmri8x21 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:predicateObjectMap km-dev:PredicateObjectMap_eaf5f1e0-1dc1-4359-be7e-c56e4c312c42 .
+
+km-dev:PredicateObjectMap_eaf5f1e0-1dc1-4359-be7e-c56e4c312c42 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_eaf5f1e0-1dc1-4359-be7e-c56e4c312c42 .
+
+km-dev:PredicateObjectMap_a4d35ccf-7bac-40ad-ad61-9aff0da1e8fb rr:predicate untitled-ontology-10:Number .
+
+_:node1drmbmri8x22 rr:column "number" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x22 .
+
+km-dev:PredicateObjectMap_a4d35ccf-7bac-40ad-ad61-9aff0da1e8fb rr:objectMap _:node1drmbmri8x22 .
+
+km-dev:TriplesMap_4126e1d8-d559-4dcd-b537-7354ca46e3d9 rr:predicateObjectMap km-dev:PredicateObjectMap_a4d35ccf-7bac-40ad-ad61-9aff0da1e8fb .
+
+km-dev:PredicateObjectMap_a4d35ccf-7bac-40ad-ad61-9aff0da1e8fb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a4d35ccf-7bac-40ad-ad61-9aff0da1e8fb .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x23 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x23 .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f rr:logicalTable _:node1drmbmri8x23 ;
+	rr:subjectMap _:node1drmbmri8x24 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x24 .
+
+_:node1drmbmri8x24 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Contact1" ;
+	rr:class untitled-ontology-10:Contact ;
+	rr:template "{contact_uri}" .
+
+km-dev:PredicateObjectMap_60dcf688-4b45-46c5-b752-21197214a74f rr:predicate untitled-ontology-10:Email .
+
+_:node1drmbmri8x25 rr:column "email" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x25 .
+
+km-dev:PredicateObjectMap_60dcf688-4b45-46c5-b752-21197214a74f rr:objectMap _:node1drmbmri8x25 .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f rr:predicateObjectMap km-dev:PredicateObjectMap_60dcf688-4b45-46c5-b752-21197214a74f .
+
+km-dev:PredicateObjectMap_60dcf688-4b45-46c5-b752-21197214a74f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_60dcf688-4b45-46c5-b752-21197214a74f .
+
+km-dev:PredicateObjectMap_2882c52a-1f4e-4959-87cd-2611cce6aa5b rr:predicate untitled-ontology-10:PhoneNumber .
+
+_:node1drmbmri8x26 rr:column "telefono" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x26 .
+
+km-dev:PredicateObjectMap_2882c52a-1f4e-4959-87cd-2611cce6aa5b rr:objectMap _:node1drmbmri8x26 .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f rr:predicateObjectMap km-dev:PredicateObjectMap_2882c52a-1f4e-4959-87cd-2611cce6aa5b .
+
+km-dev:PredicateObjectMap_2882c52a-1f4e-4959-87cd-2611cce6aa5b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2882c52a-1f4e-4959-87cd-2611cce6aa5b .
+
+km-dev:PredicateObjectMap_ccb5bb3b-db8d-449a-96ce-07980a9d4f60 rr:predicate untitled-ontology-10:Website .
+
+_:node1drmbmri8x27 rr:column "website" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x27 .
+
+km-dev:PredicateObjectMap_ccb5bb3b-db8d-449a-96ce-07980a9d4f60 rr:objectMap _:node1drmbmri8x27 .
+
+km-dev:TriplesMap_17a6c7a5-0827-456b-9f6d-cfd51061370f rr:predicateObjectMap km-dev:PredicateObjectMap_ccb5bb3b-db8d-449a-96ce-07980a9d4f60 .
+
+km-dev:PredicateObjectMap_ccb5bb3b-db8d-449a-96ce-07980a9d4f60 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ccb5bb3b-db8d-449a-96ce-07980a9d4f60 .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x28 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x28 .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c rr:logicalTable _:node1drmbmri8x28 ;
+	rr:subjectMap _:node1drmbmri8x29 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x29 .
+
+_:node1drmbmri8x29 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Description1" ;
+	rr:class untitled-ontology-10:Description ;
+	rr:template "{description_uri}" .
+
+km-dev:PredicateObjectMap_7eadde05-8114-4c50-8e76-36224c46d8ec rr:predicate untitled-ontology-10:NumberOfVotes .
+
+_:node1drmbmri8x30 rr:column "num_reviews" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x30 .
+
+km-dev:PredicateObjectMap_7eadde05-8114-4c50-8e76-36224c46d8ec rr:objectMap _:node1drmbmri8x30 .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c rr:predicateObjectMap km-dev:PredicateObjectMap_7eadde05-8114-4c50-8e76-36224c46d8ec .
+
+km-dev:PredicateObjectMap_7eadde05-8114-4c50-8e76-36224c46d8ec a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7eadde05-8114-4c50-8e76-36224c46d8ec .
+
+km-dev:PredicateObjectMap_583f2b4b-e9e3-43c0-aadf-5bda0002fde5 rr:predicate untitled-ontology-10:VoteAverage .
+
+_:node1drmbmri8x31 rr:column "score" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x31 .
+
+km-dev:PredicateObjectMap_583f2b4b-e9e3-43c0-aadf-5bda0002fde5 rr:objectMap _:node1drmbmri8x31 .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c rr:predicateObjectMap km-dev:PredicateObjectMap_583f2b4b-e9e3-43c0-aadf-5bda0002fde5 .
+
+km-dev:PredicateObjectMap_583f2b4b-e9e3-43c0-aadf-5bda0002fde5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_583f2b4b-e9e3-43c0-aadf-5bda0002fde5 .
+
+km-dev:PredicateObjectMap_27e22c18-2ed3-45fe-826e-6b41efd8114e rr:predicate untitled-ontology-10:DescriptionContent .
+
+_:node1drmbmri8x32 rr:column "description" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x32 .
+
+km-dev:PredicateObjectMap_27e22c18-2ed3-45fe-826e-6b41efd8114e rr:objectMap _:node1drmbmri8x32 .
+
+km-dev:TriplesMap_33434010-4f5a-481a-8a55-868386d8983c rr:predicateObjectMap km-dev:PredicateObjectMap_27e22c18-2ed3-45fe-826e-6b41efd8114e .
+
+km-dev:PredicateObjectMap_27e22c18-2ed3-45fe-826e-6b41efd8114e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_27e22c18-2ed3-45fe-826e-6b41efd8114e .
+
+km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 .
+
+km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x33 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x33 .
+
+km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 rr:logicalTable _:node1drmbmri8x33 ;
+	rr:subjectMap _:node1drmbmri8x34 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x34 .
+
+_:node1drmbmri8x34 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#PointOfInterest1" ;
+	rr:class untitled-ontology-10:PointOfInterest ;
+	rr:template "{poi_uri}" .
+
+km-dev:PredicateObjectMap_207389cf-363a-4349-b961-c78abc502b47 rr:predicate rdfs:subClassOf .
+
+km-dev:RefObjectMap_af34bd1f-64ff-4ed9-9e30-0629500ad1cd a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b32a3fdd-2980-45a7-bd61-7dfd54d1b489 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_af34bd1f-64ff-4ed9-9e30-0629500ad1cd .
+
+km-dev:PredicateObjectMap_207389cf-363a-4349-b961-c78abc502b47 rr:objectMap km-dev:RefObjectMap_af34bd1f-64ff-4ed9-9e30-0629500ad1cd .
+
+km-dev:TriplesMap_7b9863b5-3fe3-407f-999c-04aa3fe4e671 rr:predicateObjectMap km-dev:PredicateObjectMap_207389cf-363a-4349-b961-c78abc502b47 .
+
+km-dev:PredicateObjectMap_207389cf-363a-4349-b961-c78abc502b47 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_207389cf-363a-4349-b961-c78abc502b47 .
+
+km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 .
+
+km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x35 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x35 .
+
+km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 rr:logicalTable _:node1drmbmri8x35 ;
+	rr:subjectMap _:node1drmbmri8x36 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x36 .
+
+_:node1drmbmri8x36 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Timetable1" ;
+	rr:class untitled-ontology-10:Timetable ;
+	rr:template "{timetable_uri}" .
+
+km-dev:PredicateObjectMap_49e688c1-81ab-4aa2-a3c5-f1778feea9c0 rr:predicate untitled-ontology-10:hasSchedules .
+
+km-dev:RefObjectMap_f40bee5a-1c4f-408a-896b-05542c4db406 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_f40bee5a-1c4f-408a-896b-05542c4db406 .
+
+km-dev:PredicateObjectMap_49e688c1-81ab-4aa2-a3c5-f1778feea9c0 rr:objectMap km-dev:RefObjectMap_f40bee5a-1c4f-408a-896b-05542c4db406 .
+
+km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 rr:predicateObjectMap km-dev:PredicateObjectMap_49e688c1-81ab-4aa2-a3c5-f1778feea9c0 .
+
+km-dev:PredicateObjectMap_49e688c1-81ab-4aa2-a3c5-f1778feea9c0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_49e688c1-81ab-4aa2-a3c5-f1778feea9c0 .
+
+km-dev:PredicateObjectMap_8ca60820-7806-4522-971c-6ab44b7b250d rr:predicate untitled-ontology-10:hasSchedules .
+
+km-dev:RefObjectMap_d77755b5-0787-4acf-97dd-a51ac2a8b1f4 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap km-dev:RefObjectMap_d77755b5-0787-4acf-97dd-a51ac2a8b1f4 .
+
+km-dev:PredicateObjectMap_8ca60820-7806-4522-971c-6ab44b7b250d rr:objectMap km-dev:RefObjectMap_d77755b5-0787-4acf-97dd-a51ac2a8b1f4 .
+
+km-dev:TriplesMap_3b33c052-245d-4973-8a51-6134bebeac18 rr:predicateObjectMap km-dev:PredicateObjectMap_8ca60820-7806-4522-971c-6ab44b7b250d .
+
+km-dev:PredicateObjectMap_8ca60820-7806-4522-971c-6ab44b7b250d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ca60820-7806-4522-971c-6ab44b7b250d .
+
+km-dev:TriplesMap_c30e476d-afa8-4e79-9ffe-c36b31359995 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_c30e476d-afa8-4e79-9ffe-c36b31359995 .
+
+km-dev:TriplesMap_c30e476d-afa8-4e79-9ffe-c36b31359995 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x37 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x37 .
+
+km-dev:TriplesMap_c30e476d-afa8-4e79-9ffe-c36b31359995 rr:logicalTable _:node1drmbmri8x37 ;
+	rr:subjectMap _:node1drmbmri8x38 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x38 .
+
+_:node1drmbmri8x38 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#ProvinceEnum1" ;
+	rr:class untitled-ontology-10:ProvinceEnum ;
+	rr:template "{province_uri}" .
+
+km-dev:TriplesMap_b32a3fdd-2980-45a7-bd61-7dfd54d1b489 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_b32a3fdd-2980-45a7-bd61-7dfd54d1b489 .
+
+km-dev:TriplesMap_b32a3fdd-2980-45a7-bd61-7dfd54d1b489 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x39 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x39 .
+
+km-dev:TriplesMap_b32a3fdd-2980-45a7-bd61-7dfd54d1b489 rr:logicalTable _:node1drmbmri8x39 ;
+	rr:subjectMap _:node1drmbmri8x40 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x40 .
+
+_:node1drmbmri8x40 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Point1" ;
+	rr:class untitled-ontology-10:Point ;
+	rr:template "{point_uri}" .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x41 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x41 .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 rr:logicalTable _:node1drmbmri8x41 ;
+	rr:subjectMap _:node1drmbmri8x42 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x42 .
+
+_:node1drmbmri8x42 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule1" ;
+	rr:class untitled-ontology-10:Schedule ;
+	rr:template "{checkin_uri}" .
+
+km-dev:PredicateObjectMap_b8f3fe6d-2b0b-4d89-88a4-20ba92139f9b rr:predicate untitled-ontology-10:ScheduleName .
+
+_:node1drmbmri8x43 rr:constant "checkin" ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x43 .
+
+km-dev:PredicateObjectMap_b8f3fe6d-2b0b-4d89-88a4-20ba92139f9b rr:objectMap _:node1drmbmri8x43 .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 rr:predicateObjectMap km-dev:PredicateObjectMap_b8f3fe6d-2b0b-4d89-88a4-20ba92139f9b .
+
+km-dev:PredicateObjectMap_b8f3fe6d-2b0b-4d89-88a4-20ba92139f9b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b8f3fe6d-2b0b-4d89-88a4-20ba92139f9b .
+
+km-dev:PredicateObjectMap_e21582bd-4e0d-40be-9059-23a07df4eb82 rr:predicate untitled-ontology-10:EndHour .
+
+_:node1drmbmri8x44 rr:column "checkin_to" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x44 .
+
+km-dev:PredicateObjectMap_e21582bd-4e0d-40be-9059-23a07df4eb82 rr:objectMap _:node1drmbmri8x44 .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 rr:predicateObjectMap km-dev:PredicateObjectMap_e21582bd-4e0d-40be-9059-23a07df4eb82 .
+
+km-dev:PredicateObjectMap_e21582bd-4e0d-40be-9059-23a07df4eb82 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e21582bd-4e0d-40be-9059-23a07df4eb82 .
+
+km-dev:PredicateObjectMap_23fd7dbe-f85f-4d99-9df9-f7550c8fbf94 rr:predicate untitled-ontology-10:StartHour .
+
+_:node1drmbmri8x45 rr:column "checkin_from" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x45 .
+
+km-dev:PredicateObjectMap_23fd7dbe-f85f-4d99-9df9-f7550c8fbf94 rr:objectMap _:node1drmbmri8x45 .
+
+km-dev:TriplesMap_1289fca9-d96d-44ab-9643-9555b3aa1918 rr:predicateObjectMap km-dev:PredicateObjectMap_23fd7dbe-f85f-4d99-9df9-f7550c8fbf94 .
+
+km-dev:PredicateObjectMap_23fd7dbe-f85f-4d99-9df9-f7550c8fbf94 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_23fd7dbe-f85f-4d99-9df9-f7550c8fbf94 .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e a rr:TriplesMap .
+
+_:node1drmbmri8x1 km-dev:hasTriplesMap km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x46 rr:tableName "hotels_final.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasLogicalTable _:node1drmbmri8x46 .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e rr:logicalTable _:node1drmbmri8x46 ;
+	rr:subjectMap _:node1drmbmri8x47 .
+
+_:node1drmbmri8x1 km-dev:hasSubjectMap _:node1drmbmri8x47 .
+
+_:node1drmbmri8x47 km-dev:isPartOfMapping _:node1drmbmri8x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/aleca/ontologies/2019/10/untitled-ontology-10#Schedule2" ;
+	rr:class untitled-ontology-10:Schedule ;
+	rr:template "{checkout_uri}" .
+
+km-dev:PredicateObjectMap_3dcc9c4e-dd90-4407-a3b7-6383314ae8cd rr:predicate untitled-ontology-10:ScheduleName .
+
+_:node1drmbmri8x48 rr:constant "checkout" ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x48 .
+
+km-dev:PredicateObjectMap_3dcc9c4e-dd90-4407-a3b7-6383314ae8cd rr:objectMap _:node1drmbmri8x48 .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e rr:predicateObjectMap km-dev:PredicateObjectMap_3dcc9c4e-dd90-4407-a3b7-6383314ae8cd .
+
+km-dev:PredicateObjectMap_3dcc9c4e-dd90-4407-a3b7-6383314ae8cd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3dcc9c4e-dd90-4407-a3b7-6383314ae8cd .
+
+km-dev:PredicateObjectMap_8c63f753-5437-4346-a5fb-f8df68baf6a3 rr:predicate untitled-ontology-10:EndHour .
+
+_:node1drmbmri8x49 rr:column "checkout_to" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x49 .
+
+km-dev:PredicateObjectMap_8c63f753-5437-4346-a5fb-f8df68baf6a3 rr:objectMap _:node1drmbmri8x49 .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e rr:predicateObjectMap km-dev:PredicateObjectMap_8c63f753-5437-4346-a5fb-f8df68baf6a3 .
+
+km-dev:PredicateObjectMap_8c63f753-5437-4346-a5fb-f8df68baf6a3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8c63f753-5437-4346-a5fb-f8df68baf6a3 .
+
+km-dev:PredicateObjectMap_13ce8933-23cd-4163-8376-0a0c7a2388d0 rr:predicate untitled-ontology-10:StartHour .
+
+_:node1drmbmri8x50 rr:column "checkout_from" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasObjectMap _:node1drmbmri8x50 .
+
+km-dev:PredicateObjectMap_13ce8933-23cd-4163-8376-0a0c7a2388d0 rr:objectMap _:node1drmbmri8x50 .
+
+km-dev:TriplesMap_966f374d-7003-477b-bfb0-1fb8d9f6383e rr:predicateObjectMap km-dev:PredicateObjectMap_13ce8933-23cd-4163-8376-0a0c7a2388d0 .
+
+km-dev:PredicateObjectMap_13ce8933-23cd-4163-8376-0a0c7a2388d0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmbmri8x1 .
+
+_:node1drmbmri8x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_13ce8933-23cd-4163-8376-0a0c7a2388d0 .
